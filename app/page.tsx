@@ -1,69 +1,240 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import React, { useState, useEffect } from 'react';
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import TabNavigation, { MainTabType } from '@/components/TabNavigation';
+import CutCard from '@/components/CutCard';
+import CutModal from '@/components/CutModal';
+import KobeSection from '@/components/KobeSection';
+import DocumentsSection from '@/components/DocumentsSection';
+import MarketSection from '@/components/MarketSection';
+import ApiStatusModal from '@/components/ApiStatusModal';
+import Footer from '@/components/Footer';
+import initialData from '@/data/initialData.json';
+import { fetchWagyuData } from '@/lib/api';
+import { WagyuCut, FullDataset } from '@/types/wagyu';
+import { Search } from 'lucide-react';
+
+export default function HomePage() {
+  const [data, setData] = useState<FullDataset>(initialData as FullDataset);
+  const [isLive, setIsLive] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [mainTab, setMainTab] = useState<MainTabType>('cuts');
+
+  // Filter & Search states for Cuts
+  const [selectedGroup, setSelectedGroup] = useState<string>('all');
+  const [searchCut, setSearchCut] = useState<string>('');
+  const [selectedCut, setSelectedCut] = useState<WagyuCut | null>(null);
+  const [ratingFilter, setRatingFilter] = useState<string>('all');
+
+  // Modal API
+  const [isApiModalOpen, setIsApiModalOpen] = useState<boolean>(false);
+
+  const loadData = async () => {
+    setIsLoading(true);
+    const res = await fetchWagyuData();
+    setData(res.data);
+    setIsLive(res.isLive);
+    setIsLoading(false);
+  };
+
+  useEffect(() => {
+    loadData();
+  }, []);
+
+  const primalGroups = [
+    { id: 'all', label: 'Tất Cả Bộ Phận (45)' },
+    { id: 'forequarter', label: 'Thân Trước - Forequarter (15)', keyword: 'THÂN TRƯỚC' },
+    { id: 'loin', label: 'Thăn - Loin (5)', keyword: 'THĂN' },
+    { id: 'short_plate', label: 'Bụng - Short Plate (9)', keyword: 'BỤNG' },
+    { id: 'round', label: 'Mông & Đùi - Round (16)', keyword: 'MÔNG' }
+  ];
+
+  const filteredCuts = data.cuts.filter(cut => {
+    let matchGroup = true;
+    if (selectedGroup !== 'all') {
+      const targetGroup = primalGroups.find(g => g.id === selectedGroup);
+      if (targetGroup && targetGroup.keyword) {
+        matchGroup = cut.group.includes(targetGroup.keyword);
+      }
+    }
+
+    let matchSearch = true;
+    if (searchCut) {
+      const q = searchCut.toLowerCase();
+      matchSearch = 
+        cut.nameEn.toLowerCase().includes(q) ||
+        cut.nameVn.toLowerCase().includes(q) ||
+        cut.nameKatakanaRomaji.toLowerCase().includes(q) ||
+        cut.description.toLowerCase().includes(q) ||
+        (cut.cookingSuggestionsVn || '').toLowerCase().includes(q) ||
+        (cut.muscleInfo || '').toLowerCase().includes(q);
+    }
+
+    let matchRating = true;
+    if (ratingFilter === 'high_fat') {
+      matchRating = (cut.fatRating || '').length >= 3;
+    } else if (ratingFilter === 'tender') {
+      matchRating = (cut.tendernessRating || '').length >= 4;
+    } else if (ratingFilter === 'rare') {
+      matchRating = (cut.rarityRating || '').length >= 3;
+    }
+
+    return matchGroup && matchSearch && matchRating;
+  });
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+    <div className="min-h-screen flex flex-col bg-[#0c0a09] text-neutral-100">
+      
+      {/* 1. Header & Navigation */}
+      <Navbar
+        isLive={isLive}
+        onRefresh={loadData}
+        isLoading={isLoading}
+        onOpenApiModal={() => setIsApiModalOpen(true)}
+      />
+
+      {/* 2. Hero Section */}
+      <Hero
+        totalCuts={data.counts.cuts}
+        totalDocs={data.counts.documents}
+        totalKobe={data.counts.kobe}
+        totalMarket={data.counts.market}
+      />
+
+      {/* 3. Tab Switcher Bar */}
+      <TabNavigation
+        activeTab={mainTab}
+        onChangeTab={setMainTab}
+        counts={data.counts}
+      />
+
+      {/* 4. Main Content Area */}
+      <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8">
+        
+        {/* VIEW 1: 45 Bộ Phận Wagyu */}
+        {(mainTab === 'cuts' || mainTab === 'anatomy') && (
+          <div className="space-y-6">
+            
+            {/* Quick Filter Bar in Dark Sandstone */}
+            <div className="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4 sandstone-surface p-4 rounded-2xl border border-neutral-800 shadow-md">
+              
+              {/* Group filter buttons */}
+              <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
+                {primalGroups.map((g) => {
+                  const isSelected = selectedGroup === g.id;
+                  return (
+                    <button
+                      key={g.id}
+                      onClick={() => setSelectedGroup(g.id)}
+                      className={`px-3.5 py-2 rounded-full text-xs font-bold transition whitespace-nowrap ${
+                        isSelected
+                          ? 'bg-[#dc2626] text-white shadow-md shadow-red-950/60'
+                          : 'bg-neutral-800 hover:bg-neutral-700 text-neutral-300 hover:text-white border border-neutral-700'
+                      }`}
+                    >
+                      {g.label}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* Search & Extra Filters */}
+              <div className="flex items-center gap-2">
+                <div className="relative flex-1 sm:w-64">
+                  <Search className="w-4 h-4 absolute left-3.5 top-3 text-neutral-400" />
+                  <input
+                    type="text"
+                    placeholder="Tìm tên, Romaji, món ăn..."
+                    value={searchCut}
+                    onChange={(e) => setSearchCut(e.target.value)}
+                    className="w-full pl-10 pr-4 py-2 rounded-full border border-neutral-700 text-xs sm:text-sm focus:outline-none focus:border-[#ef4444] bg-neutral-900 text-white placeholder-neutral-400"
+                  />
+                </div>
+
+                <select
+                  value={ratingFilter}
+                  onChange={(e) => setRatingFilter(e.target.value)}
+                  className="px-3 py-2 rounded-full border border-neutral-700 bg-neutral-900 text-xs font-semibold text-neutral-200 focus:outline-none focus:border-[#ef4444]"
+                >
+                  <option value="all">Mọi độ mềm/mỡ</option>
+                  <option value="tender">Độ mềm cao (4-5★)</option>
+                  <option value="high_fat">Nhiều vân mỡ (3-5★)</option>
+                  <option value="rare">Phần hiếm (Rare cuts)</option>
+                </select>
+              </div>
+
+            </div>
+
+            {/* Results count & view indication */}
+            <div className="flex items-center justify-between text-xs font-bold text-neutral-400 px-1">
+              <span>Hiển thị {filteredCuts.length} / {data.cuts.length} bộ phận Wagyu</span>
+              <span>{mainTab === 'anatomy' ? 'Chế độ: Giải phẫu học chuyên sâu' : 'Chế độ: Tổng hợp & Chế biến'}</span>
+            </div>
+
+            {/* Cuts Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {filteredCuts.map((cut, idx) => (
+                <CutCard
+                  key={cut.code || idx}
+                  cut={cut}
+                  onSelect={setSelectedCut}
+                  showAnatomy={mainTab === 'anatomy'}
+                />
+              ))}
+            </div>
+
+            {filteredCuts.length === 0 && (
+              <div className="text-center py-16 sandstone-surface rounded-2xl border border-dashed border-neutral-800">
+                <p className="text-neutral-400 font-semibold text-sm">Không tìm thấy bộ phận phù hợp với từ khóa này.</p>
+                <button
+                  onClick={() => { setSelectedGroup('all'); setSearchCut(''); setRatingFilter('all'); }}
+                  className="mt-3 text-xs font-bold text-[#ef4444] hover:underline"
+                >
+                  Xóa bộ lọc
+                </button>
+              </div>
+            )}
+
+          </div>
+        )}
+
+        {/* VIEW 2: Kobe Beef */}
+        {mainTab === 'kobe' && (
+          <KobeSection items={data.kobe} />
+        )}
+
+        {/* VIEW 3: Documents Hub */}
+        {mainTab === 'documents' && (
+          <DocumentsSection documents={data.documents} />
+        )}
+
+        {/* VIEW 4: Market & Wholesalers */}
+        {mainTab === 'market' && (
+          <MarketSection entries={data.market} />
+        )}
+
       </main>
+
+      {/* Detail Cut Modal */}
+      <CutModal
+        cut={selectedCut}
+        onClose={() => setSelectedCut(null)}
+      />
+
+      {/* API Connection Modal */}
+      <ApiStatusModal
+        isOpen={isApiModalOpen}
+        onClose={() => setIsApiModalOpen(false)}
+        isLive={isLive}
+        onRefresh={loadData}
+        isLoading={isLoading}
+      />
+
+      {/* Footer */}
+      <Footer />
+
     </div>
   );
 }

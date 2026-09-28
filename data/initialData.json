@@ -1,0 +1,2510 @@
+{
+  "counts": {
+    "cuts": 45,
+    "documents": 77,
+    "kobe": 23,
+    "market": 60
+  },
+  "cuts": [
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "1",
+      "h2": "",
+      "code": "1",
+      "nameEn": "Chuck roll",
+      "nameJpFarm": "肩ロース\n英名：Chuck roll / Shoulder Loin",
+      "nameJpReading": "[かたロース - katarosu]",
+      "nameKatakanaRomaji": "[カタロース - katarosu]",
+      "nameVn": "Thăn cổ vai / Thăn vai",
+      "description": "Thăn cổ vai / Thăn vai (Chuck roll - かたロース / Kata Rōsu): Khối thăn vai lớn (Kata Rosu) có thớ thịt mềm mại, dễ đan xen dải mỡ cẩm thạch phong phú và mang hương vị vô cùng thơm ngon.",
+      "link": "",
+      "cookingSuggestionsVn": "Bò nướng tảng (Roast beef) nguyên khối, Bít tết (Steak) thái lát dày, Shabu-shabu, Sukiyaki, Thịt nướng (Yakiniku) thái lát mỏng, món xào, món ninh hầm.",
+      "cookingSuggestionsTags": "※ Roast beef ※ Steak ※ Shabu-shabu ※ Sukiyaki ※ Yakiniku ※ Stir-fry ※ Stew",
+      "recipes50": [
+        "Wagyu-Wrapped Gobo",
+        "Wagyu and Eggplant Miso Stir-Fry",
+        "Colorful Wagyu Sandwich",
+        "Curry-Spiced Wagyu Skewers",
+        "Beer-Braised Wagyu-Wrapped Potatoes"
+      ],
+      "youtubeGuide": "https://youtu.be/Dwz-Zr8nrC4?si=qTYJYznATLNV9R8Q",
+      "muscleInfo": "Các cơ chính: Chủ yếu là cơ dài lưng, cơ chậu sườn, cơ răng cưa cổ, cơ thang.\nNguồn gốc tên gọi: Vì thích hợp để làm các món nướng (roast), ngoài ra còn có tên gọi khác là Kurashita.\nĐộ ít mỡ: ★★★\nĐộ mềm: ★★★\nĐộ hiếm: ★★",
+      "originName": "Vì thích hợp để làm các món nướng (roast), ngoài ra còn có tên gọi khác là Kurashita.",
+      "fatRating": "★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm: Trong số các bộ phận được gọi chung là thịt thăn (Roast), đây là khối thịt lớn nhất nằm ở sát phía cổ. Nguồn gốc của tên gọi \"Roast\" xuất phát từ việc bộ phận này rất thích hợp để làm món nướng (nướng bằng lò). Thăn cổ vai / Thăn vai (Chuck roll - katarosu) có đặc điểm là chứa lượng mỡ vừa phải, kết cấu mềm mại và mang vị ngọt đậm đà của thịt nạc. \n\nVì có thể lóc được những lát thịt có bản lớn, đây là bộ phận rất được khuyến khích dùng cho các món như lẩu Sukiyaki. Thăn cổ vai / Thăn vai (Chuck roll - katarosu) có thể được chia thành nhiều phần mang chất lượng thịt khác nhau; trong đó Lõi vai / Lõi nạc vai (Chuck eye log/ chuck eye roll - katarosushin) thích hợp để làm bít tết (steak), còn Nạc vai bản lớn / Thịt vai bản (Chuck flap - zabuton) lại rất hợp cho các món nướng Yakiniku. \n\nLõi vai / Lõi nạc vai (Chuck eye log/ chuck eye roll - katarosushin) và Nạc vai bản lớn / Thịt vai bản (Chuck flap - zabuton) có thể được sử dụng trong nhiều món ăn đa dạng. Tuy nhiên, các phần nằm gần Cổ / Thịt cổ bò (Neck - nekku), phần gù vai đắp sát bề mặt da, và phần tiếp giáp với xương sườn của vùng Bụng (Short plate brisket - bara) lại có kết cấu khá cứng, do đó, khuyến khích sử dụng các phần này cho các món ninh hầm như cà ri.",
+      "cookingRecommendation": "Món ăn khuyến nghị:\n※ Steak\n※ Sukiyaki\n※ Yakiniku\n\nKhối lượng tham khảo:\n※ Khoảng 15 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef), đã tách cổ và loại bỏ gân lớn\n※ Khoảng 20 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef), đã tách cổ và loại bỏ gân lớn\n\nTỷ lệ thu hồi tham khảo:\n※ Dùng cho sukiyaki: 65%\n※ Dùng cho cà ri, món hầm: 80%",
+      "weightReference": "※ Khoảng 15 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef), đã tách cổ và loại bỏ gân lớn\n※ Khoảng 20 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef), đã tách cổ và loại bỏ gân lớn",
+      "yieldRate": "※ Dùng cho sukiyaki: 65%\n※ Dùng cho cà ri, món hầm: 80%"
+    },
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "",
+      "h2": "1,1",
+      "code": "1,1",
+      "nameEn": "Chuck eye log/ chuck eye roll",
+      "nameJpFarm": "肩ロース芯\n英名：Chuck eye roll、 Chuck eye log",
+      "nameJpReading": "[かたロース芯 - katarosushin]",
+      "nameKatakanaRomaji": "[カタロースシン - katarosushin]",
+      "nameVn": "Lõi vai / Lõi nạc vai",
+      "description": "Lõi nạc vai / Lõi thăn vai (Chuck eye log / Chuck eye roll - かたロース芯 / Katarosushin): Phần lõi tròn trung tâm của thăn vai, thớ thịt mịn màng, mọng nước và đậm đà gần tương đương thăn lưng.",
+      "link": "",
+      "cookingSuggestionsVn": "Bít tết (Steak cao cấp), Nướng Yakiniku, Lẩu Sukiyaki",
+      "cookingSuggestionsTags": "※ Steak ※ Yakiniku ※ Sukiyaki",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chính: Chủ yếu gồm cơ trám (phía cổ), cơ dài nhất ngực, cơ bán gai đầu và cơ bán gai lưng.\n\nNguồn gốc tên gọi: Xuất phát từ hình dạng tương tự khúc gỗ (log) trong tiếng Anh.\n\nLượng mỡ: ★★★\nĐộ mềm: ★★★★\nĐộ hiếm: ★★★",
+      "originName": "Xuất phát từ hình dạng tương tự khúc gỗ (log) trong tiếng Anh.",
+      "fatRating": "★★★",
+      "tendernessRating": "★★★★",
+      "rarityRating": "★★★",
+      "farmDetail": "Đây là phần lõi trung tâm của Thăn vai (Shoulder Loin), nằm từ khu vực phía trong của Zabuton và kéo dài về phía Ribeye.\n\nThịt mềm nhưng vẫn có độ dai khi nhai, đồng thời mang đậm hương vị thịt nạc đặc trưng của Thăn vai.\n\nPhần gần phía Ribeye đặc biệt mềm, rất thích hợp để chế biến steak.\n\nMặt cắt giữa Thăn vai và Ribeye là mặt cắt dùng làm tiêu chuẩn khi phân loại cấp hạng thịt bò, do đó đây cũng là một bộ phận quan trọng có ảnh hưởng đến giá trị của thịt.",
+      "cookingRecommendation": "Món ăn khuyến nghị:\n※ Steak\n\nKhối lượng tham khảo:\n※ Khoảng 5,5 kg/nửa thân (theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 7,0 kg/nửa thân (theo tiêu chuẩn Obihiro Beef)\n※ Bán theo bộ (Zabuton + Lõi Loin + Thăn vai phía Rib)\n\nTỷ lệ thu hồi tham khảo:\n※ Dùng làm steak: 65%",
+      "weightReference": "※ Khoảng 5,5 kg/nửa thân (theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 7,0 kg/nửa thân (theo tiêu chuẩn Obihiro Beef)\n※ Bán theo bộ (Zabuton + Lõi Loin + Thăn vai phía Rib)",
+      "yieldRate": "※ Dùng làm steak: 65%"
+    },
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "",
+      "h2": "1,2",
+      "code": "1,2",
+      "nameEn": "Chuck flap",
+      "nameJpFarm": "ザブトン\n英名：Chuck flap",
+      "nameJpReading": "[ざぶとん/ザブトン - zabuton]",
+      "nameKatakanaRomaji": "[ザブトン - zabuton]",
+      "nameVn": "Nạc vai bản lớn / Thịt vai bản",
+      "description": "Nạc vai bản lớn / Thịt vai bản (Chuck flap - ザブトン / Zabuton): Phần thịt nạc vai hình đệm vuông sở hữu mật độ vân mỡ cẩm thạch chăng đặc tuyệt đẹp, cực kỳ mềm tan khi nướng.",
+      "link": "https://www.instagram.com/p/DZ-anZvRojw/",
+      "cookingSuggestionsVn": "Nướng Yakiniku thượng hạng, Bít tết (Steak), Sushi thịt bò (Niku-sushi)",
+      "cookingSuggestionsTags": "※ Yakiniku ※ Steak ※ Niku-sushi",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chính: Chủ yếu gồm cơ răng bụng cổ và cơ trám cổ.\n\nNguồn gốc tên gọi: Bắt nguồn từ cách cắt phần thịt thành hình dạng giống tấm đệm ngồi (zabuton). Tên gọi khác: Hanesita.\n\nLượng mỡ: ★★★\nĐộ mềm: ★★★★\nĐộ hiếm: ★★★",
+      "originName": "Bắt nguồn từ cách cắt phần thịt thành hình dạng giống tấm đệm ngồi (zabuton). Tên gọi khác: Hanesita.",
+      "fatRating": "★★★",
+      "tendernessRating": "★★★★",
+      "rarityRating": "★★★",
+      "farmDetail": "Là phần cơ nằm từ lưng xuống khu vực bên dưới xương bả vai, phủ lên lõi Thăn vai (Shoulder Loin Core).\n\nTên gọi Zabuton bắt nguồn từ việc phần thịt được cắt thành hình vuông tương tự một chiếc đệm ngồi.\n\nĐây là phần dễ hình thành vân mỡ (sashi) nhất trong Thăn vai, sở hữu vị ngọt đậm đà của mỡ cùng vị umami của thịt nạc.\n\nZabuton là sự kết hợp của hai nhóm cơ khác nhau, vì vậy hướng của các thớ cơ thay đổi ở giữa phần thịt. Cần lưu ý điều này khi chia/cắt thành từng khối.\n\nZabuton rất được ưa chuộng để làm yakiniku, đồng thời cũng rất ngon khi chế biến thành steak.",
+      "cookingRecommendation": "Món ăn khuyến nghị:\n※ Yakiniku\n※ Steak\n\nKhối lượng tham khảo:\n※ Khoảng 4,5 kg/nửa thân (theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 6,0 kg/nửa thân (theo tiêu chuẩn Obihiro Beef)\n※ Bán theo bộ (Zabuton + Lõi Loin + Thăn vai phía Rib)\n\nTỷ lệ thu hồi tham khảo:\n※ Dùng làm steak: 65%",
+      "weightReference": "※ Khoảng 4,5 kg/nửa thân (theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 6,0 kg/nửa thân (theo tiêu chuẩn Obihiro Beef)\n※ Bán theo bộ (Zabuton + Lõi Loin + Thăn vai phía Rib)",
+      "yieldRate": "※ Dùng làm steak: 65%"
+    },
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "2",
+      "h2": "",
+      "code": "2",
+      "nameEn": "Shouder clod/Blade",
+      "nameJpFarm": "ウデ（カタ）\n英名：Shoulder clod（北米）、Blade、Clod（豪）",
+      "nameJpReading": "[かた/うで - kata/ude]",
+      "nameKatakanaRomaji": "[カタ / ウデ - kata / ude]",
+      "nameVn": "Nạc vai",
+      "description": "Nạc vai / Thịt vai (Shoulder clod / Blade - かた/うで - Kata/Ude): Vùng thịt vai giàu cấu trúc mô liên kết tự nhiên, có sắc đỏ tươi đậm và cho vị ngọt đằm nguyên bản của thịt đỏ.",
+      "link": "",
+      "cookingSuggestionsVn": "Thái lát mỏng dùng cho Shabu-shabu, Sukiyaki, để nguyên khối làm Bò nướng tảng (Roast beef), thái vụn cho món xào và ninh hầm, Yakiniku, cắt khối hầm làm bò kho (Beef Stew).",
+      "cookingSuggestionsTags": "※ Shabu-shabu ※ Sukiyaki ※ Roast beef ※ Stir-fry ※ Stew ※ Yakiniku ※ Beef stew",
+      "recipes50": [],
+      "youtubeGuide": "https://youtu.be/BShOatLb190?si=tCCXJWL4Ndhz5ix4",
+      "muscleInfo": "Nguồn gốc tên gọi: Tên gọi khác là Shakushi.\n\nLượng mỡ: ★★★★\nĐộ mềm: ★★\nĐộ hiếm: ★★",
+      "originName": "Tên gọi khác là Shakushi.",
+      "fatRating": "★★★★",
+      "tendernessRating": "★★",
+      "rarityRating": "★★",
+      "farmDetail": "Đây là phần thịt vai (Kata), gồm các nhóm cơ hoạt động nhiều nên vận động thường xuyên. Do được cấu tạo từ nhiều nhóm cơ khác nhau, chất lượng thịt cũng không đồng nhất, bao gồm cả phần tương đối cứng và phần mềm hơn.\n\nĐây là một bộ phận phức tạp, có thể tiếp tục chia thành nhiều phần như Misuji, Tonbi, Katasankaku, Kosankaku, Uwamisugi và Ninoude. Trong đó có những phần quý hiếm được ưa chuộng như Misuji và Tonbi.\n\nViệc chia tách từng phần một cách cẩn thận có thể nâng cao giá trị tổng thể của phần thịt vai. Vì vậy, đây là một bộ phận quan trọng, đòi hỏi kỹ thuật dùng dao của người thợ.",
+      "cookingRecommendation": "Món ăn khuyến nghị:\n※ Cà ri\n※ Các món hầm\n\nKhối lượng tham khảo:\n※ Khoảng 15 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef), Tonbi tách riêng, Misuji đã tách\n※ Khoảng 18 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef), Tonbi tách riêng, Misuji đã tách\n\nTỷ lệ thu hồi tham khảo:\n※ Dùng cho cà ri: 80%",
+      "weightReference": "※ Khoảng 15 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef), Tonbi tách riêng, Misuji đã tách\n※ Khoảng 18 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef), Tonbi tách riêng, Misuji đã tách",
+      "yieldRate": "※ Dùng cho cà ri: 80%"
+    },
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "",
+      "h2": "2,1",
+      "code": "2,1",
+      "nameEn": "Chuck tender",
+      "nameJpFarm": "トンビ\n英名：Chuck tender",
+      "nameJpReading": "[トンビ - tonbi]",
+      "nameKatakanaRomaji": "[トンビ - tonbi]",
+      "nameVn": "Lõi thăn cổ",
+      "description": "Lõi thăn cổ (Chuck tender - トンビ / Tonbi): Còn được gọi là “Tougarashi” (とうがらし), là phần thịt nạc đỏ vận động nhiều hình búp ớt, mang hương vị thịt đằm sâu tự nhiên.",
+      "link": "",
+      "cookingSuggestionsVn": "Tataki (Áp chảo tái), Bò quay (Roast beef), Nướng Yakiniku tái",
+      "cookingSuggestionsTags": "※ Tataki ※ Roast beef ※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "https://www.youtube.com/watch?v=YuSB-sPR7IU&list=PLe_YzMxo4yLYlins1tZd6p2QP-9VpBeGj&index=6",
+      "muscleInfo": "Cơ chính: Cơ trên gai (棘上筋).\n\nNguồn gốc tên gọi: Có thể bắt nguồn từ hình dạng giống chim Tonbi; tên gọi khác là Tougarashi.\n\nLượng mỡ: ★★★★★\nĐộ mềm: ★★★\nĐộ hiếm: ★★★★",
+      "originName": "Có thể bắt nguồn từ hình dạng giống chim Tonbi; tên gọi khác là Tougarashi.",
+      "fatRating": "★★★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★★★",
+      "farmDetail": "Là phần cơ ở phía trước của thịt vai (Ude/Kata), nằm gần xương bả vai và cạnh Misuji.\n\nDo có hình dạng giống quả ớt, phần này còn được gọi là Tougarashi (とうがらし). Đây là phần thịt hiếm, chỉ thu được khoảng 2 kg từ mỗi bên vai.\n\nThịt Tonbi có kết cấu tương đối chắc nhưng thớ thịt mịn, ít mỡ, ít calo và là phần thịt lành mạnh. Đặc trưng nổi bật là vị umami đậm của thịt nạc.\n\nNên nướng ở mức tái vừa (rare) để thưởng thức ngon nhất. Nếu nướng quá kỹ, thịt sẽ trở nên cứng và khô.\n\nPhù hợp với các món không cần nấu quá chín như tataki và roast beef.",
+      "cookingRecommendation": "Món ăn khuyến nghị:\n※ Tataki\n※ Roast beef\n\nKhối lượng tham khảo:\n※ Khoảng 2,0 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 2,5 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef)\n\nTỷ lệ thu hồi tham khảo:\n※ Dùng cho yakiniku: 60%",
+      "weightReference": "※ Khoảng 2,0 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 2,5 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef)",
+      "yieldRate": "※ Dùng cho yakiniku: 60%"
+    },
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "",
+      "h2": "2,2",
+      "code": "2,2",
+      "nameEn": "Top Blade/Oyster blade",
+      "nameJpFarm": "ミスジ\n英名：Top blade（北米）、Oyster blade（豪）",
+      "nameJpReading": "[みすじ/ミスジ - misuji]",
+      "nameKatakanaRomaji": "[ミスジ - misuji]",
+      "nameVn": "Lõi vai / Nạm vai trên / Lõi vai trên",
+      "description": "Lõi vai / Nạm vai trên (Top blade / Oyster blade - ミスジ / Misuji): Phần thịt hiếm nổi tiếng nằm dọc xương vai với dải gân mềm ở trung tâm và vân mỡ mướt mịn gần như thăn nội.",
+      "link": "https://www.instagram.com/p/DU60f_HjyTP/",
+      "cookingSuggestionsVn": "Bít tết (Steak), Nướng Yakiniku, Lẩu Shabu-shabu, Sushi thịt bò (Niku-sushi)",
+      "cookingSuggestionsTags": "※ Steak ※ Yakiniku ※ Shabu-shabu ※ Niku-sushi",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chính: Cơ dưới gai.\nNguồn gốc tên gọi: Bắt nguồn từ đặc điểm bên trong có 3 dải cơ lớn.\nLượng mỡ: ★★★★\nĐộ mềm: ★★★\nĐộ hiếm: ★★★★",
+      "originName": "Bắt nguồn từ đặc điểm bên trong có 3 dải cơ lớn.",
+      "fatRating": "★★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★★★",
+      "farmDetail": "Là phần thịt nằm ở mặt ngoài của xương bả vai, chỉ thu được khoảng 3 kg từ mỗi bên vai.\nMisuji đôi khi được lưu thông như một “phần của Ude” mà không tách riêng, nhưng đây là phần thịt thơm ngon nên được khuyến nghị xử lý riêng khi có thể để tránh lãng phí.\nMisuji dù là phần thịt nạc nhưng có đặc trưng là các vân mỡ mảnh đan xen, đồng thời có vị umami đậm, được ưa chuộng để làm yakiniku hoặc steak.\nTuy nhiên, nếu nấu quá chín, thịt sẽ trở nên dai và khô, vì vậy cần đặc biệt chú ý đến cách chế biến.\nCó thể dùng kèm sốt yakiniku hoặc muối tiêu, nhưng cũng khuyến nghị nướng ở mức chín hơi tái và thưởng thức cùng nước tương tỏi hoặc nước tương wasabi.",
+      "cookingRecommendation": "Món ăn khuyến nghị /\nDùng làm steak\n Dùng cho yakiniku\nKhối lượng tham khảo /\nKhoảng 3,0 kg/miếng (nửa thân - theo tiêu chuẩn Toyonishi Beef)\n Khoảng 3,5 kg/miếng (nửa thân - theo tiêu chuẩn Obihiro Beef)\nTỷ lệ thu hồi tham khảo /\nDùng cho yakiniku: 60%",
+      "weightReference": "/\nKhoảng 3,0 kg/miếng (nửa thân - theo tiêu chuẩn Toyonishi Beef)\n Khoảng 3,5 kg/miếng (nửa thân - theo tiêu chuẩn Obihiro Beef)",
+      "yieldRate": "/\nDùng cho yakiniku: 60%"
+    },
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "3",
+      "h2": "",
+      "code": "3",
+      "nameEn": "Neck",
+      "nameJpFarm": "ネック\n英名：Neck",
+      "nameJpReading": "[ネック - nekku]",
+      "nameKatakanaRomaji": "[ネック - nekku]",
+      "nameVn": "Cổ / Thịt cổ bò",
+      "description": "Thịt cổ bò (Neck - ネック / Nekku): Vùng thịt cổ có nhiều gân nên khá cứng, nhưng giàu gân và collagen, thớ thịt săn chắc, dồi dào vị umami sâu lắng khi ninh hầm lâu hoặc làm thịt băm.",
+      "link": "",
+      "cookingSuggestionsVn": "Món ninh hầm, thịt hầm khoai tây (Nikujaga), món xào, bò hầm kiểu Âu (Beef stew), gân bò hầm, bắp cải cuộn thịt, nấu súp.",
+      "cookingSuggestionsTags": "※ Stew ※ Nikujaga ※ Stir-fry ※ Beef stew ※ Cabbage roll ※ Soup",
+      "recipes50": [],
+      "youtubeGuide": "https://youtu.be/64TMAeJNmsc?si=hAv1TZo53Wqb1067",
+      "muscleInfo": "Cơ chính: Chủ yếu gồm cơ bản cổ và cơ dài nhất đầu.\n\nNguồn gốc tên gọi: Bắt nguồn từ tiếng Anh Neck.\n\nLượng mỡ: ★★★★\nĐộ mềm: ★★\nĐộ hiếm: ★★",
+      "originName": "Bắt nguồn từ tiếng Anh Neck.",
+      "fatRating": "★★★★",
+      "tendernessRating": "★★",
+      "rarityRating": "★★",
+      "farmDetail": "Neck (Thịt cổ bò) là nhóm cơ ở vùng cổ thường xuyên vận động nên có ít mỡ và phần thịt nạc tương đối cứng.\n\nThịt có thớ khá thô và nhiều gân, nhưng hương vị đậm đà và chứa nhiều collagen.\n\nKhi được hầm trong thời gian dài ở nhiệt độ thấp, thịt sẽ mềm hơn, đồng thời vị đậm và umami được tăng cường, tạo nên hương vị thơm ngon.\n\nPhù hợp nhất với các món hầm, nhưng cũng có thể xay làm nguyên liệu cho hamburger và các món tương tự.\n\nTại Toyonishi Farm, phần này chủ yếu được xuất dưới dạng nguyên liệu làm thịt cà ri hoặc thịt xay.",
+      "cookingRecommendation": "Món ăn khuyến nghị:\n※ Các món hầm\n※ Cà ri, súp hầm\n※ Hamburger\n\nKhối lượng tham khảo:\n※ Khoảng 5 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 7 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef)\n\nTỷ lệ thu hồi tham khảo:\n※ Dùng cho món hầm, cà ri: 75%\n※ Dùng làm thịt xay: 95%",
+      "weightReference": "※ Khoảng 5 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 7 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef)",
+      "yieldRate": "※ Dùng cho món hầm, cà ri: 75%\n※ Dùng làm thịt xay: 95%"
+    },
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "4",
+      "h2": "",
+      "code": "4",
+      "nameEn": "Brisket/Brisket point end",
+      "nameJpFarm": "マエバラ\n英名：Brisket（北米）、Brisket point end （豪",
+      "nameJpReading": "[マエバラ - maebara]",
+      "nameKatakanaRomaji": "[マエバラ - maebara]",
+      "nameVn": "Ức / Gầu bò",
+      "description": "Gầu bò / Thịt ức bò (Brisket - フリスケ/マエバラ - Furisuke / Maebara): Thuộc phần thịt ngực bụng trước (Maebara), gồm thịt nạc và mỡ được xếp chồng lên nhau cân bằng, tạo hương vị đậm đà và vị ngọt đặc trưng.",
+      "link": "",
+      "cookingSuggestionsVn": "Thái lát nhúng Shabu-shabu, Sukiyaki, thịt nướng Yakiniku, các món ninh hầm (gân bò hầm, bò hầm kiểu Âu), lẩu khoai môn Imoni.",
+      "cookingSuggestionsTags": "※ Shabu-shabu ※ Sukiyaki ※ Yakiniku ※ Stew ※ Beef stew ※ Imoni",
+      "recipes50": [],
+      "youtubeGuide": "https://youtu.be/yjYFZc6KPso?si=oZYc-pMu17M9x1C_",
+      "muscleInfo": "Cơ chính: Chủ yếu gồm cơ ngực sâu, cơ răng bụng ngực và cơ ngang bụng.\n\nNguồn gốc tên gọi: Tên gọi khác là Kata Bara (thịt bụng vai).\n\nLượng mỡ: ★★\nĐộ mềm: ★★★\nĐộ hiếm: ★",
+      "originName": "Tên gọi khác là Kata Bara (thịt bụng vai).",
+      "fatRating": "★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★",
+      "farmDetail": "Là nhóm cơ vùng ngực nằm phía dưới Thăn vai (Shoulder Loin). Đây là phần được cấu tạo từ nhiều bộ phận có chất lượng thịt khác nhau, với mỡ và thịt nạc xếp thành từng lớp.\n\nCó thể tiếp tục chia thành Sankaku Bara, Brisket và Tenkaiichi. Trong một số trường hợp, toàn bộ phần Mae Bara (bụng trước) cũng được gọi chung là Brisket.\n\n※ Chi tiết xem tại từng bộ phận tương ứng.",
+      "cookingRecommendation": "Món ăn khuyến nghị:\n※ Yakiniku (Sankaku Bara)\n※ Cà ri\n※ Dùng để thái lát\n\nKhối lượng tham khảo:\n※ Khoảng 13 kg/miếng (nửa thân, đã tách Sankaku Bara, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 15 kg/miếng (nửa thân, đã tách Sankaku Bara, theo tiêu chuẩn Obihiro Beef)",
+      "weightReference": "※ Khoảng 13 kg/miếng (nửa thân, đã tách Sankaku Bara, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 15 kg/miếng (nửa thân, đã tách Sankaku Bara, theo tiêu chuẩn Obihiro Beef)",
+      "yieldRate": ""
+    },
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "",
+      "h2": "4,1",
+      "code": "4,1",
+      "nameEn": "Chuck Short rib/Chuck rib",
+      "nameJpFarm": "三角バラ\n英名：Chuck rib",
+      "nameJpReading": "[三⻆バラ/トモサンカク - sankakubara]",
+      "nameKatakanaRomaji": "[サンカクバラ / トモサンカク - sankakubara / tomosankaku]",
+      "nameVn": "Ba rọi tam giác vai / Nạc vai ba rọi tam giác",
+      "description": "Ba rọi tam giác vai (Chuck short rib / Chuck rib - 三角バラ / Sankakubara): Phần sườn vai cao cấp lóc từ sườn 1-6 được mệnh danh là \"Vua Karubi\" nhờ mật độ vân mỡ cẩm thạch chăng đặc như mạng nhện.",
+      "link": "https://www.ja-town.com/shop/g/g9503-3310-0603-001/",
+      "cookingSuggestionsVn": "Dùng cho món nướng Yakiniku, đặc biệt là nướng lưới (網焼き).",
+      "cookingSuggestionsTags": "※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chính: Cơ răng bụng ngực.\n\nNguồn gốc tên gọi: Bắt nguồn từ hình dạng tam giác của phần thịt sau khi được cắt ra.\n\nLượng mỡ: ★★\nĐộ mềm: ★★★★★\nĐộ hiếm: ★★★★",
+      "originName": "Bắt nguồn từ hình dạng tam giác của phần thịt sau khi được cắt ra.",
+      "fatRating": "★★",
+      "tendernessRating": "★★★★★",
+      "rarityRating": "★★★★",
+      "farmDetail": "Là phần thịt được cắt theo hình tam giác từ mặt trong của Brisket, xung quanh phần xương sườn của vùng ngực.\n\nTrong quá trình chỉnh hình, phần thịt có xu hướng trở thành hình thang nên còn được gọi là Daikei (台形), nghĩa là “hình thang”.\n\nĐây là phần thịt mềm, dễ có nhiều vân mỡ (sashi), nổi bật với vị ngọt đậm đà của mỡ và hương vị mạnh. Đây là phần rất phù hợp để làm yakiniku, đặc biệt được khuyến nghị nướng trên vỉ.\n\nTại các nhà hàng yakiniku, phần này thường được phục vụ dưới dạng thượng hạng Karubi (上カルビ) và là một phần thịt được ưa chuộng.\n\nSankaku Bara còn nguyên xương đôi khi được phục vụ dưới dạng Karubi có xương (骨付カルビ), giúp thưởng thức vị umami đậm đà đặc trưng quanh phần xương.",
+      "cookingRecommendation": "Món ăn khuyến nghị:\n※ Yakiniku\n\nKhối lượng tham khảo:\n※ Khoảng 4,5 kg/miếng (nửa thân, còn mỡ, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 5,0 kg/miếng (nửa thân, còn mỡ, theo tiêu chuẩn Obihiro Beef)\n※ Khoảng 2,3 kg/miếng (nửa thân, đã lột sạch mỡ, theo tiêu chuẩn Toyonishi Beef)\n\nTỷ lệ thu hồi tham khảo:\n※ 60% (còn mỡ)\n※ 73% (đã lột sạch mỡ)",
+      "weightReference": "※ Khoảng 4,5 kg/miếng (nửa thân, còn mỡ, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 5,0 kg/miếng (nửa thân, còn mỡ, theo tiêu chuẩn Obihiro Beef)\n※ Khoảng 2,3 kg/miếng (nửa thân, đã lột sạch mỡ, theo tiêu chuẩn Toyonishi Beef)",
+      "yieldRate": "※ 60% (còn mỡ)\n※ 73% (đã lột sạch mỡ)"
+    },
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "",
+      "h2": "4,2",
+      "code": "4,2",
+      "nameEn": "Brisket flat/Pectoral meat",
+      "nameJpFarm": "ブリスケ\n英名：Brisket flat 、Pectoral meat",
+      "nameJpReading": "[ブリスケ - burisuke]",
+      "nameKatakanaRomaji": "[ブリスケ - burisuke]",
+      "nameVn": "Gầu bò / Thịt ức bò / Nạc ức bò / Thịt ngực bò",
+      "description": "Ức nạc chính / Gầu flat (Brisket flat / Pectoral meat - ブリスケ / Burisuke): Khối ức nạc chính có thớ săn chắc, giàu mô liên kết, khi thái mỏng nhúng lẩu hoặc hầm cho vị ngọt đằm giòn dẻo.",
+      "link": "",
+      "cookingSuggestionsVn": "Mang đi ninh hầm hay nấu cơm thịt bò Gyudon.",
+      "cookingSuggestionsTags": "※ Stew ※ Gyudon",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chính: Cơ ngực sâu.\n\nNguồn gốc tên gọi: Bắt nguồn từ cách phát âm biến đổi của từ tiếng Anh Brisket, thành Briske.\n\nLượng mỡ: ★★★\nĐộ mềm: ★★\nĐộ hiếm: ★★",
+      "originName": "Bắt nguồn từ cách phát âm biến đổi của từ tiếng Anh Brisket, thành Briske.",
+      "fatRating": "★★★",
+      "tendernessRating": "★★",
+      "rarityRating": "★★",
+      "farmDetail": "Là phần cơ vùng ngực nằm bên dưới (phía ngoài) của Sankaku Bara. Thịt có kết cấu tương đối chắc, nhưng nổi bật với vị ngọt đậm đà và hương vị mạnh.\n\nChất lượng thịt khác nhau giữa phần trước và phần sau. Phần đầu phía trước (Pectoral) mềm hơn và phù hợp để làm yakiniku.\n\nPhần phía sau (Body Side) có lượng mỡ tăng dần và trở nên cứng hơn về phía mông. Vì vậy, nên thái lát mỏng để chế biến shabu-shabu hoặc các món xào.",
+      "cookingRecommendation": "Món ăn khuyến nghị:\n※ Yakiniku\n※ Các món xào\n\nKhối lượng tham khảo:\n※ Khoảng 6 kg/miếng (nửa thân, chia 2 phần, đã tách Tenkaiichi, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 7 kg/miếng (nửa thân, chia 2 phần, đã tách Tenkaiichi, theo tiêu chuẩn Obihiro Beef)\n\nTỷ lệ thu hồi tham khảo:\n※ 70% (đã tách Tenkaiichi)",
+      "weightReference": "※ Khoảng 6 kg/miếng (nửa thân, chia 2 phần, đã tách Tenkaiichi, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 7 kg/miếng (nửa thân, chia 2 phần, đã tách Tenkaiichi, theo tiêu chuẩn Obihiro Beef)",
+      "yieldRate": "※ 70% (đã tách Tenkaiichi)"
+    },
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "",
+      "h2": "4,3",
+      "code": "4,3",
+      "nameEn": "Brisket point end plate",
+      "nameJpFarm": "テンカイチ\n英名：Brisket point end plate",
+      "nameJpReading": "[テンカイチ - tenkaichi]",
+      "nameKatakanaRomaji": "[テンカイチ - tenkaichi]",
+      "nameVn": "Gầu bò – phần mỡ đầu gầu / Gầu đầu nhọn / Đầu gầu",
+      "description": "Đầu gầu mỡ / Gầu nhọn (Brisket point end plate - テンカイチ / Tenkaichi): Khối đầu gầu béo ngậy được mệnh danh \"Thiên hạ đệ nhất\" sở hữu dải mỡ cẩm thạch dày dặn, khi nướng tan chảy tỏa hương thơm nức mùi bơ.",
+      "link": "",
+      "cookingSuggestionsVn": "Nguồn không có thông tin chi tiết riêng, áp dụng theo nhóm Ức / Gầu bò.",
+      "cookingSuggestionsTags": "※ Shabu-shabu ※ Sukiyaki ※ Yakiniku ※ Stew ※ Beef stew ※ Imoni",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chính: Cơ ngực nông.\n\nNguồn gốc tên gọi: Có thể bắt nguồn từ tên Tenkaiichi; tên gọi khác là Kata Bara Kobu.\n\nLượng mỡ: ★\nĐộ mềm: ★\nĐộ hiếm: ★★",
+      "originName": "Có thể bắt nguồn từ tên Tenkaiichi; tên gọi khác là Kata Bara Kobu.",
+      "fatRating": "★",
+      "tendernessRating": "★",
+      "rarityRating": "★★",
+      "farmDetail": "Là nhóm cơ nằm ở phía bề mặt của vùng ngực. Do có kết cấu cứng và nhiều mỡ, phần này không phù hợp với các món như yakiniku.\n\nĐược khuyến nghị thái lát mỏng hoặc xay thịt để chế biến.\n\nTại Toyonishi Farm, phần này chủ yếu được sử dụng làm nguyên liệu thịt xay hoặc thịt vụn/cắt lọc.",
+      "cookingRecommendation": "Khối lượng tham khảo:\n※ Khoảng 2,8 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 5,0 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef)",
+      "weightReference": "※ Khoảng 2,8 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 5,0 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef)",
+      "yieldRate": ""
+    },
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "",
+      "h2": "4,4",
+      "code": "4,4",
+      "nameEn": "Brisket skirt",
+      "nameJpFarm": "ブリスケットスカート\n英名：Brisket skirt",
+      "nameJpReading": "[ブリスケットスカート - burisuketto sukāto]",
+      "nameKatakanaRomaji": "[ブリスケットスカート - burisuketto sukāto]",
+      "nameVn": "Gầu bò – phần bẹ sườn / Phần bụng dưới ngực bò",
+      "description": "Bẹ sườn ức (Brisket skirt - ブリスケットスカート / Burisuketto Sukāto): Dải cơ bẹ sườn mỏng thuộc vùng ức, thớ thịt xốp đặc trưng mọng nước thịt và rất đậm vị umami khi nướng.",
+      "link": "",
+      "cookingSuggestionsVn": "Nướng Yakiniku (Đặc sản nướng giòn ngọt tương tự Harami)",
+      "cookingSuggestionsTags": "※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chính: Cơ ngang ngực.\n\nLượng mỡ: ★★\nĐộ mềm: ★★★★\nĐộ hiếm: ★★★★★",
+      "originName": "",
+      "fatRating": "★★",
+      "tendernessRating": "★★★★",
+      "rarityRating": "★★★★★",
+      "farmDetail": "Là một nhóm cơ mỏng nằm phía trong xương sườn của phần bụng trước (Mae Bara), nối với cơ hoành. Đây là một bộ phận cực kỳ hiếm, chỉ thu được vài trăm gram từ mỗi con bò.\n\nĐặc trưng bởi kết cấu mềm tương tự Harami và vị umami đậm đà của mỡ.\n\nPhần này có nhiều gân nên cần kỹ thuật lọc gân khi sơ chế. Nếu được làm sạch kỹ, loại bỏ mỡ và gân đúng cách, có thể chế biến thành yakiniku rất ngon.\n\nPhần này hiếm khi được lưu thông riêng lẻ, vì vậy nếu may mắn tìm được, rất đáng để thưởng thức.\n\nThông thường, phần này được gộp chung và lưu thông dưới tên Koniku, nhưng tại Toyonishi Farm, đôi khi cũng được tách riêng để bán cho các nhà hàng.",
+      "cookingRecommendation": "Món ăn khuyến nghị:\n※ Yakiniku\n\nKhối lượng tham khảo:\n※ Khoảng 0,3 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef)",
+      "weightReference": "※ Khoảng 0,3 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef)",
+      "yieldRate": ""
+    },
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "5",
+      "h2": "",
+      "code": "5",
+      "nameEn": "Shank",
+      "nameJpFarm": "スネ\n英名：Shank",
+      "nameJpReading": "[すね/スネ-sune]",
+      "nameKatakanaRomaji": "[スネ - sune]",
+      "nameVn": "Cẳng bò / Bắp chân bò / Thịt ống chân",
+      "description": "CẲNG BÒ / BẮP CHÂN (Shank / スネ - Sune): Phần bắp chân vận động liên tục, thớ cơ săn chắc, nhiều gân và rất giàu collagen tự nhiên. Khi ninh hầm lâu, collagen tan chảy tạo vị giòn dẻo, ngọt đằm đậm đà.",
+      "link": "",
+      "cookingSuggestionsVn": "Gân bò hầm, bò hầm kiểu Pháp/kiểu Âu (Beef stew), hầm cùng rau củ làm nước súp Consommé.",
+      "cookingSuggestionsTags": "※ Stew ※ Beef stew ※ Consommé",
+      "recipes50": [],
+      "youtubeGuide": "https://youtu.be/aNmJImGp2eI?si=SbYaxabOsG7tUSZP",
+      "muscleInfo": "Độ ít mỡ／★★★★★\n\nĐộ mềm／★★\n\nĐộ hiếm／★★\n\n(Cột này không có thông tin về cơ chủ yếu và nguồn gốc tên gọi trong bản gốc)",
+      "originName": "",
+      "fatRating": "★★★★★",
+      "tendernessRating": "★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nPhần bắp bò được thu hoạch từ cả hai chân trước và chân sau; bắp chân trước được gọi là Maesune, còn bắp chân sau được gọi là Tomosune.\nTuy đây là phần thịt chứa nhiều gân và kết cấu khá cứng, nhưng nó lại rất giàu collagen cũng như protein, cực kỳ phù hợp cho các món hầm.\nKhi được ninh hầm trong thời gian dài, thịt sẽ trở nên mềm tơi và ăn rất ngon miệng.\n(Collagen khi đun nóng lâu sẽ chuyển hóa thành gelatin, giúp cơ thể dễ dàng hấp thụ hơn.)",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nDùng làm món cà ri\nCác món hầm\n\nTrọng lượng tham khảo khi xử lý／\nBắp chân trước (Maesune): Khoảng 6 kg / 1 cây (Phần nửa con)\nBắp chân sau (Tomosune): Khoảng 3 kg / 1 cây (Phần nửa con)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "",
+      "h2": "5,1",
+      "code": "5,1",
+      "nameEn": "Shin/ Fore shank",
+      "nameJpFarm": "マエスネ\n英名：Fore shank",
+      "nameJpReading": "[マエスネ - maesune]",
+      "nameKatakanaRomaji": "[マエスネ - maesune]",
+      "nameVn": "Cẳng bò trước / Thịt ống chân trước",
+      "description": "Cẳng bò trước / Thịt ống chân trước (Fore shank / Shin - マエスネ / Maesune): Khối thịt bắp cẳng chân trước giàu gân và collagen, vô cùng giòn dẻo và đậm vị khi ninh hầm kỹ.",
+      "link": "",
+      "cookingSuggestionsVn": "Ninh hầm / Cà ri / Súp hầm, Thịt băm làm Hamburg",
+      "cookingSuggestionsTags": "※ Stew ※ Curry ※ Soup ※ Hamburg",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ duỗi cổ tay quay (Radialis carpi extensor), cơ duỗi cổ tay trụ (Ulnaris carpi extensor), cơ hai đầu cánh tay (Biceps brachii),...\n\nĐộ ít mỡ／★★★★★\n\nĐộ mềm／★★\n\nĐộ hiếm／★★",
+      "originName": "",
+      "fatRating": "★★★★★",
+      "tendernessRating": "★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là bắp hoa/bắp chân trước (Shin/Shank). Phần này bao gồm cả phần bắp chuột của vai (Ninoude). Thịt có nhiều gân và kết cấu khá cứng, nhưng lại chứa hàm lượng lớn collagen và protein.\nKhi đem hầm, thịt sẽ trở nên mềm tơi và ăn rất ngon.\n(Collagen khi đun nóng trong thời gian dài sẽ chuyển hóa thành gelatin, giúp cơ thể dễ dàng hấp thụ hơn.)",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nDùng làm món cà ri\nCác món hầm\n\nTrọng lượng tham khảo khi xử lý (Trong bản gốc bị đảo vị trí với mục Tỷ lệ hao hụt)／\nKhoảng 6 kg / 1 cây (Phần nửa con)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "THÂN TRƯỚC Forequarter",
+      "h1": "",
+      "h2": "5,2",
+      "code": "5,2",
+      "nameEn": "Shank/ Hind Shank",
+      "nameJpFarm": "トモスネ\n英名：Hind shank",
+      "nameJpReading": "[トモスネ - tomosune]",
+      "nameKatakanaRomaji": "[トモスネ - tomosune]",
+      "nameVn": "Cẳng bò sau / Thịt ống chân sau",
+      "description": "Cẳng bò sau / Thịt ống chân sau (Hind shank - トモスネ / Tomosune): Thịt bắp cẳng chân sau săn chắc, giàu dưỡng chất và gelatin tự nhiên, lý tưởng cho các món nấu súp hoặc hầm vang.",
+      "link": "",
+      "cookingSuggestionsVn": "Ninh hầm / Cà ri / Súp hầm, Thịt băm làm Hamburg",
+      "cookingSuggestionsTags": "※ Stew ※ Curry ※ Soup ※ Hamburg",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ mác ba (Peroneus tertius), cơ duỗi ngón chân bên (Lateral digital extensor),...\nĐộ ít mỡ／★★★★★\nĐộ mềm／★★\nĐộ hiếm／★★",
+      "originName": "",
+      "fatRating": "★★★★★",
+      "tendernessRating": "★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là bắp hoa/bắp chân sau (Shin/Shank). Phần thịt này có nhiều gân và kết cấu thịt khá cứng, nhưng lại chứa nhiều collagen và protein.\nKhi đem hầm, thịt sẽ trở nên mềm tơi và ăn rất ngon.\n(Collagen khi đun nóng trong thời gian dài sẽ chuyển hóa thành gelatin, giúp cơ thể dễ dàng hấp thụ hơn.)",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nDùng làm món cà ri\nCác món hầm\nTrọng lượng tham khảo khi xử lý／\nKhoảng 3 kg / 1 cây (Phần nửa con)\n*Bán theo bộ cùng với bắp chân trước (Maesune)\n\nTỷ lệ hao hụt/thu hồi tham khảo／\n85% dùng làm cà ri",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "THĂN Loin",
+      "h1": "6",
+      "h2": "",
+      "code": "6",
+      "nameEn": "Tenderloin /Fillet",
+      "nameJpFarm": "ヒレ\n英名：Tenderloin",
+      "nameJpReading": "[ヒレ - hire]",
+      "nameKatakanaRomaji": "[ヒレ - hire]",
+      "nameVn": "Thăn nội / Phi lê",
+      "description": "Thăn nội / Phi lê (Tenderloin / Fillet - ヒレ / Hire): Được mệnh danh là \"Nữ hoàng của thịt bò\", là phần cơ mềm mại nhất, thớ mịn như lụa và cực kỳ quý hiếm trên thân bò.",
+      "link": "https://www.instagram.com/p/DcyYGaJSNi0/",
+      "cookingSuggestionsVn": "Cắt lát khối làm Bít tết (Steak), để khối làm Bò nướng tảng (Roast beef), ninh món hầm (Stew), làm bò chiên xù Katsuretsu.",
+      "cookingSuggestionsTags": "※ Steak ※ Roast beef ※ Stew ※ Katsuretsu",
+      "recipes50": [],
+      "youtubeGuide": "https://www.youtube.com/watch?v=aNmJImGp2eI&list=PLe_YzMxo4yLYlins1tZd6p2QP-9VpBeGj&index=8",
+      "muscleInfo": "Cơ chính: Cơ thắt lưng lớn, cơ thắt lưng bé và cơ chậu.\n\nNguồn gốc tên gọi: Từ tiếng Pháp Filet, được biến âm thành Hire; tên gọi khác là Here.\n\nLượng mỡ: ★★★★★\nĐộ mềm: ★★★★★\nĐộ hiếm: ★★★★",
+      "originName": "Từ tiếng Pháp Filet, được biến âm thành Hire; tên gọi khác là Here.",
+      "fatRating": "★★★★★",
+      "tendernessRating": "★★★★★",
+      "rarityRating": "★★★★",
+      "farmDetail": "Nằm ở phía trong Sirloin (サーロイン), với các đốt sống thắt lưng nằm ở giữa, đây là một trong những phần thịt bò cao cấp nhất.\n\nDo là nhóm cơ hầu như không vận động, thịt đặc biệt mềm trong số các phần thịt bò, đồng thời giàu vị umami của thịt nạc.\n\nTuy nhiên, do cấu trúc thịt mỏng và tinh tế, cần chú ý trong quá trình xử lý và kiểm soát nhiệt. Thịt dễ đổi màu; nếu nấu quá chín sẽ trở nên khô và mất đi hương vị.\n\nĐể thưởng thức trọn vẹn hương vị đặc trưng của Tenderloin (ヒレ), khuyến nghị chế biến ở mức chín càng gần rare càng tốt.\n\nTrong một số trường hợp, Side Muscle (小腰筋 - cơ thắt lưng bé) được tách ra trước khi xử lý, nhưng để nguyên khối vẫn có thể thưởng thức rất ngon.\n\nTenderloin còn có thể được chia thành Tête (phía đuôi), Chateaubriand (phần trung tâm) và Filet Mignon (phía đầu).",
+      "cookingRecommendation": "Món ăn khuyến nghị:\n※ Steak\n\nKhối lượng tham khảo:\n※ Khoảng 3,5 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef), không có tai mỡ, mỡ dưới 10 mm\n※ Khoảng 5,0 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef), không có tai mỡ, mỡ dưới 10 mm\n\nTỷ lệ thu hồi tham khảo:\n※ Dùng cho steak: 65%",
+      "weightReference": "※ Khoảng 3,5 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef), không có tai mỡ, mỡ dưới 10 mm\n※ Khoảng 5,0 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef), không có tai mỡ, mỡ dưới 10 mm",
+      "yieldRate": "※ Dùng cho steak: 65%"
+    },
+    {
+      "group": "THĂN Loin",
+      "h1": "7",
+      "h2": "",
+      "code": "7",
+      "nameEn": "Ribloin/Ribeye roll/Ribeye/Cube roll",
+      "nameJpFarm": "リブアイロール\n英名：Rib eye roll(北米)、 Cube roll（豪）",
+      "nameJpReading": "[リブロース - riburosu]",
+      "nameKatakanaRomaji": "[リブロース - riburosu]",
+      "nameVn": "Thăn lưng / Đầu thăn ngoại/ Thăn sườn",
+      "description": "Thăn lưng / Thăn sườn (Ribloin / Ribeye roll - リブロース / Riburosu): Được mệnh danh là \"Vua của các loại thịt\", có tiết diện to tròn với dải mỡ cẩm thạch dày đặc. Chất thịt cực kỳ mềm mại, nổi bật với hương vị béo ngậy và đậm đà, sánh ngang với thăn ngoại.",
+      "link": "https://www.instagram.com/p/DcHTBiEOpqZ/",
+      "cookingSuggestionsVn": "Thái lát dày hoặc bản lớn làm Bít tết (Steak), thái lát mỏng dùng cho Shabu-shabu, Sukiyaki, cắt nhỏ làm thịt nướng.",
+      "cookingSuggestionsTags": "※ Steak ※ Shabu-shabu ※ Sukiyaki ※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "https://youtu.be/7yoLm__6cjo?si=uJVFPd_YRxIBItI-",
+      "muscleInfo": "Cơ chủ yếu／Chủ yếu là cơ dài ngực (Longissimus thoracis), cơ bán gai lưng (Semispinalis capitis / Semispinalis dorsi)\n\nNguồn gốc tên gọi／Do mặt cắt có hình dạng giống con mắt (eye)?\n\nĐộ ít mỡ／★★★\n\nĐộ mềm／★★★★\n\nĐộ hiếm／★★★",
+      "originName": "Do mặt cắt có hình dạng giống con mắt (eye)?",
+      "fatRating": "★★★",
+      "tendernessRating": "★★★★",
+      "rarityRating": "★★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là phần lõi thăn vai (Ribeye roll/core) sau khi đã loại bỏ phần rìa thăn (Rib cap) ra khỏi thăn vai (Rib roast).\nKhi lưu thông trên thị trường, phần mỡ thừa bề mặt đã được loại bỏ nên rất dễ chế biến và tiết kiệm công sức khi nấu nướng.\nThớ thịt mịn màng, dễ xen kẽ vân mỡ (marbling), là phần thịt mềm và mọng nước.\nSản phẩm được khuyên dùng để cắt lát dày làm steak, nhưng nếu thái mỏng để ăn sukiyaki hay shabu-shabu thì cũng rất ngon.",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nSteak cắt dày\n\nTrọng lượng tham khảo khi xử lý／\nKhoảng 4.5 kg / 1 cây (Phần nửa con *Tính theo bò Toyonishi)\nKhoảng 6.0 kg / 1 cây (Phần nửa con *Tính theo bò Obihiro)\n\nTỷ lệ hao hụt/thu hồi tham khảo／\n65% dùng làm steak",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "THĂN Loin",
+      "h1": "",
+      "h2": "7,1",
+      "code": "7,1",
+      "nameEn": "Ribloin/Ribeye roll/Ribeye/Cube roll",
+      "nameJpFarm": "リブアイロール\n英名：Rib eye roll(北米)、 Cube roll（豪）",
+      "nameJpReading": "[リブロース - riburosu]",
+      "nameKatakanaRomaji": "[リブロース - riburosu]",
+      "nameVn": "Thăn sườn",
+      "description": "Thăn lưng / Thăn sườn (Ribloin / Ribeye roll - リブロース / Riburosu): Được mệnh danh là \"Vua của các loại thịt\", có tiết diện to tròn với dải mỡ cẩm thạch dày đặc đem lại vị béo thơm đậm đà.",
+      "link": "",
+      "cookingSuggestionsVn": "Bít tết (Steak cao cấp), Lẩu Sukiyaki, Lẩu Shabu-shabu",
+      "cookingSuggestionsTags": "※ Steak ※ Sukiyaki ※ Shabu-shabu",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chính: Chủ yếu gồm cơ dài nhất ngực, cơ bán gai lưng và cơ bán gai đầu.\n\nNguồn gốc tên gọi: Có thể bắt nguồn từ việc mặt cắt có hình dạng giống mắt (eye).\n\nLượng mỡ: ★★★\nĐộ mềm: ★★★★\nĐộ hiếm: ★★★",
+      "originName": "Có thể bắt nguồn từ việc mặt cắt có hình dạng giống mắt (eye).",
+      "fatRating": "★★★",
+      "tendernessRating": "★★★★",
+      "rarityRating": "★★★",
+      "farmDetail": "Là phần lõi Ribeye (リブロース芯) sau khi loại bỏ Rib Cap (リブキャップ) khỏi Ribeye (リブロース).\n\nTrong quá trình lưu thông, phần mỡ thừa trên bề mặt được loại bỏ, giúp giảm công đoạn xử lý khi chế biến và thuận tiện hơn khi sử dụng.\n\nThịt có thớ mịn, dễ hình thành vân mỡ, mềm và mọng nước.\n\nKhuyến nghị cắt dày để chế biến steak, nhưng cũng rất ngon khi thái lát để dùng cho sukiyaki hoặc shabu-shabu.",
+      "cookingRecommendation": "Món ăn khuyến nghị:\n※ Steak cắt dày\n\nKhối lượng tham khảo:\n※ Khoảng 4,5 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 6,0 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef)\n\nTỷ lệ thu hồi tham khảo:\n※ Dùng cho steak: 65%",
+      "weightReference": "※ Khoảng 4,5 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 6,0 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef)",
+      "yieldRate": "※ Dùng cho steak: 65%"
+    },
+    {
+      "group": "THĂN Loin",
+      "h1": "",
+      "h2": "7,2",
+      "code": "7,2",
+      "nameEn": "Ribcap",
+      "nameJpFarm": "リブキャップ\n英名：Lifter meat（北米)、Rib cap(豪)",
+      "nameJpReading": "[リブロースかぶり/ リブキャップ - riburosu kaburi/ ribukyappu]",
+      "nameKatakanaRomaji": "[リブロースカブリ / リブキャップ - riburosu kaburi/ ribukyappu]",
+      "nameVn": "Nắp sườn",
+      "description": "Nắp sườn / Nắp thăn lưng (Rib cap / Lifter meat - リブキャップ/リブロースかぶり - Ribukyappu / Riburosu kaburi): Dải cơ bọc phía trên thăn lưng sở hữu vân mỡ cẩm thạch chăng đặc, mềm mượt và tỏa hương thơm nức khi nướng Yakiniku.",
+      "link": "",
+      "cookingSuggestionsVn": "Nướng Yakiniku, Tataki (Áp chảo tái), Món xào / Bulgogi",
+      "cookingSuggestionsTags": "※ Yakiniku ※ Tataki ※ Stir-fry ※ Bulgogi",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chính: Cơ thang và cơ lưng rộng.\n\nTên gọi khác: Ribeye Cap (リブロースカブリ).\n\nLượng mỡ: ★★★\nĐộ mềm: ★★★\nĐộ hiếm: ★★★",
+      "originName": "",
+      "fatRating": "★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★★",
+      "farmDetail": "Là phần cơ nằm phủ bên ngoài lõi Ribeye (リブロース芯). Sau khi loại bỏ mỡ, phần thịt có hình dạng khá phẳng.\n\nThịt có vị umami đậm của phần thịt nạc và hương vị thơm ngon, nhưng nếu nấu quá chín sẽ tạo cảm giác dai, vì vậy cần chú ý đến mức độ chín khi chế biến.\n\nKhuyến nghị sử dụng cho các món không cần nấu quá lâu như tataki, hoặc thái lát mỏng, tẩm ướp gia vị như Bulgogi.",
+      "cookingRecommendation": "Món ăn khuyến nghị:\n※ Tataki\n※ Bulgogi\n\nKhối lượng tham khảo:\n※ Khoảng 0,5 kg/miếng (nửa thân, đã lược mỡ hoàn toàn - Toyonishi Beef)\n※ Khoảng 1,2 kg/miếng (nửa thân, còn mỡ - Toyonishi Beef)\n※ Khoảng 2,0 kg/miếng (nửa thân, còn mỡ - Obihiro Beef)\n\nTỷ lệ thu hồi tham khảo:\n※ 90% (đối với loại đã lược mỡ hoàn toàn)",
+      "weightReference": "※ Khoảng 0,5 kg/miếng (nửa thân, đã lược mỡ hoàn toàn - Toyonishi Beef)\n※ Khoảng 1,2 kg/miếng (nửa thân, còn mỡ - Toyonishi Beef)\n※ Khoảng 2,0 kg/miếng (nửa thân, còn mỡ - Obihiro Beef)",
+      "yieldRate": "※ 90% (đối với loại đã lược mỡ hoàn toàn)"
+    },
+    {
+      "group": "THĂN Loin",
+      "h1": "8",
+      "h2": "",
+      "code": "8",
+      "nameEn": "Sirloin/Striploin",
+      "nameJpFarm": "サーロイン\n英名：Strip loin、Sir-loin",
+      "nameJpReading": "[サーロイン - saroin]",
+      "nameKatakanaRomaji": "[サーロイン - saroin]",
+      "nameVn": "Thăn ngoại",
+      "description": "Thăn ngoại (Sirloin / Striploin - サーロイン / Saroin): Phần thăn cao cấp kẹp viền mỡ đặc trưng, đạt sự cân bằng hoàn hảo giữa độ mềm mại, vị ngọt thịt và mỡ cẩm thạch tan chảy.",
+      "link": "https://www.instagram.com/p/DWg80y1Dl1M/",
+      "cookingSuggestionsVn": "Cắt khối làm Bít tết (Steak), thái lát mỏng dùng cho Shabu-shabu, Sukiyaki.",
+      "cookingSuggestionsTags": "※ Steak ※ Shabu-shabu ※ Sukiyaki",
+      "recipes50": [
+        "Diced Wagyu Sirloin Steak",
+        "Tomato Sukiyaki with Wagyu",
+        "Wagyu Shabu Shabu",
+        "Seared Wagyu Nigiri"
+      ],
+      "youtubeGuide": "https://youtu.be/TIK_q3vL87s?si=1StKb3vCmljO7j8y",
+      "muscleInfo": "Cơ chủ yếu／Chủ yếu là cơ dài ngực (Longissimus thoracis), cơ bán gai lưng (Semispinalis dorsi)\n\nNguồn gốc tên gọi／Từ tước hiệu \"Sir\" (danh hiệu kính trọng tôn quý dành cho quý tộc)\n\nĐộ ít mỡ／★★★\n\nĐộ mềm／★★★★★\n\nĐộ hiếm／★★★",
+      "originName": "Từ tước hiệu \"Sir\" (danh hiệu kính trọng tôn quý dành cho quý tộc)",
+      "fatRating": "★★★",
+      "tendernessRating": "★★★★★",
+      "rarityRating": "★★★",
+      "farmDetail": "Nằm ở phần lưng (Loin) của con bò, kẹp giữa phần Ribloin (Thăn lưng / Ribeye) ở phía trước và phần Rump / D-Rump (Mông) ở phía sau, bao quanh khu vực thăn nội (Fillet / Tenderloin)\nKhác biệt giữa chuẩn xẻ Nhật Bản và Mỹ:\nChuẩn Mỹ (US spec): Chuck Roll từ sườn 1–5, Rib Eye Roll từ sườn 6–12, và Striploin từ sườn thứ 13 đến hết đốt sống thắt lưng.\nChuẩn Nhật (Wagyu spec): Chuck Roll từ sườn 1–6, Rib Eye Roll từ sườn 7–10, và Striploin kéo dài từ xương sườn thứ 11 đến đốt sống thắt lưng cuối cùng. Như vậy, phần Striploin chuẩn Wagyu Nhật Bản dài hơn 2 xương sườn về phía Rib Eye Roll so với chuẩn Mỹ.\nMô tả, Đặc điểm／\nĐây là phần thịt ở thắt lưng tiếp giáp với đốt sống lưng, có đặc trưng là thớ thịt đặc biệt mịn màng và mềm mại nhất trong các phần thịt thăn (Loin).\nChính vì hương vị tuyệt hảo của nó mà phần thịt này đã được phong tước hiệu \"Sir\" (danh hiệu dành cho quý tộc), đây cũng là nguồn gốc của tên gọi Sirloin.\nPhần này có ít mỡ thừa hơn so với Ribeye (Thăn vai), vân mỡ phân bố rất nhỏ mịn, giúp người ăn thưởng thức được vị ngọt của thịt nạc hòa quyện cùng vị béo ngậy thanh tao.\nĐây là bộ phận cực kỳ thơm ngon mà bạn nhất định nên thử dưới dạng món steak.\nNgoài ra, các miếng cắt steak nguyên xương như T-bone steak (phần có kèm thăn nội) hay L-bone steak (phần đã lọc bỏ thăn nội) cũng rất hoành tráng và được ưa chuộng.\nVị ngọt đậm đà đặc trưng từ phần thịt sát xương sẽ làm cho món ăn càng thêm phần hấp dẫn.",
+      "cookingRecommendation": "Trọng lượng tham khảo khi xử lý／\nKhoảng 9.0 kg / 1 cây (Phần nửa con *Tính theo bò Toyonishi)\nKhoảng 13.0 kg / 1 cây (Phần nửa con *Tính theo bò Obihiro)\n*Thông thường, bò Toyonishi được xử lý theo bộ chia làm 2 phần, còn bò Obihiro xử lý theo bộ chia làm 3 phần.\n\nTỷ lệ hao hụt/thu hồi tham khảo／\n65% dùng làm steak",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "BỤNG Short plate brisket",
+      "h1": "9",
+      "h2": "",
+      "code": "9",
+      "nameEn": "Short rib/Upper plate",
+      "nameJpFarm": "ナカバラ\n英名：Short rib、Upper plate",
+      "nameJpReading": "[ナカバラ-nakabara]",
+      "nameKatakanaRomaji": "[ナカバラ - nakabara]",
+      "nameVn": "Sườn non/ Bụng giữa",
+      "description": "Sườn bụng trên / Thịt bụng trên (Upper plate / Short rib - ナカバラ / Nakabara): Khối thịt sườn bụng trên giàu dải cơ và mỡ giắt bao quanh, cho vị ngọt béo bùng nổ khi nướng Karubi.",
+      "link": "",
+      "cookingSuggestionsVn": "Nhóm Bụng (Bara) nói chung khuyên dùng thái lát mỏng nướng Yakiniku trên lửa lớn. Nguồn không phân tách món ăn riêng cho Nakabara.",
+      "cookingSuggestionsTags": "※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "https://youtu.be/qLFLM3bKrzc?si=10tKCAgZIiHOXOw0",
+      "muscleInfo": "Cơ chủ yếu／Cơ chéo bụng ngoài (External abdominal oblique), cơ răng ngực bụng (Mức Head-bara), cơ chéo bụng trong (Mức Kainomi)\n\nNguồn gốc tên gọi／Tên gọi khác là Uchibara (Ba chỉ trong)\n\nĐộ ít mỡ／★★\n\nĐộ mềm／★★★★\n\nĐộ hiếm／★★",
+      "originName": "Tên gọi khác là Uchibara (Ba chỉ trong)",
+      "fatRating": "★★",
+      "tendernessRating": "★★★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nKhi chia phần thăn bụng sau (Tomobara) thành hai nửa trên và dưới, đây sẽ là phần thịt nằm ở phía bên trên.\nBộ phận này có thể tiếp tục được phân tách nhỏ hơn thành các phần: Head-bara, Short rib (Dẻ sườn chính), Rib finger (Thịt liên sườn/Dẻ sườn cắt dải) và Kainomi (Thịt nạc bụng dưới).\nChi tiết cụ thể xin vui lòng xem tại phần mô tả của từng bộ phận.\n\n(Cột này không có nội dung món ăn khuyên dùng trong bản gốc)*",
+      "cookingRecommendation": "Trọng lượng tham khảo khi xử lý／\nKhoảng 16 kg / Phần nửa con (*Tính theo bò Toyonishi)\nKhoảng 20 kg / Phần nửa con (Tính theo bò Obihiro)\nBán theo bộ cùng với Sotobara (Ba chỉ dưới/Bông sườn dưới)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "BỤNG Short plate brisket",
+      "h1": "",
+      "h2": "9,1",
+      "code": "9,1",
+      "nameEn": "Flap meat",
+      "nameJpFarm": "カイノミ\n英名：Flap meat",
+      "nameJpReading": "[かいのみ - kainomi]",
+      "nameKatakanaRomaji": "[カイノミ - kainomi]",
+      "nameVn": "Diềm bụng",
+      "description": "Diềm bụng (Flap meat - カイノミ / Kainomi): Phần diềm bụng hiếm hình con sò nằm gần thăn nội, kết hợp giữa độ mềm mượt thanh thoát và vị béo ngọt đậm đà.",
+      "link": "https://www.instagram.com/p/DcJpXkeRKFa/",
+      "cookingSuggestionsVn": "Những đoạn có lõi hình dáng đẹp được cắt dày dùng làm bít tết (Steak).",
+      "cookingSuggestionsTags": "※ Steak",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ chéo bụng trong (Internal abdominal oblique)\n\nNguồn gốc tên gọi／Do miếng thịt sau khi cắt ra có hình dạng giống như phần thịt của con sò/con nghêu (Kai no mi)\n\nĐộ ít mỡ／★★★\n\nĐộ mềm／★★★★\n\nĐộ hiếm／★★★★",
+      "originName": "Do miếng thịt sau khi cắt ra có hình dạng giống như phần thịt của con sò/con nghêu (Kai no mi)",
+      "fatRating": "★★★",
+      "tendernessRating": "★★★★",
+      "rarityRating": "★★★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là phần cơ nằm ở phía sau của Nakabara (Ba chỉ trên) và có vị trí rất gần với thăn nội (Filet/Tenderloin).\nDo sự tiện lợi trong quá trình xẻ thịt, phần thăn bụng sau (Tomobara) thường được phân chia thành các mảng lớn một cách thô sơ, nhưng thực tế Kainomi chỉ là một phần nhỏ nằm ở phía sau.\nNếu loại bỏ phần rìa Kainomi-kaburi (phần kéo dài của thịt diềm bụng Inside Skirt), thì từ nửa con bò chỉ có thể thu hoạch được khoảng 4 kg thịt này.\nKainomi hội tụ được ưu điểm của cả thịt nạc lẫn thịt ba chỉ, sở hữu sự cân bằng hoàn hảo về lượng mỡ, mang đặc trưng là vị ngọt thanh tao cùng kết cấu thịt mềm mại.\nĐây là bộ phận cực kỳ được ưa chuộng để làm món nướng Yakiniku, nhưng chúng tôi cũng khuyên bạn nên cắt dày làm steak vuông (Dice steak) để có thể thưởng thức trọn vẹn hương vị đậm đà của thịt nạc.",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nDùng cho món nướng Yakiniku\nSteak vuông (Dice steak)\n\nTrọng lượng tham khảo khi xử lý／\nKhoảng 4 kg / 1 cây (Phần nửa con đã lọc sạch mỡ gân - Gurimuki *Tính theo bò Toyonishi)\nKhoảng 6 kg / 1 cây (Phần nửa con đã lọc sạch mỡ gân - Gurimuki Tính theo bò Obihiro)\nBán theo bộ cùng với thịt hông (Frank) hoặc nằm trong bộ ba chỉ Tomobara đã lọc sạch mỡ gân (Gurimuki set).\n\nTỷ lệ hao hụt/thu hồi tham khảo／\n90% đối với loại dùng cho món nướng (Đã lọc sạch mỡ gân - Gurimuki)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "BỤNG Short plate brisket",
+      "h1": "",
+      "h2": "9,2",
+      "code": "9,2",
+      "nameEn": "Short rib",
+      "nameJpFarm": "ショートリブ\n英名：Boneless short rib",
+      "nameJpReading": "[ショ-トリブ - shotoribu]",
+      "nameKatakanaRomaji": "[ショ-トリブ - shotoribu]",
+      "nameVn": "Dẻ sườn / sườn non",
+      "description": "Sườn non rút xương / Ba chỉ sườn (Boneless short rib / Short rib - ショートリブ / Shotoribu): Khối sườn ba chỉ béo mọng cao cấp (Jo-Karubi), có đường vân mỡ xoe đều và cho vị ngọt đậm đà khi nướng Yakiniku.",
+      "link": "",
+      "cookingSuggestionsVn": "Cơm bò Gyu-don, Cà ri / Ninh hầm, Nướng Yakiniku",
+      "cookingSuggestionsTags": "※ Gyudon ※ Curry ※ Stew ※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Chủ yếu là cơ chéo bụng ngoài (External abdominal oblique)\n\nĐộ ít mỡ／★\n\nĐộ mềm／★★★★\n\nĐộ hiếm／★★",
+      "originName": "",
+      "fatRating": "★",
+      "tendernessRating": "★★★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nTrong phần thăn bụng trên (Nakabara), đây là bộ phận nằm liền kề với xương sườn.\nĐây là phần thịt dạng mảng phẳng còn lại sau khi đã lóc xương và cắt bỏ phần thịt liên sườn (Rib finger/Dẻ sườn) bám giữa các dẻ xương.\nMặc dù phần thịt này có khá nhiều mỡ, nhưng lại sở hữu vị ngọt ngậy và hương vị đậm đà sâu sắc. Chúng tôi khuyên bạn nên thái mỏng để làm nguyên liệu cho các món như cơm bò Gyudon hoặc món cà ri.\nCách chế biến này sẽ giúp tôn lên vị ngọt của mỡ, giúp món ăn trở nên ngon miệng hơn.",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nCơm thịt bò (Gyudon)\nCà ri\n\nTrọng lượng tham khảo khi xử lý／\nThông thường không bán riêng lẻ dưới dạng một bộ phận độc lập",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "BỤNG Short plate brisket",
+      "h1": "",
+      "h2": "9,3",
+      "code": "9,3",
+      "nameEn": "Head plate/Half short rib/Short rib",
+      "nameJpFarm": "ヘッドバラ\n英名：Head plate、Half short rib",
+      "nameJpReading": "[ヘッドバラ/上ばら - heddobara/jiobara]",
+      "nameKatakanaRomaji": "[ヘッドバラ / ジョウバラ - heddobara/jiobara]",
+      "nameVn": "Ba chỉ đầu / Gầu phần đầu",
+      "description": "Ba chỉ đầu / Gầu phần đầu (Head plate / Half short rib - ヘッドバラ / Heddobara / Joubara): Phần ba chỉ sườn nằm sát ngực, thớ thịt giòn ngọt, ngậy mỡ bơ tự nhiên.",
+      "link": "",
+      "cookingSuggestionsVn": "Nướng Yakiniku (Thượng hạng - Jo-Karubi)",
+      "cookingSuggestionsTags": "※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ răng ngực bụng (Serratus ventralis thoracis)\n\nĐộ ít mỡ／★★\n\nĐộ mềm／★★★★★\n\nĐộ hiếm／★★★★★",
+      "originName": "",
+      "fatRating": "★★",
+      "tendernessRating": "★★★★★",
+      "rarityRating": "★★★★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nTrong phần thăn bụng trên (Nakabara), đây là mô cơ nối liền với phần tam giác ba chỉ (Sankaku-bara), được cắt ra từ khoảng vị trí dấu vết của xương sườn thứ hai ở phía trước phần sườn ngắn (Short rib).\nNói một cách nghiêm ngặt, Head-bara chính là phần thịt thuộc cùng một bó cơ với Sankaku-bara (cơ răng ngực bụng). Đây là một bộ phận cực kỳ quý hiếm khi chỉ thu hoạch được chưa đầy 1 kg từ nửa con bò.\nPhần thịt này rất dễ xuất hiện các vân mỡ cẩm thạch (marbling) nhỏ mịn, mang đặc trưng là kết cấu mềm mại cùng hương vị đậm đà, ngậy béo.\nNó được xử lý như một phần thịt cao cấp trong nhóm thịt ba chỉ bụng, thường được các nhà hàng đồ nướng phục vụ dưới dạng thịt Karbi thượng hạng (Thịt bò nướng cao cấp).",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nDùng cho món nướng Yakiniku\n\nTrọng lượng tham khảo khi xử lý／\nKhoảng 0.6 kg / 1 cây (Phần nửa con đã lọc sạch mỡ gân - Gurimuki *Tính theo bò Toyonishi)\nKhoảng 1.0 kg / 1 cây (Phần nửa con đã lọc sạch mỡ gân - Gurimuki Tính theo bò Obihiro)\nBán nằm trong bộ ba chỉ Tomobara đã lọc sạch mỡ gân (Gurimuki set).\n\nTỷ lệ hao hụt/thu hồi tham khảo／\n90% đối với loại dùng cho món nướng.",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "BỤNG Short plate brisket",
+      "h1": "",
+      "h2": "9,4",
+      "code": "9,4",
+      "nameEn": "Rib finger meat/Intercostals",
+      "nameJpFarm": "リブフィンガー\n英名：Rib finger meat（北米） Intercostals(豪）",
+      "nameJpReading": "[リブフィンガ - ribu fingā]",
+      "nameKatakanaRomaji": "[リブフィンガ - ribu fingā]",
+      "nameVn": "Dẻ sườn",
+      "description": "Dẻ sườn (Rib finger meat / Intercostals - リブフィンガー/中落ち - Ribu Fingā / Naka-ochi): Các dải thịt nạc kẹp giữa xương sườn giàu mô liên kết, khi nướng chảy mỡ tạo độ giòn sần sật béo ngậy.",
+      "link": "",
+      "cookingSuggestionsVn": "Đây là nguyên liệu làm Karubi dẻ sườn cho món Yakiniku.",
+      "cookingSuggestionsTags": "※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ liên sườn (Intercostal muscles)\n\nNguồn gốc tên gọi／Tên gọi khác là Geta (Guốc gỗ Nhật). Do miếng thịt được cắt ra có hình dáng lồi lõm giống như phần đế của chiếc guốc gỗ.\n\nĐộ ít mỡ／★★\n\nĐộ mềm／★★★★★\n\nĐộ hiếm／★★★★",
+      "originName": "Tên gọi khác là Geta (Guốc gỗ Nhật). Do miếng thịt được cắt ra có hình dáng lồi lõm giống như phần đế của chiếc guốc gỗ.",
+      "fatRating": "★★",
+      "tendernessRating": "★★★★★",
+      "rarityRating": "★★★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là phần thịt được cắt ra từ giữa các khúc xương sườn thuộc phần thăn bụng trên (Nakabara).\nMặc dù có khá nhiều mỡ nhưng phần thịt này lại mang lại hương vị đậm đà và độ ngậy béo đặc trưng của vùng thịt sát xương. Tại các nhà hàng đồ nướng, bộ phận này thường được phục vụ dưới tên gọi Nakaochi Karbi (Dẻ sườn nướng).\nKết cấu thịt khá chắc và có gân, nhưng chỉ cần khía các đường dao nhỏ trên bề mặt là sẽ trở nên rất dễ ăn và mềm mại khi thưởng thức.",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nDùng cho món nướng Yakiniku\n\nTrọng lượng tham khảo khi xử lý／\nKhoảng 1.9 kg / 1 cây (Phần nửa con *Tính theo bò Toyonishi)\nKhoảng 3.0 kg / 1 cây (Phần nửa con Tính theo bò Obihiro)\nBán nằm trong bộ ba chỉ Tomobara đã lọc sạch mỡ gân (Gurimuki set).\n\nTỷ lệ hao hụt/thu hồi tham khảo／\n90% đối với loại dùng cho món nướng",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "BỤNG Short plate brisket",
+      "h1": "10",
+      "h2": "",
+      "code": "10",
+      "nameEn": "Short Plate/ Navel end brisket",
+      "nameJpFarm": "ソトバラ\n英名：Short plate（北米） 、Brisket navel end(豪)",
+      "nameJpReading": "[そとばら-sotobara]",
+      "nameKatakanaRomaji": "[ソトバラ - sotobara]",
+      "nameVn": "Ba chỉ / Sườn bò",
+      "description": "Sườn bụng ngoài / Ba chỉ chính (Short plate / Lower plate - ソトバラ / Sotobara): Khối thịt ba chỉ bụng ngoài đan xoe dải nạc mỡ cân đối, mềm mại và thơm béo như bơ khi nướng.",
+      "link": "",
+      "cookingSuggestionsVn": "Nhóm Bụng (Bara) nói chung khuyên dùng thái lát mỏng nướng Yakiniku trên lửa lớn. Nguồn không phân tách món ăn riêng cho Sotobara.",
+      "cookingSuggestionsTags": "※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "https://youtu.be/hj7SU8kJViQ?si=K66sYe9Pue60NXL4",
+      "muscleInfo": "Cơ chủ yếu／Cơ chéo bụng ngoài (External abdominal oblique), cơ thẳng bụng (Rectus abdominis), cơ ngang bụng (Mức Inside skirt)\n\nĐộ ít mỡ／★★\n\nĐộ mềm／★★★★\n\nĐộ hiếm／★★",
+      "originName": "",
+      "fatRating": "★★",
+      "tendernessRating": "★★★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nKhi chia phần thăn bụng sau (Tomobara) thành hai nửa trên và dưới, đây sẽ là phần thịt nằm ở phía bên dưới.\nBộ phận này có thể tiếp tục được phân tách nhỏ hơn thành các phần: Frank (Thịt hông bụng), Short plate (Mảng ba chỉ bụng phẳng) và Inside skirt (Thịt diềm bụng trong).\nChi tiết cụ thể xin vui lòng xem tại phần mô tả của từng bộ phận.\n\n(Cột này không có nội dung nguồn gốc tên gọi và món ăn khuyên dùng trong bản gốc)*",
+      "cookingRecommendation": "Món ăn khuyên dùng (Trong bản gốc ghi nhầm mục Trọng lượng)／\nKhoảng 16 kg / Phần nửa con (*Tính theo bò Toyonishi)\nKhoảng 18 kg / Phần nửa con (Tính theo bò Obihiro)\nBán theo bộ cùng với Nakabara (Ba chỉ trên/Ba chỉ sườn)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "BỤNG Short plate brisket",
+      "h1": "",
+      "h2": "10,1",
+      "code": "10,1",
+      "nameEn": "Flank steak",
+      "nameJpFarm": "フランク\n英名：Flank steak",
+      "nameJpReading": "[フランク/ ささみ - furanku/sasami]",
+      "nameKatakanaRomaji": "[フランク/ ささみ - furanku/sasami]",
+      "nameVn": "Thăn bụng",
+      "description": "Thăn bụng / Frank (Flank steak / Sasami - フランク/ササミ - Furanku / Sasami): Dải thăn bụng hiếm có thớ dài mịn như lá tre, nhiều nạc xen mỡ nhẹ, vị ngọt đằm thanh thoát không ngấy.",
+      "link": "https://www.instagram.com/p/DdEMLSwDX6b/",
+      "cookingSuggestionsVn": "Nướng Yakiniku (Áp chảo / Nướng tái - Rare)",
+      "cookingSuggestionsTags": "※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ thẳng bụng (Rectus abdominis)\n \n Nguồn gốc tên gọi／Tên gọi khác là Sasami. Do thớ thịt nhìn bề ngoài trông giống như chiếc lá tre (Sasa no ha).\n \n Độ ít mỡ／★★★\n \n Độ mềm／★★★\n \n Độ hiếm／★★★★",
+      "originName": "Tên gọi khác là Sasami. Do thớ thịt nhìn bề ngoài trông giống như chiếc lá tre (Sasa no ha).",
+      "fatRating": "★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★★★",
+      "farmDetail": "Mô tả, Đặc điểm／\n Đây là vùng cơ bụng nằm ở phía sau của phần thăn bụng dưới (Sotobara), ngay bên dưới phần Kainomi (Diềm thăn) và gần với phần đùi (Momo).\n Do sự tiện lợi khi xẻ thịt, phần thăn bụng sau (Tomobara) thường được chia thành các mảng lớn, nhưng thực tế giống như Kainomi, Frank chỉ là một phần nhỏ ở phía sau và là bộ phận quý hiếm thu hoạch được với số lượng ít.\n Vì có các thớ cơ dài chạy dọc nhìn như chiếc lá tre nên nó còn được gọi là Sasami.\n Phần thịt Frank mang đặc trưng là kết cấu thịt mịn màng và săn chắc. Dù là thịt nạc nhưng vẫn chứa một lượng mỡ vừa phải, giúp thịt dễ ăn mà không bị ngấy béo.\n Nếu nấu quá chín thịt rất dễ bị cứng, vì vậy chúng tôi khuyên bạn nên nướng ở mức độ tái (Rare/Medium Rare).",
+      "cookingRecommendation": "Món ăn khuyên dùng／\n Dùng cho món nướng Yakiniku\n \n Trọng lượng tham khảo khi xử lý／\n Khoảng 1.7 kg / 1 cây (Phần nửa con đã lọc sạch mỡ gân - Gurimuki *Tính theo bò Toyonishi)\n Khoảng 3.0 kg / 1 cây (Phần nửa con đã lọc sạch mỡ gân - Gurimuki *Tính theo bò Obihiro)\n *Bán theo bộ cùng với Kainomi hoặc nằm trong bộ ba chỉ Tomobara đã lọc sạch mỡ gân (Gurimuki set).\n \n Tỷ lệ hao hụt/thu hồi tham khảo／\n 90% đối với loại dùng cho món nướng (Đã lọc sạch mỡ gân - Gurimuki)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "BỤNG Short plate brisket",
+      "h1": "",
+      "h2": "10,2",
+      "code": "10,2",
+      "nameEn": "Short Plate",
+      "nameJpFarm": "ショートプレート\n英名：Short plate",
+      "nameJpReading": "[ショ-トプレート/そとばら - shotopureto/sotobara]",
+      "nameKatakanaRomaji": "[ショートプレート/ ソトバラ - shotopureto/sotobara]",
+      "nameVn": "Ba chỉ / Sườn bò",
+      "description": "Ba chỉ chính cắt dải (Navel end short plate - ショートプレート - Shotopureto): Dải ba chỉ bụng cắt vuông vắn mọng nước, chuyên dùng cho nướng BBQ, lẩu nhúng hoặc cơm bò Gyudon.",
+      "link": "",
+      "cookingSuggestionsVn": "Thường được bán dưới tên thương mại Toro Karubi cho món Yakiniku.",
+      "cookingSuggestionsTags": "※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ thẳng bụng (Rectus abdominis), cơ chéo bụng ngoài (External abdominal oblique)\n \n Nguồn gốc tên gọi／Tên gọi khác là Tatebara (Ba chỉ dọc)\n \n Độ ít mỡ／★★\n \n Độ mềm／★★★★\n \n Độ hiếm／★★",
+      "originName": "Tên gọi khác là Tatebara (Ba chỉ dọc)",
+      "fatRating": "★★",
+      "tendernessRating": "★★★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\n Đây là phần phía trước của thăn bụng dưới (Sotobara). Bộ phận này có độ dày thịt tốt hơn và sự cân bằng giữa thịt nạc và mỡ lý tưởng hơn so với phần sườn ngắn (Short rib).\n Vì là bộ phận có vị béo ngậy đậm đà của mỡ nên nó rất phù hợp cho các món nướng. Đây là phần thịt đặc biệt khuyên dùng cho các buổi tiệc nướng BBQ bằng vỉ ngoài trời.\n Ngoài ra, nếu thái mỏng để làm nguyên liệu cho món cơm bò Gyudon hay món cà ri, vị ngọt của mỡ sẽ được phát huy tối đa giúp món ăn trở nên vô cùng ngon miệng.",
+      "cookingRecommendation": "Món ăn khuyên dùng／\n Dùng cho món nướng Yakiniku\n Cơm thịt bò (Gyudon)\n Dùng làm món cà ri\n \n Trọng lượng tham khảo khi xử lý／\n Khoảng 3.2 kg / 1 cây (Phần nửa con đã lọc sạch mỡ gân - Gurimuki *Tính theo bò Toyonishi)\n Khoảng 8.0 kg / 1 cây (Phần nửa con đã lọc sạch mỡ gân - Gurimuki *Tính theo bò Obihiro)\n *Bán nằm trong bộ ba chỉ Tomobara đã lọc sạch mỡ gân (Gurimuki set).\n \n Tỷ lệ hao hụt/thu hồi tham khảo／\n 90% đối với loại dùng cho món nướng",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "BỤNG Short plate brisket",
+      "h1": "",
+      "h2": "10,3",
+      "code": "10,3",
+      "nameEn": "Inside skirt/ inner skirt",
+      "nameJpFarm": "インサイドスカート\n英名：Insaid skirt",
+      "nameJpReading": "[インサイドスカート - insaidosukato]",
+      "nameKatakanaRomaji": "[インサイドスカート - insaidosukato]",
+      "nameVn": "Nạc bụng",
+      "description": "Nạc bụng / Diềm trong (Inside skirt - インサイドスカート - Insaido Sukāto): Dải cơ mỏng nằm ở mặt trong mạn sườn, thớ xốp xốp mọng nước thịt và đậm vị umami tự nhiên tương tự Harami.",
+      "link": "",
+      "cookingSuggestionsVn": "Phù hợp dùng khi ăn thịt nướng (Yakiniku) mà muốn thưởng thức thịt thanh đạm.",
+      "cookingSuggestionsTags": "※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ ngang bụng (Transversus abdominis)\n \n Nguồn gốc tên gọi／Tên gọi khác là Uchi-harami (Thịt diềm trong)\n \n Độ ít mỡ／★★★\n \n Độ mềm／★★★★\n \n Độ hiếm／★★★★",
+      "originName": "Tên gọi khác là Uchi-harami (Thịt diềm trong)",
+      "fatRating": "★★★",
+      "tendernessRating": "★★★★",
+      "rarityRating": "★★★★",
+      "farmDetail": "Mô tả, Đặc điểm／\n Đây là phần cơ mỏng và dài nằm ở phía bên trong của thăn bụng dưới (Sotobara), đóng vai trò là phần nền móng kết nối với cơ hoành (Thịt diềm thăn ngoài / Harami).\n Kết cấu và hương vị của nó rất gần với thịt Harami, là phần thịt mềm giúp bạn thưởng thức được vị ngọt thanh và độ ngậy đậm đà của mỡ.\n Thông thường phần này được dùng cho các món nướng. Vì nó thuộc nhóm thịt ba chỉ (Bara) nên có khả năng cao là tại các quán đồ nướng, nó sẽ được phục vụ dưới tên gọi là thịt Karbi (Thịt ba chỉ nướng).",
+      "cookingRecommendation": "Món ăn khuyên dùng／\n Dùng cho món nướng Yakiniku\n \n Trọng lượng tham khảo khi xử lý／\n Khoảng 2.3 kg / 1 cây (Phần nửa con đã lọc sạch mỡ gân - Gurimuki *Tính theo bò Toyonishi)\n Khoảng 2.5 kg / 1 cây (Phần nửa con đã lọc sạch mỡ gân - Gurimuki *Tính theo bò Obihiro)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "11",
+      "h2": "",
+      "code": "11",
+      "nameEn": "Gooseneck round/Outside round/Silverside round/ Outside/Bottom Round",
+      "nameJpFarm": "ソトモモ\n英名：Outside round(北米）、Silverside（豪）",
+      "nameJpReading": "[そともも - sotomomo]",
+      "nameKatakanaRomaji": "[ソトモモ - sotomomo]",
+      "nameVn": "Thịt mông ngoài / Mông đùi ngoài",
+      "description": "Thịt mông ngoài / Mông đùi ngoài (Gooseneck round / Outside round - ソトモモ / Sotomomo): Khối đùi ngoài giàu thịt nạc đỏ (Akami), thớ cơ săn chắc đậm vị thịt tự nhiên, chuyên dùng hầm hoặc thái mỏng nhúng lẩu.",
+      "link": "",
+      "cookingSuggestionsVn": "Thái lát mỏng nhúng Shabu-shabu, Sukiyaki, các món ninh hầm, để khối làm Bò nướng tảng (Roast beef), thái sợi mỏng làm các món xào.",
+      "cookingSuggestionsTags": "※ Shabu-shabu ※ Sukiyaki ※ Stew ※ Roast beef ※ Stir-fry",
+      "recipes50": [],
+      "youtubeGuide": "https://youtu.be/xsH1DLJ4L6g?si=2ubFavrSeBW8e9qa",
+      "muscleInfo": "Cơ chủ yếu／Cơ hai đầu đùi (Nakaniku), cơ bán gân (Shikinbo), cơ sinh đôi cẳng chân (Habaki)\n\nNguồn gốc tên gọi／Tên gọi khác là Sotohira (Mảng đùi ngoài phẳng)\n\nĐộ ít mỡ／★★★★★\n\nĐộ mềm／★★\n\nĐộ hiếm／★★",
+      "originName": "Tên gọi khác là Sotohira (Mảng đùi ngoài phẳng)",
+      "fatRating": "★★★★★",
+      "tendernessRating": "★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là vùng cơ nằm ở phía ngoài của chân sau. Tuy kết cấu thịt khá cứng nhưng lại mang hương vị đậm đà rất đặc trưng của thịt nạc (thịt đỏ).\nKhi thái mỏng, phần thịt này ăn rất ngon trong các món như lẩu sukiyaki hay lẩu shabu-shabu.\nĐùi ngoài (Sotomomo) có thể phân tách nhỏ hơn thành các phần: Nakaniku, Shikinbo và Habaki.\n*Chi tiết cụ thể xin vui lòng xem tại phần mô tả của từng bộ phận.",
+      "cookingRecommendation": "Trọng lượng tham khảo khi xử lý／\nKhoảng 9.5 kg / 1 cây (Phần nửa con, đã lọc bỏ phần Habaki Tính theo bò Toyonishi)\nKhoảng 14.0 kg / 1 cây (Phần nửa con, đã lọc bỏ phần Habaki Tính theo bò Obihiro)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "",
+      "h2": "11,1",
+      "code": "11,1",
+      "nameEn": "Flat of round/ Outside flat/Outside round",
+      "nameJpFarm": "ナカニク\n英名：Flat of round(北米)、Outside flat",
+      "nameJpReading": "[ナカニク- nakaniku]",
+      "nameKatakanaRomaji": "[ナカニク- nakaniku]",
+      "nameVn": "Thịt mông ngoài / Mông đùi ngoài (Nguyên con/Hiếm)",
+      "description": "Mông ngoài nạc phẳng (Outside flat / Flat of round - ナカニク / Nakaniku): Khối nạc lớn nhất của đùi ngoài, thớ thịt rõ ràng, giàu sắt và protein, hợp cho món Sukiyaki, Shabu-shabu hoặc Roast beef.",
+      "link": "",
+      "cookingSuggestionsVn": "Lẩu Sukiyaki, Lẩu Shabu-shabu, Món xào (bò xào ớt xắt sợi), Bò quay (Roast beef)",
+      "cookingSuggestionsTags": "※ Sukiyaki ※ Shabu-shabu ※ Stir-fry ※ Roast beef",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ hai đầu đùi (Biceps femoris)\n\nĐộ ít mỡ／★★★★★\n\nĐộ mềm／★★\n\nĐộ hiếm／★★",
+      "originName": "",
+      "fatRating": "★★★★★",
+      "tendernessRating": "★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nTrong các bộ phận của đùi ngoài (Sotomomo), đây là khối cơ lớn nằm ở phía ngoài, chịu trách nhiệm nâng đỡ toàn bộ trọng lượng của con bò.\nNó thuộc cùng một bó cơ (cơ hai đầu đùi) kéo dài từ phần mông Ichibo (Picanha) xuống.\nDo là vùng cơ chịu lực và vận động nhiều nên thớ thịt thường to, có độ đàn hồi và kết cấu khá cứng. Tuy nhiên, đổi lại thì đặc trưng của nó là sở hữu hương vị thịt nạc (thịt đỏ) cực kỳ đậm đà.\nPhần thịt này rất ngon khi thái mỏng để ăn lẩu sukiyaki hay shabu-shabu. Ngoài ra, việc thái sợi nhỏ để làm nguyên liệu cho các món người Hoa như bò xào ớt chuông (Chinjaoroosu) cũng rất được khuyên dùng.\nĐối với giống bò lai F1 (bò Obihiro), phần thịt này còn rất phù hợp để làm món bò một nắng / thịt bò nướng tảng (Roast beef).",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nLẩu Sukiyaki\nLẩu Shabu-shabu\nBò xào ớt chuông (Chinjaoroosu)\n\nTrọng lượng tham khảo khi xử lý／\nThông thường được lưu thông trên thị trường mà không tách rời với phần Shikinbo.\nKhoảng 9.5 kg / 1 cây (Phần nửa con gồm Nakaniku + Shikinbo *Tính theo bò Toyonishi)\nKhoảng 14.0 kg / 1 cây (Phần nửa con gồm Nakaniku + Shikinbo *Tính theo bò Obihiro)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "",
+      "h2": "11,2",
+      "code": "11,2",
+      "nameEn": "Eye of round/ Eye round",
+      "nameJpFarm": "シキンボ\n英名：Eye of round(北米)、Eye round(豪)",
+      "nameJpReading": "[シキンボ - shikinbo]",
+      "nameKatakanaRomaji": "[シキンボ - shikinbo]",
+      "nameVn": "Thịt lõi đùi / Thịt đùi giữa nạc/ Lõi mông (Nguyên con/Hiếm)",
+      "description": "Lõi đùi / Thịt đùi giữa (Eye of round - シキンボ / Shikinbo): Khối thịt hình trụ thon tròn đồng nhất nằm ở trung tâm đùi ngoài, thớ mịn, ít mỡ, lý tưởng làm Roast beef hình dáng đẹp.",
+      "link": "",
+      "cookingSuggestionsVn": "Bò quay (Roast beef - khối tròn đẹp), Lẩu Sukiyaki, Lẩu Shabu-shabu",
+      "cookingSuggestionsTags": "※ Roast beef ※ Sukiyaki ※ Shabu-shabu",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ bán gân (Semitendinosus)\n\nNguồn gốc tên gọi／Do miếng thịt có hình dạng thon dài trông giống như một thỏi vàng (Shikinbo / Shikinbou).\n\nĐộ ít mỡ／★★★★★\n\nĐộ mềm／★★\n\nĐộ hiếm／★★",
+      "originName": "Do miếng thịt có hình dạng thon dài trông giống như một thỏi vàng (Shikinbo / Shikinbou).",
+      "fatRating": "★★★★★",
+      "tendernessRating": "★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nTrong các bộ phận của đùi ngoài (Sotomomo), đây là vùng cơ nằm ở phía sau, được kẹp ở giữa phần thịt đùi ngoài chính (Nakaniku) và đùi trong (Uchimomo).\nTương tự như Nakaniku, đây là vùng cơ vận động rất nhiều nên mang đặc trưng là thớ thịt to, có độ đàn hồi cao và kết cấu thịt khá cứng.\nVì hương vị thịt nạc (thịt đỏ) rất đậm đà sâu sắc, bạn có thể thái mỏng để ăn lẩu sukiyaki hay shabu-shabu rất ngon.\nNhờ khối cơ có hình dáng trụ tròn đều đặn và đẹp mắt, phần thịt này cũng cực kỳ thích hợp để chế biến món thịt bò nướng tảng (Roast beef).",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nLẩu Sukiyaki\nLẩu Shabu-shabu\nThịt bò nướng tảng (Roast beef)\n\nTrọng lượng tham khảo khi xử lý／\nThông thường được lưu thông trên thị trường mà không tách rời với phần Nakaniku.\nKhoảng 9.5 kg / 1 cây (Phần nửa con gồm Nakaniku + Shikinbo *Tính theo bò Toyonishi)\nKhoảng 14.0 kg / 1 cây (Phần nửa con gồm Nakaniku + Shikinbo *Tính theo bò Obihiro)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "",
+      "h2": "11,3",
+      "code": "11,3",
+      "nameEn": "Heel meat/Heel Muscle",
+      "nameJpFarm": "ハバキ\n英名：Heel meat",
+      "nameJpReading": "[ハバキ - habaki]",
+      "nameKatakanaRomaji": "[ハバキ - habaki]",
+      "nameVn": "Thịt gót đùi / Thịt gân gót (Nguyên con/Hiếm)",
+      "description": "Thịt gót đùi / Gân gót (Heel meat / Heel muscle - ハバキ / Habaki): Phần cơ gót đùi giàu gân và collagen, khi hầm hoặc ninh kỹ collagen tan chảy tạo vị ngọt đậm quánh dẻo.",
+      "link": "",
+      "cookingSuggestionsVn": "Ninh hầm / Cà ri / Súp, Thịt băm làm Hamburg / Xúc xích",
+      "cookingSuggestionsTags": "※ Stew ※ Curry ※ Soup ※ Hamburg ※ Sausage",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ sinh đôi cẳng chân (Gastrocnemius)\n\nĐộ ít mỡ／★★★★★\n\nĐộ mềm／★★★\n\nĐộ hiếm／★★★",
+      "originName": "",
+      "fatRating": "★★★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là phần bắp chuối / bắp bắp chân của con bò. Trong toàn bộ vùng đùi ngoài (Sotomomo), phần thịt này tương đối mềm và có độ ngậy béo đậm đà, tuy nhiên do chứa rất nhiều gân nên đây là loại thịt khá khó xử lý.\nTại trang trại Toyonishi (Toyonishi Farm), phần thịt này chủ yếu được sử dụng làm nguyên liệu để chế biến thịt viên Hamburg hoặc các loại xúc xích.",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nCác món hầm\nThịt xay (thịt băm)\n\nTrọng lượng tham khảo khi xử lý／\nKhoảng 2.5 kg / 1 cây (Phần nửa con *Tính theo bò Toyonishi)\nKhoảng 3.0 kg / 1 cây (Phần nửa con *Tính theo bò Obihiro)\n\nTỷ lệ hao hụt/thu hồi tham khảo／\n90% đối với loại dùng làm thịt xay",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "12",
+      "h2": "",
+      "code": "12",
+      "nameEn": "Top round/ Topside round/Inside",
+      "nameJpFarm": "ウチモモ\n英名：Top round(北米)、Topside(豪)",
+      "nameJpReading": "[うちもも/ウチモモ - uchimomo]",
+      "nameKatakanaRomaji": "[ウチモモ - uchimomo]",
+      "nameVn": "Bắp đùi trước / Mông đùi / Thăn đùi / Thịt nạc đùi / Nạm đùi trên",
+      "description": "Bắp đùi trước / Mông đùi (Top round / Topside round - ウチモモ / Uchimomo): Khối nạc đỏ lớn nhất trên thân bò, vị thanh nhẹ tự nhiên, giàu dinh dưỡng và rất đa năng trong chế biến.",
+      "link": "https://www.ja-town.com/shop/g/g9503-9503-610006/",
+      "cookingSuggestionsVn": "Thái lát mỏng nhúng Shabu-shabu, Sukiyaki, thái lát nướng Yakiniku, các món ninh hầm, bò nướng tảng (Roast beef), gỏi bò sống (Gyusa-shi), bò tái/áp chảo tái (Gyutadaki), bò băm sống trộn trứng (Yakkhe).",
+      "cookingSuggestionsTags": "※ Shabu-shabu ※ Sukiyaki ※ Yakiniku ※ Stew ※ Roast beef ※ Gyusashi ※ Gyutadaki ※ Yukhoe",
+      "recipes50": [],
+      "youtubeGuide": "https://youtu.be/lt-AjCM6dNQ?si=n_KqVcgrq7o9clQi",
+      "muscleInfo": "Cơ chính: Cơ bán màng, cơ khép và cơ thon.\n\nTên gọi khác: Uchihira (ウチヒラ).\n\nLượng mỡ: ★★★★\nĐộ mềm: ★★★\nĐộ hiếm: ★★",
+      "originName": "",
+      "fatRating": "★★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★",
+      "farmDetail": "Là một khối cơ thịt nạc lớn nằm ở mặt trong chân sau của bò, là phần thịt đa năng có thể sử dụng cho nhiều món ăn khác nhau.\n\nCó thể chia thành Oomomo (オオモモ), Komomo (コモモ) và Uchimomo Kaburi (ウチモモカブリ).\n※ Chi tiết được trình bày tại từng phần thịt.\n※ Oomomo và Komomo thường được lưu thông và kinh doanh mà không tách riêng.",
+      "cookingRecommendation": "Món ăn khuyến nghị:\n※ Roast Beef\n※ Sukiyaki\n※ Các món hầm\n\nKhối lượng tham khảo:\n※ Khoảng 12 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 13 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef)\n\nTỷ lệ thu hồi tham khảo:\n※ Phần chính Uchimomo: 70%\n※ Uchimomo Kaburi: 50%",
+      "weightReference": "※ Khoảng 12 kg/miếng (nửa thân, theo tiêu chuẩn Toyonishi Beef)\n※ Khoảng 13 kg/miếng (nửa thân, theo tiêu chuẩn Obihiro Beef)",
+      "yieldRate": "※ Phần chính Uchimomo: 70%\n※ Uchimomo Kaburi: 50%"
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "",
+      "h2": "12,1",
+      "code": "12,1",
+      "nameEn": "Top round cap off",
+      "nameJpFarm": "ウチモモ（ホンタイ）- uchimomo hontai",
+      "nameJpReading": "ウチモモ（ホンタイ）- uchimomo hontai",
+      "nameKatakanaRomaji": "ウチモモ（ホンタイ）- uchimomo hontai",
+      "nameVn": "Thăn đùi chính/ Lõi đùi trên/ Bắp đùi chính",
+      "description": "Thăn đùi chính / Lõi đùi trên (Top round cap off - ウチモモ本体 / Uchimomo hontai): Phần lõi đùi chính sau khi tách nắp, thớ nạc mịn màng mọng nước, hợp làm Bít tết nạc hoặc Bò quay.",
+      "link": "",
+      "cookingSuggestionsVn": "Bò quay (Roast beef), Lẩu Sukiyaki, Bít tết (Steak nạc)",
+      "cookingSuggestionsTags": "※ Roast beef ※ Sukiyaki ※ Steak",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ bán màng (Semimembranosus)\n\nĐộ ít mỡ／★★★★★\n\nĐộ mềm／★★★\n\nĐộ hiếm／★★",
+      "originName": "",
+      "fatRating": "★★★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nTrong phần đùi trong (Uchimomo) sau khi đã loại bỏ phần rìa (Kaburi), đây là khối cơ lớn nằm ở phía sau. Vì có thể thu hoạch được một khối thịt nạc (thịt đỏ) rất lớn nên bộ phận này được ứng dụng rộng rãi trong nhiều món ăn đa dạng.\nDo chứa rất ít mỡ và gân nên đây là phần thịt lý tưởng nhất để chế biến món thịt bò nướng tảng (Roast beef). Ngoài ra, nhờ cắt được những miếng thịt bản to và đẹp mắt, phần này cũng được khuyên dùng để thái mỏng làm lẩu sukiyaki.\nThông thường, phần thịt này được lưu thông trên thị trường mà không tách rời với phần đùi trong nhỏ (Komomo).",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nThịt bò nướng tảng (Roast beef)\nLẩu Sukiyaki\n\nTrọng lượng tham khảo khi xử lý／\nKhoảng 8 kg / 1 cây (Phần nửa con nguyên khối không tách rời Oomomo và Komomo *Tính theo bò Toyonishi)\nKhoảng 9 kg / 1 cây (Phần nửa con nguyên khối không tách rời Oomomo và Komomo Tính theo bò Obihiro)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "",
+      "h2": "12,2",
+      "code": "12,2",
+      "nameEn": "Top cap",
+      "nameJpFarm": "ウチモモカブリ\n英名：Top cap（北米）、Topside cap",
+      "nameJpReading": "ウチモモカブリ \n - uchimomo kaburi",
+      "nameKatakanaRomaji": "ウチモモカブリ",
+      "nameVn": "Nắp đùi/ Nắp thăn đùi/ Nắp mông đùi/ Nắp bắp đùi",
+      "description": "Nắp đùi / Nắp mông đùi (Top cap / Topside cap - ウチモモカブリ / Uchimomo kaburi): Dải nắp bọc phía trên đùi trong, đậm đà vị thịt nạc sát màng, chuyên dùng cho các món xào, cà ri hoặc thái mỏng nướng.",
+      "link": "",
+      "cookingSuggestionsVn": "Ninh hầm / Cà ri, Thịt băm / Món xào, Nướng Yakiniku thái mỏng",
+      "cookingSuggestionsTags": "※ Stew ※ Curry ※ Stir-fry ※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ thon (Gracilis), cơ lược (Pectineus), cơ may (Sartorius)\n\nNguồn gốc tên gọi／Do phần thịt này nằm bao phủ / che lấy phần đùi trong lớn (Oomomo) và đùi trong nhỏ (Komomo) (Kaburi có nghĩa là bao phủ, bọc ngoài).\n\nĐộ ít mỡ／★★★\n\nĐộ mềm／★★\n\nĐộ hiếm／★★",
+      "originName": "Do phần thịt này nằm bao phủ / che lấy phần đùi trong lớn (Oomomo) và đùi trong nhỏ (Komomo) (Kaburi có nghĩa là bao phủ, bọc ngoài).",
+      "fatRating": "★★★",
+      "tendernessRating": "★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là phần thịt nằm bao bọc xung quanh phía bên ngoài của phần đùi trong lớn (Oomomo) và đùi trong nhỏ (Komomo).\nNhìn chung, phần thịt này chứa khá nhiều mỡ và có hình dáng không mấy vuông vắn, đẹp mắt, vì vậy nó thường được sử dụng để chế biến các món hầm hoặc xay nhỏ làm thịt băm.\nMặc dù vậy, phần thịt nạc (thịt đỏ) của bộ phận này lại sở hữu hương vị rất đậm đà, nên nếu đem nướng lên ăn thì cũng rất ngon miệng.",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nCác món hầm\nThịt xay (thịt băm)\n\nTrọng lượng tham khảo khi xử lý／\nKhoảng 4.0 kg / 1 cây (Phần nửa con *Tính theo bò Toyonishi)\nKhoảng 4.5 kg / 1 cây (Phần nửa con *Tính theo bò Obihiro)\n*Bán theo bộ chung với khối đùi trong Oomomo & Komomo (không tách rời)\n\nTỷ lệ hao hụt/thu hồi tham khảo／\n50%",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "13",
+      "h2": "",
+      "code": "13",
+      "nameEn": "Top sirloin butt/Rump/D Rump",
+      "nameJpFarm": "ランイチ\n英名：Top sirloin butt",
+      "nameJpReading": "[ランイチ - ranichi]",
+      "nameKatakanaRomaji": "[ランイチ- ranichi]",
+      "nameVn": "Thăn mông",
+      "description": "Bộ thăn mông (Top sirloin butt / D-Rump - ランイチ / Ranichi): Bộ thịt mông cao cấp kẹp giữa Sirloin và Outside round, được mệnh danh là \"Vua của thịt nạc\".",
+      "link": "",
+      "cookingSuggestionsVn": "Bít tết (Steak), thái lát mỏng nướng Yakiniku, nguyên khối làm Bò nướng tảng (Roast beef).",
+      "cookingSuggestionsTags": "※ Steak ※ Yakiniku ※ Roast beef",
+      "recipes50": [],
+      "youtubeGuide": "https://youtu.be/vbQv7kX3TYw?si=T_0RqWw2qNv-wCcp",
+      "muscleInfo": "Cơ chủ yếu／Chủ yếu là cơ mông nhỡ (Gluteus medius), cơ mông sâu (Gluteus profundus), cơ hai đầu đùi (Biceps femoris)\n\nNguồn gốc tên gọi／Do đây là bộ phận kết hợp giữa phần thịt phile mông (Rump) và phần nạc mông đuôi (Ichibo/Picanha).\n\nĐộ ít mỡ／★★★★\n\nĐộ mềm／★★★\n\nĐộ hiếm／★★",
+      "originName": "Do đây là bộ phận kết hợp giữa phần thịt phile mông (Rump) và phần nạc mông đuôi (Ichibo/Picanha).",
+      "fatRating": "★★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là phần thịt mông của con bò, được chia thành hai phần: phần thăn mông (Rump) nối tiếp sau phần thăn lưng (Sirloin) và phần nạc mông đuôi (Ichibo) nối liền với phần đùi ngoài (Sotomomo).\nTrong số các bộ phận thịt đùi (thịt đỏ/nạc), đây là phần thịt mềm nhất và có thể ứng dụng đa dạng trong nhiều phương pháp chế biến món ăn.\nĐây là một phần thịt rất phổ biến và được ưa chuộng, xuất hiện rất nhiều trong thực đơn của các nhà hàng, quán ăn.\n*Chi tiết cụ thể xin vui lòng xem tại phần mô tả của từng bộ phận.",
+      "cookingRecommendation": "Trọng lượng tham khảo khi xử lý／\nKhoảng 11.0 kg / 1 cây (Phần nửa con gồm Rump + Ichibo Tính theo bò Toyonishi)\nKhoảng 12.0 kg / 1 cây (Phần nửa con gồm Rump + Ichibo Tính theo bò Obihiro)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "",
+      "h2": "13,1",
+      "code": "13,1",
+      "nameEn": "Top sirloin /Rump/Sirloin butt",
+      "nameJpFarm": "ランプ\n英名：Top sirloin（北米）、Rump（豪）",
+      "nameJpReading": "[ランプ - ranpu]",
+      "nameKatakanaRomaji": "[ランプ - ranpu]",
+      "nameVn": "Thịt mông trên / Thăn mông",
+      "description": "Thịt mông trên / Thăn mông (Top sirloin / Rump - ランプ / Ranpu): Khối thăn mông mềm mại nhất vùng đùi, thớ thịt mịn như nhung đan xen mỡ cẩm thạch nhẹ, mọng nước và ngọt đằm. \nPhần thịt nạc mềm, vị thanh nhẹ, ít mỡ nên phù hợp tương đối đa dạng với nhiều món ăn.",
+      "link": "",
+      "cookingSuggestionsVn": "Cắt thành Bít tết (Steak) hoặc thái lát dày dùng cho món thịt nướng.",
+      "cookingSuggestionsTags": "※ Steak ※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Chủ yếu là cơ mông nhỡ (Gluteus medius), cơ mông sâu (Gluteus profundus)\n\nNguồn gốc tên gọi／Từ từ \"Rump\" (Phần mông) trong tiếng Anh.\n\nĐộ ít mỡ／★★★★\n\nĐộ mềm／★★★\n\nĐộ hiếm／★★",
+      "originName": "Từ từ \"Rump\" (Phần mông) trong tiếng Anh.",
+      "fatRating": "★★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là vùng cơ kéo dài từ thăn lưng (Sirloin) xuống dọc theo hông và mông bò.\nTrong các phần đùi mông, đây là phần thịt nạc (thịt đỏ) có thớ mịn màng và mềm mại. Nó là một bộ phận rất được ưa chuộng và ứng dụng rộng rãi trong nhiều món ăn như steak, áp chảo (sauté), hay thịt bò tái Tataki.\nChúng tôi đặc biệt khuyên bạn nên cắt dày để làm steak, giúp thưởng thức được trọn vẹn vị ngọt đậm đà của thịt nạc.\nPhần Thăn mông (Rump) có thể chia nhỏ thành \"Rannaka\" (Lõi mông) và \"Ranboso\" (Đuôi mông), trong đó \"Ranboso\" được đánh giá là phần đặc biệt thơm ngon nhất trong cụm mông.\nNgoài ra, phía bên trong của Rannaka có một dải cơ mỏng gọi là \"Rankaburi\" (Rìa mông), và ẩn sâu bên trong dải cơ này chính là phần thịt siêu quý hiếm có tên là \"Nekutai\" (Thịt cà vạt).\n\"Rankaburi\" tuy có khá nhiều gân nhưng vị rất đậm đà, còn phần \"Nekutai\" lại mang đặc trưng là hương vị đậm đà sâu sắc giàu chất sắt.",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nSteak\nThịt bò tái Tataki\nThịt bò nướng tảng (Roast beef)\n\nTrọng lượng tham khảo khi xử lý／\nKhoảng 5.0 kg / 1 cây (Phần nửa con *Tính theo bò Toyonishi)\nKhoảng 6.0 kg / 1 cây (Phần nửa con *Tính theo bò Obihiro)\n*Bán theo bộ cùng với phần nạc mông đuôi (Ichibo)\n\nTỷ lệ hao hụt/thu hồi tham khảo／\n45% đối với loại dùng làm steak",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "",
+      "h2": "13,2",
+      "code": "13,2",
+      "nameEn": "Sirloin cap/ Culotte/ Rump cap/Top sirloin cap",
+      "nameJpFarm": "イチボ\n英名：Sirloin cap、Culotte（北米）、Rump cap（豪）",
+      "nameJpReading": "[イチボ - ichibo]",
+      "nameKatakanaRomaji": "[イチボ - ichibo]",
+      "nameVn": "Nắp mông / Thịt đỉnh mông/ Picanha",
+      "description": "Nắp mông / Thịt đỉnh mông / Picanha (Sirloin cap / Culotte / Ichibo - イチボ / Ichibo): Khối thịt nắp mông hình tam giác đắt giá sở hữu lớp mỡ viền dày béo thơm và thớ thịt mềm đằm bùng nổ hương vị khi nướng.",
+      "link": "https://www.instagram.com/p/DbTeBHgxCY2/",
+      "cookingSuggestionsVn": "Cắt làm Bít tết (Steak).",
+      "cookingSuggestionsTags": "※ Steak",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ hai đầu đùi (Biceps femoris)\n\nNguồn gốc tên gọi／Từ hình dạng của xương chậu/xương mông có dạng chữ H (Aitchbone), sau đó đọc trại âm đi thành Ichibo.\n\nĐộ ít mỡ／★★★★★\n\nĐộ mềm／★★★\n\nĐộ hiếm／★★★",
+      "originName": "Từ hình dạng của xương chậu/xương mông có dạng chữ H (Aitchbone), sau đó đọc trại âm đi thành Ichibo.",
+      "fatRating": "★★★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là vùng cơ nằm bao phủ lên phần thăn mông (Rump) từ phía ngoài của mông, và thuộc cùng một bó cơ với phần đùi ngoài chính Nakaniku (cơ hai đầu đùi).\nDo xương mông có hình dạng chữ H nên ban đầu nó được gọi là \"Aitchbone\", rồi đọc chệch âm dần thành \"Ichibo\".\nSo với phần Rump, đây là phần thịt dễ xuất hiện các vân mỡ cẩm thạch (marbling) hơn, nhưng kết cấu thịt vẫn giữ được độ săn chắc ngon miệng khi nhai, giúp người ăn thưởng thức được hương vị đậm đà sâu sắc của thịt nạc.\nPhần phía trên rất mềm nên cực kỳ được ưa chuộng để làm steak. Ngược lại, thịt sẽ cứng dần về phía dưới (phía giáp đùi ngoài Sotomomo), vì vậy đối với phần dưới này, chúng tôi khuyên bạn nên nướng ở mức độ tái (Rare/Medium Rare) hoặc thái lát thật mỏng khi chế biến.",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nDùng làm steak (Phần phía trên)\nDùng cho món nướng Yakiniku\n\nTrọng lượng tham khảo khi xử lý／\nKhoảng 3.8 kg / 1 cây (Phần nửa con *Tính theo bò Toyonishi)\nKhoảng 5.0 kg / 1 cây (Phần nửa con *Tính theo bò Obihiro)\n*Bán theo bộ cùng với phần thăn mông (Rump)\n\nTỷ lệ hao hụt/thu hồi tham khảo／\n45% đối với loại dùng làm steak\n\nSản phẩm chế biến sẵn có sẵn／\nDùng làm steak (Bán trực tuyến)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "14",
+      "h2": "",
+      "code": "14",
+      "nameEn": "Knuckle/Thick Flank",
+      "nameJpFarm": "シンタマ\n英名：Knuckle（北米）、 Thick flank（豪）",
+      "nameJpReading": "[シンタマ - shintama]",
+      "nameKatakanaRomaji": "[シンタマ - shintama]",
+      "nameVn": "Đùi gọ",
+      "description": "Bộ đùi găm / Đùi cầu (Knuckle / Thick Flank - シンタマ / Shintama): Khối đùi hình cầu giàu dinh dưỡng, chứa kho tàng các phần cắt hiếm với cấu trúc thịt đa dạng phong phú.\nPhần thịt mềm nhất trong nhóm thịt đùi (Momo), đồng thời là phần thịt được mô tả là lành mạnh, tốt cho sức khỏe.\nĐây là cụm cơ đùi đa dạng, nằm ở phía trước bên ngoài chân sau, được gọi là Sintama do có hình dáng tròn trịa. Cụm này gồm Tomosankaku (thịt tam giác) và Maru (thịt chính), trong đó Maru tiếp tục chia thành Shinshin (lõi sụt), Marukawa (bọc sụt) và Kamenoko (vách sụt).",
+      "link": "https://www.instagram.com/p/DX5YLcPxcy-/",
+      "cookingSuggestionsVn": "Dùng cho món lẩu nhúng (Shabu-shabu) hoặc thịt nướng (Yakiniku).",
+      "cookingSuggestionsTags": "※ Shabu-shabu ※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "https://www.youtube.com/watch?v=i6udYFnZow4",
+      "muscleInfo": "Cơ chủ yếu／Cơ tứ đầu đùi (Tứ đầu cơ đùi - Quadriceps femoris)\n\nNguồn gốc tên gọi／Tên gọi khác là Maru. Do khối thịt có hình dạng tròn trịa.\n\nĐộ ít mỡ／★★★★\n\nĐộ mềm／★★★\n\nĐộ hiếm／★★",
+      "originName": "Tên gọi khác là Maru. Do khối thịt có hình dạng tròn trịa.",
+      "fatRating": "★★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là vùng cơ đùi rất đa dạng nằm ở phía trước ngoài của chân sau, có thể phân tách thành 4 bộ phận nhỏ khác nhau.\nChính vì có hình dạng tròn trịa như một quả cầu nên nó được gọi là \"Shintama\" (Lõi ngọc).\nPhần này được chia thành phần đỉnh tam giác (Tomosankaku) và phần thân chính (Maru). Trong đó, phần thân chính Maru lại có thể tiếp tục phân nhỏ thành: Shinshin (Tâm lõi đùi), Marukawa (Vỏ lõi đùi) và Kamenoko (Mu rùa).\n*Chi tiết cụ thể xin vui lòng xem tại phần mô tả của từng bộ phận.",
+      "cookingRecommendation": "Trọng lượng tham khảo khi xử lý／\nKhoảng 10 kg / 1 cây (Phần nửa con Tính theo bò Toyonishi)\nKhoảng 12 kg / 1 cây (Phần nửa con Tính theo bò Obihiro)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "",
+      "h2": "14,1",
+      "code": "14,1",
+      "nameEn": "Knuckle",
+      "nameJpFarm": "マル（ナックル）\n英名：Knuckle",
+      "nameJpReading": "[マル/ ナックル - maru / knuckle]",
+      "nameKatakanaRomaji": "[マル/ ナックル - maru / knuckle]",
+      "nameVn": "Thịt đùi trên / Đùi tròn / Khớp đùi",
+      "description": "KHỚP ĐÙI / ĐÙI GĂM (Knuckle / マル - Maru / シンタマ - Shintama): Đây là phần thịt chính của cụm Sintama sau khi cắt bỏ Tomosankaku (Tri-tip), gồm các vùng thịt có cấu trúc khác nhau và được chia thành Shinshin (lõi sụt), Marukawa (bọc sụt) và Kamenoko (vách sụt). Maru còn được gọi là Knuckle, và đôi khi được phân phối nguyên cụm cùng với Tomosankaku.",
+      "link": "",
+      "cookingSuggestionsVn": "Nướng Yakiniku, Bò quay (Roast beef), Lẩu Sukiyaki / Shabu-shabu",
+      "cookingSuggestionsTags": "※ Yakiniku ※ Roast beef ※ Sukiyaki ※ Shabu-shabu",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ thẳng đùi (Rectus femoris), cơ rộng ngoài (Vastus lateralis), cơ rộng giữa (Vastus intermedius), cơ rộng trong (Vastus medialis)\n\nNguồn gốc tên gọi／Từ hình dáng bên ngoài có dạng khối cầu tròn.\n\nĐộ ít mỡ／★★★★\n\nĐộ mềm／★★★\n\nĐộ hiếm／★★",
+      "originName": "Từ hình dáng bên ngoài có dạng khối cầu tròn.",
+      "fatRating": "★★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là phần thân chính của lõi đùi (Shintama) sau khi đã cắt bỏ phần thịt đỉnh tam giác (Tomosankaku).\nBộ phận này là sự kết hợp của các khối cơ có kết cấu thịt khác nhau, có thể phân chia nhỏ hơn thành: Shinshin (Tâm lõi đùi), Marukawa (Vỏ lõi đùi) và Kamenoko (Mu rùa).\nĐôi khi bộ phận này cũng được lưu thông trên thị trường dưới dạng nguyên khối Maru (để chung bộ với Tomosankaku mà không phân tách lẻ).\nTên tiếng Anh của Shintama là Knuckle, và về cơ bản tên gọi này dùng để chỉ chính phần thân khối Maru này.\n*Chi tiết cụ thể xin vui lòng xem tại phần mô tả của từng bộ phận.",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nDùng cho món nướng Yakiniku\nThịt bò nướng tảng (Roast beef)\n\nTrọng lượng tham khảo khi xử lý／\nKhoảng 7.0 kg / 1 cây (Tính theo bò Toyonishi)\nKhoảng 8.5 kg / 1 cây (Tính theo bò Obihiro)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "",
+      "h2": "14,2",
+      "code": "14,2",
+      "nameEn": "Tri tip",
+      "nameJpFarm": "トモサンカク\n英名：Tri tip",
+      "nameJpReading": "[トモサンカク - tomosankaku]",
+      "nameKatakanaRomaji": "[トモサンカク - tomosankaku]",
+      "nameVn": "Thịt mông tam giác",
+      "description": "Tri-tip (トモサンカク - Tomosankaku / Hiuchi): Khối cơ tam giác hiếm nằm ở góc dưới đùi găm, nổi bật với mật độ vân mỡ cẩm thạch chăng đặc, mang vị béo ngọt mọng nước như bơ nhưng vẫn giữ trọn độ đằm sâu đặc trưng của thịt đùi.",
+      "link": "https://www.instagram.com/p/DbjnPZeu7SO/",
+      "cookingSuggestionsVn": "Là phần thường xuyên được bắt gặp để nướng tại các nhà hàng thịt nướng Yakiniku.",
+      "cookingSuggestionsTags": "※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ căng mạc đùi (Tensor fasciae latae)\n\nNguồn gốc tên gọi／Do có hình dạng tam giác. Tên gọi khác là Hiuchi (Đá lửa), vì hình dáng của nó trông giống như hòn đá dùng để đánh lửa ngày xưa.\n\nĐộ ít mỡ／★★★\n\nĐộ mềm／★★★\n\nĐộ hiếm／★★★★",
+      "originName": "Do có hình dạng tam giác. Tên gọi khác là Hiuchi (Đá lửa), vì hình dáng của nó trông giống như hòn đá dùng để đánh lửa ngày xưa.",
+      "fatRating": "★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là vùng cơ nằm ở phần bẹn/gốc đùi, đóng vai trò quan trọng trong việc kiểm soát chuyển động của chân sau. Trong chữ Hán, tên của nó được viết là \"Hữu Tam Giác\" (友三角).\nTrong toàn bộ cụm lõi đùi (Shintama), đây là phần dễ xuất hiện các vân mỡ cẩm thạch (marbling) nhất và có hương vị rất đậm đà. Tuy nhiên, do là vùng cơ vận động nhiều nên kết cấu thịt sẽ hơi có độ săn cứng nhẹ.\nĐối với thịt bò Wagyu hoặc bò lai F1 (bò Obihiro), phần này ăn rất ngon dưới dạng món nướng Yakiniku. Nhưng đối với bò thuần chủng Holstein (bò Toyonishi), thịt sẽ có độ cứng rõ rệt hơn, vì vậy chúng tôi khuyên bạn nên thái lát mỏng để chế biến.",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nDùng cho món nướng Yakiniku, thái lát mỏng làm các món xào,...\n\nTrọng lượng tham khảo khi xử lý／\nKhoảng 3.0 kg / 1 cây (Phần nửa con *Tính theo bò Toyonishi)\nKhoảng 3.5 kg / 1 cây (Phần nửa con Tính theo bò Obihiro)\nBán theo bộ nằm trong khối lõi đùi Shintama\n\nTỷ lệ hao hụt/thu hồi tham khảo／\n65% đối với loại dùng cho món nướng\n\n(Cột này không có thông tin về sản phẩm chế biến sẵn)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "",
+      "h2": "14,3",
+      "code": "14,3",
+      "nameEn": "Knuckle main muscle/Knuckle Main",
+      "nameJpFarm": "シンシン\n英名：Knuckle main muscle",
+      "nameJpReading": "[シンシン - shinshin]",
+      "nameKatakanaRomaji": "[シンシン - shinshin]",
+      "nameVn": "Thịt cơ chính đùi / Thịt nạc Knuckle",
+      "description": "Lõi đùi găm (Knuckle main muscle / Shin-shin - シンシン / Shinshin): Khối lõi trung tâm đùi găm hình bóng bầu dục, có thớ cơ siêu mịn, mềm mại nhất vùng đùi và mọng nước ngọt thanh.",
+      "link": "",
+      "cookingSuggestionsVn": "Bò quay (Roast beef - hình dáng tròn đẹp), Bít tết (Steak nạc mềm), Nướng Yakiniku tái",
+      "cookingSuggestionsTags": "※ Roast beef ※ Steak ※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ thẳng đùi (Rectus femoris)\n\nNguồn gốc tên gọi／Do nằm ở chính giữa lõi đùi (Shintama) nên được gọi là Shinshin (Tâm lõi / Lõi của lõi). Tên gọi khác là Marushin.\n\nĐộ ít mỡ／★★★★\n\nĐộ mềm／★★★★\n\nĐộ hiếm／★★★",
+      "originName": "Do nằm ở chính giữa lõi đùi (Shintama) nên được gọi là Shinshin (Tâm lõi / Lõi của lõi). Tên gọi khác là Marushin.",
+      "fatRating": "★★★★",
+      "tendernessRating": "★★★★",
+      "rarityRating": "★★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là khối cơ nằm ở chính giữa cụm lõi đùi (Shintama), có hình dáng vuông vắn giống như quả bóng bầu dục và được bao bọc xung quanh bởi phần Kamenoko (Mu rùa) và Marukawa (Vỏ lõi đùi).\nPhần thịt này có sự cân bằng hoàn hảo giữa lượng mỡ và thịt nạc. Trong toàn bộ cụm lõi đùi, đây là phần thịt có thớ mịn màng và mềm mại nhất, mang lại tính ứng dụng cực kỳ cao khi chế biến.\nBạn có thể sử dụng phần này cho nhiều món ăn đa dạng, tiêu biểu là steak. Ngoài ra, nhờ khối thịt có phom dáng tròn đều rất đẹp mắt, nó cũng được khuyên dùng để làm món thịt bò nướng tảng (Roast beef).",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nThịt bò nướng tảng (Roast beef)\n\nTrọng lượng tham khảo khi xử lý／\nKhoảng 2 kg / 1 cây (Phần nửa con *Tính theo bò Toyonishi)\nKhoảng 2.8 kg / 1 cây (Phần nửa con *Tính theo bò Obihiro)\n\n\nTỷ lệ hao hụt/thu hồi tham khảo／\n85% sau khi lọc sạch mỡ gân (Gurimuki)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "",
+      "h2": "14,4",
+      "code": "14,4",
+      "nameEn": "Outside knuckle",
+      "nameJpFarm": "カメノコ\n英名：Outside knuckle",
+      "nameJpReading": "[カメノコ - kamenoko]",
+      "nameKatakanaRomaji": "[カメノコ - kamenoko]",
+      "nameVn": "Thịt đùi ngoài - Bộ phận hiếm hiện ko có",
+      "description": "Outside Knuckle (カメノコ - Kamenoko): Khối nạc đùi ngoài có đường vân hoa văn mai rùa đặc trưng, thớ thịt nạc đỏ (Akami) mịn màng, giàu hàm lượng vị umami và khoáng chất sắt.",
+      "link": "",
+      "cookingSuggestionsVn": "Tataki (Áp chảo tái chớp lửa 15-20 giây), Nướng Yakiniku tái (tránh nướng chín kỹ gây cứng)",
+      "cookingSuggestionsTags": "※ Tataki ※ Yakiniku",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ rộng ngoài (Vastus lateralis)\n\nNguồn gốc tên gọi／Tên gọi khác là Kamenokou. Do miếng thịt sau khi cắt ra có hình dạng rất giống với chiếc mai rùa.\n\nĐộ ít mỡ／★★★★★\n\nĐộ mềm／★★\n\nĐộ hiếm／★★★★",
+      "originName": "Tên gọi khác là Kamenokou. Do miếng thịt sau khi cắt ra có hình dạng rất giống với chiếc mai rùa.",
+      "fatRating": "★★★★★",
+      "tendernessRating": "★★",
+      "rarityRating": "★★★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nĐây là dải cơ nằm bao phủ ở phía bên ngoài (phía sát bề mặt cơ thể) của phần thịt tâm lõi đùi (Shinshin).\nVì khối thịt lóc ra có hình dáng rất giống chiếc mai rùa nên nó có tên gọi là Kamenoko (hoặc Kamenokou).\nĐây là phần thịt nạc có hàm lượng nước ít và chứa nhiều thớ sợi cơ, do đó nếu nướng quá lửa thịt sẽ bị khô cứng rõ rệt. Khi chế biến bộ phận này, bạn cần phải đặc biệt chú ý đến nhiệt độ và thời gian nấu.\nChúng tôi khuyên bạn nên sử dụng phần thịt này cho các món ăn không cần nấu quá chín, tiêu biểu như món thịt bò tái Tataki.",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nThịt bò tái Tataki\n\nTrọng lượng tham khảo khi xử lý／\nKhoảng 2.5 kg / 1 cây (Phần nửa con *Tính theo bò Toyonishi)\nKhoảng 3.5 kg / 1 cây (Phần nửa con Tính theo bò Obihiro)",
+      "weightReference": "",
+      "yieldRate": ""
+    },
+    {
+      "group": "MÔNG Round",
+      "h1": "",
+      "h2": "14,5",
+      "code": "14,5",
+      "nameEn": "Inside Knuckle/Knuckle side muscle",
+      "nameJpFarm": "マルカワ\n英名：Knuckle side muscle",
+      "nameJpReading": "[シンタマカブリ/マルカワ - shintamakapuri/marukawa]",
+      "nameKatakanaRomaji": "[シンタマカブリ/マルカワ - shintamakapuri/marukawa]",
+      "nameVn": "Thịt đùi trong - Bộ phận hiếm hiện ko có",
+      "description": "Inside Knuckle (マルカワ / シンタマカブリ - Marukawa / Shintamakapuri): Dải cơ mỏng nằm ở mặt trong khối đùi găm áp sát xương đùi, ít mỡ, thớ thịt hơi xốp, giàu vị ngọt nạc đậm đà đặc trưng của phần thịt sát xương.",
+      "link": "",
+      "cookingSuggestionsVn": "Ninh hầm / Cà ri / Súp hầm, Món xào thái mỏng",
+      "cookingSuggestionsTags": "※ Stew ※ Curry ※ Soup ※ Stir-fry",
+      "recipes50": [],
+      "youtubeGuide": "",
+      "muscleInfo": "Cơ chủ yếu／Cơ rộng giữa (Vastus intermedius), cơ rộng trong (Vastus medialis)\n\nĐộ ít mỡ／★★★★\n\nĐộ mềm／★★★\n\nĐộ hiếm／★★★★",
+      "originName": "",
+      "fatRating": "★★★★",
+      "tendernessRating": "★★★",
+      "rarityRating": "★★★★",
+      "farmDetail": "Mô tả, Đặc điểm／\nTrong cụm lõi đùi (Shintama), đây là phần cơ nằm bao phủ phần tâm lõi đùi (Shinshin) từ phía bên trong và tiếp giáp trực tiếp với xương đùi.\nPhần thịt này rất ít mỡ, giúp người ăn thưởng thức được hương vị đậm đà sâu sắc đặc trưng của vùng thịt sát xương. Tuy nhiên, do khối thịt có hình dáng không mấy vuông vắn và đẹp mắt, chúng tôi khuyên bạn nên sử dụng nó cho các món ninh, hầm như món cà ri.",
+      "cookingRecommendation": "Món ăn khuyên dùng／\nCác món hầm\n\nTrọng lượng tham khảo khi xử lý／\nKhoảng 2 kg / 1 cây (Phần nửa con *Tính theo bò Toyonishi)\nKhoảng 2.5 kg / 1 cây (Phần nửa con Tính theo bò Obihiro)\n\nTỷ lệ hao hụt/thu hồi tham khảo／\n60%",
+      "weightReference": "",
+      "yieldRate": ""
+    }
+  ],
+  "documents": [
+    {
+      "id": "1",
+      "title": "Sách ảnh kiến thức tổng hợp về thịt",
+      "urls": [
+        "https://itadakimasu.info/oniku/",
+        "https://itadakimasu.info/oniku/img/sheet_002.pdf"
+      ],
+      "description": "Học cách nhận biết các phần thịt và quản lý an toàn vệ sinh thực phẩm bằng tiếng Nhật (có hình vẽ minh họa trực quan), => Bộ tài liệu \"お肉の学習ガイドブック\" (Sách hướng dẫn học tập về thịt).",
+      "websiteHub": "1"
+    },
+    {
+      "id": "2",
+      "title": "Cẩm nang hiển thị thông tin thịt (お肉の表示ハンドブック)",
+      "urls": [
+        "https://www.ajmic.or.jp/kumiai/2025pdf/hb2025_all.pdf",
+        "https://www.ajmic.or.jp/kumiai/hyouji.html"
+      ],
+      "description": "Được phát hành và cập nhật bởi Hội đồng Giao dịch Công bằng Thịt Toàn Nhật Bản (AJMIC). Tài liệu này luật hóa việc phân biệt rạch ròi từ ngữ trên bao bì: đâu là Wagyu (和牛 - Bắt buộc phải là 4 giống thuần chủng nuôi tại Nhật) và đâu là Thịt bò nội địa (国産牛 - Bò nước ngoài nhập về nuôi tại Nhật hoặc bò sữa thanh lý).",
+      "websiteHub": "1"
+    },
+    {
+      "id": "3",
+      "title": "Universal Wagyu Mark User Manual 和牛統一マーク使用マニュアル(Issued by Japan Livestock Products Export Promotion Council - JLEC)",
+      "urls": [
+        "https://jlec-pr.jp/wp-content/uploads/2025/01/%E5%92%8C%E7%89%9B%E3%83%AD%E3%82%B4%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%E6%97%A5%E6%9C%AC%E8%AA%9E_%E6%94%B9%E8%A8%82%E7%89%88.pdf"
+      ],
+      "description": "Cẩm nang hướng dẫn sử dụng và quản lý nhãn hiệu Wagyu thống nhất",
+      "websiteHub": "1"
+    },
+    {
+      "id": "4",
+      "title": "Japan Brand PR Guidebook via Wagyu Logo 和牛統一マークの利用・掲示によるジャパンブランド PR ガイドブック(Issued by Japan Livestock Products Export Promotion Council - JLEC)",
+      "urls": [
+        "https://jlec-pr.jp/wp-content/uploads/2020/02/beef-license_pr-guidebook.pdf"
+      ],
+      "description": "Sách hướng dẫn quảng bá thương hiệu Nhật Bản thông qua việc sử dụng và hiển thị nhãn hiệu Wagyu thống nhất",
+      "websiteHub": "1"
+    },
+    {
+      "id": "5",
+      "title": "Brochure Introducing JMGA 我が国唯一の格付機関！ - 日本食肉格付協会 我が国唯一の格付機関！(Issued by Japan Meat Grading Association - JMGA)",
+      "urls": [
+        "https://www.jmga.or.jp/assets/commons/doc/jmga-pamphlet_20250401.pdf"
+      ],
+      "description": "Tờ rơi giới thiệu về Hiệp hội Phân loại Thịt Nhật Bản (JMGA) năm 2025",
+      "websiteHub": "1"
+    },
+    {
+      "id": "6",
+      "title": "牛枝肉取引規格の概要 牛枝肉取引規格の概要(Issued by Japan Meat Grading Association - JMGA)",
+      "urls": [
+        "https://www.jmga.or.jp/assets/commons/doc/pamphlet_beef.pdf"
+      ],
+      "description": "Cẩm nang tóm tắt các tiêu chuẩn giao dịch và xếp hạng thịt bò nguyên con",
+      "websiteHub": "1"
+    },
+    {
+      "id": "7",
+      "title": "26 Specifications and Grading Systems for Beef: Japan, USA, Korea and Australia 牛肉の規格および格付け制度：日本、米国、韓国、豪州(Issued by The Australian Wool Education Trust)",
+      "urls": [
+        "https://www.woolwise.com/wp-content/uploads/2017/07/MEAT-418-518-13-T-26.pdf"
+      ],
+      "description": "Tài liệu so sánh hệ thống phân loại và tiêu chuẩn thịt bò giữa 4 quốc gia",
+      "websiteHub": "1"
+    },
+    {
+      "id": "8",
+      "title": "MAFF - How to slice Wagyu to achieve maximum value",
+      "urls": [
+        "https://www.maff.go.jp/j/export/wagyu/guidebook/english/pdf/18.pdf"
+      ],
+      "description": "Tài liệu tối ưu hóa giá trị lát cắt Wagyu (How to slice Wagyu to achieve maximum value):\nFile tài liệu phân tích kỹ cấu trúc sợi cơ của bò Wagyu, cách sử dụng máy thái thịt và góc cắt (cắt vuông góc với thớ cơ) để giữ độ mềm tối đa.",
+      "websiteHub": "1"
+    },
+    {
+      "id": "9",
+      "title": "JP-アニマルウェルフェアに配慮した 輸出向け肉用牛取り扱い改善マニュアル (Cẩm nang cải thiện quy trình xử lý bò thịt xuất khẩu đảm bảo phúc lợi động vật)",
+      "urls": [
+        "https://drive.google.com/file/d/16T-iKwkQ3j4OjJ7FGdg7DGnuvoQSwkxI/view?usp=drive_link"
+      ],
+      "description": "Cẩm nang hướng dẫn cải thiện quy trình vận chuyển, chăn nuôi và giết mổ bò thịt xuất khẩu tuân thủ nguyên tắc phúc lợi động vật, giúp giảm thiểu căng thẳng cho vật nuôi, nâng cao chất lượng thịt và hạn chế xuất huyết",
+      "websiteHub": "1"
+    },
+    {
+      "id": "10",
+      "title": "Traceability Manual for Cattle Farmers 牛の個体識別情報管理・伝達に関する農家向けマニュアル(Issued by National Livestock Breeding Center - NLBC) | Handbook for Farmers on Individual Cattle Identification and Information Communication (By NLBC)",
+      "urls": [
+        "https://www.id.nlbc.go.jp/pdf/202210Manual_for_farmer_all.pdf"
+      ],
+      "description": "Cẩm nang hướng dẫn nông dân về quản lý và truyền đạt thông tin định danh cá thể bò",
+      "websiteHub": "1"
+    },
+    {
+      "id": "11",
+      "title": "[Article] The Japanese Wagyu beef industry: current situation and future prospects - A review",
+      "urls": [
+        "https://www.researchgate.net/publication/326103205_The_Japanese_Wagyu_beef_industry_current_situation_and_future_prospects_-_A_review"
+      ],
+      "description": "Báo cáo nghiên cứu khoa học về thực trạng và triển vọng ngành công nghiệp bò thịt Wagyu Nhật Bản, phân tích đặc tính di truyền mỡ vân mây, hàm lượng axit béo, chi phí thức ăn, thách thức chăn nuôi và định hướng phát triển .",
+      "websiteHub": "1"
+    },
+    {
+      "id": "12",
+      "title": "Reference Textbook for the Beef and Pork Meat Processing Industry (Primal Cut Manufacturing Work) syokunikusyori",
+      "urls": [
+        "https://drive.google.com/file/d/15oUGBFPxzKT6G1M09CUtZd4_n-XswQhX/view"
+      ],
+      "description": "Sách giáo khoa chuẩn hóa cho ngành chế biến thịt bò và thịt heo Nhật Bản, hướng dẫn chi tiết quy trình pha lóc khối thịt sơ chế, phương pháp lọc mỡ, kỹ thuật dùng dao an toàn và quy định vệ sinh an toàn thực phẩm nhà máy",
+      "websiteHub": "1"
+    },
+    {
+      "id": "13",
+      "title": "Beef Skeleton Nomenclature gyu_kokkakuname",
+      "urls": [
+        "https://drive.google.com/file/d/1UzHDPKj3HLunA8GMuQ4e3zX6HaC9apBq/view"
+      ],
+      "description": "An illustrated reference showing the anatomical nomenclature of the bovine skeleton, systematizing the names of vertebrae, ribs, and pelvic bones using technical terminology to help meat processing technicians understand bovine anatomy and perform accurate cutting.",
+      "websiteHub": "1"
+    },
+    {
+      "id": "14",
+      "title": "Glossary of terms related to the beef and pork meat processing industry (beef and pork meat production work)",
+      "urls": [
+        "https://drive.google.com/file/d/1EkTnG-WCs4biNA5CUNi9fZHb00SHBFkW/view"
+      ],
+      "description": "Bảng thuật ngữ liên quan đến ngành chế biến thịt bò và thịt heo (công việc sản xuất thịt bò và thịt heo)",
+      "websiteHub": "1"
+    },
+    {
+      "id": "15",
+      "title": "THE WAGYU RECIPE INSPIRITION BOOK_Wagyu_Cookbook_EN (Issued by JLEC)",
+      "urls": [
+        "https://drive.google.com/file/d/13fXfh2BGnmSlqA03zr9N0C24Ieern7uR/view"
+      ],
+      "description": "Sách nấu ăn truyền cảm hứng ẩm thực do JLEC phát hành, tập hợp các công thức sáng tạo từ 20 bếp trưởng quốc tế hàng đầu, hướng dẫn chế biến đa dạng các phần cắt thịt đùi Wagyu thành những món ăn đẳng cấp .",
+      "websiteHub": "1"
+    },
+    {
+      "id": "16",
+      "title": "2.1.2025 Mã xưởng Nhật Bản đủ điều kiện XK Việt Nam (Công bố bởi Cục Chăn nuôi và Thú y cucthuy.gov.vn) | Japan Export Plant List - Vietnam | 2025",
+      "urls": [
+        "https://drive.google.com/file/d/1CWBL7PlS4ljrng0k0nz9Rpsxjo9t7DZE/view"
+      ],
+      "description": "Văn bản chính thức công bố danh sách các nhà máy chế biến thịt gia súc Nhật Bản được Cục Thú y Việt Nam cấp phép xuất khẩu, cung cấp chi tiết tên cơ sở, mã số phê duyệt, địa chỉ và chủng loại sản phẩm được chấp thuận lưu hành",
+      "websiteHub": "1"
+    },
+    {
+      "id": "17",
+      "title": "Geographical Indication (GI) Protection System in Japan",
+      "urls": [
+        "https://drive.google.com/file/d/19gaOPMeg3y0JYbXMxVnYit6SKuJFQHSc/view",
+        "Full File No. Wagyu: https://drive.google.com/drive/u/2/folders/1C3PYGwip0a7Z6Cjqo7JHKqTy-Jct3qVV"
+      ],
+      "description": "Văn bản pháp lý và danh mục các sản phẩm nông lâm thủy sản được bảo hộ theo Luật Chỉ dẫn địa lý Nhật Bản, quy định các tiêu chuẩn nghiêm ngặt về nguồn gốc xuất xứ, phương pháp chăn nuôi và danh tiếng thương hiệu",
+      "websiteHub": "1"
+    },
+    {
+      "id": "18",
+      "title": "Kuroge Washu Sire Catalogue, published by Genetics Hokkaido (ジェネティクス北海道)",
+      "urls": [
+        "https://genetics-hokkaido.ne.jp/wp5/content/wp-content/uploads/2023/03/2023-02-Kuro-BullBook_all.pdf"
+      ],
+      "description": "Tài liệu là catalog chuyên sâu về phả hệ, giá trị di truyền và chất lượng thịt của các bò đực giống Kuroge Washu do Genetics Hokkaido quản lý, bao gồm hồ sơ và sơ đồ huyết thống từng cá thể, kết quả kiểm định thế hệ con về năng suất và chất lượng thịt như tỷ lệ A4-A5, BMS, trọng lượng thân thịt và diện tích lõi thăn, cùng các chỉ số giá trị lai tạo. Tài liệu cũng cung cấp hình ảnh ngoại hình bò đực, mặt cắt thịt thực tế, bảng xếp hạng đặc tính, hệ thống phả hệ theo dòng cha và hướng dẫn sử dụng tinh dịch đông lạnh phục vụ công tác nhân giống.",
+      "websiteHub": "1"
+    },
+    {
+      "id": "19",
+      "title": "Livestock Improvement Catalog – Japanese Black Cattle Edition, February 2026 Issued by LIAJ",
+      "urls": [
+        "https://liaj.lin.gr.jp/wp-content/uploads/2026/03/2026-2_all.pdf"
+      ],
+      "description": "Tài liệu tập hợp danh sách bò giống Wagyu lông đen (phát hành vào tháng 02 năm 2026) của Hiệp hội Cải tiến Gia súc Nhật Bản (LIAJ). [1]\nFile tổng hợp do Hiệp hội Cải tiến Gia súc Nhật Bản (LIAJ) phát hành vào tháng 2/2026 cung cấp thông tin về các trạm giống Maebashi, Morioka và Okayama, đồng thời tổng hợp kết quả kiểm định hậu thế của các bò đực hạt nhân như Takahayazakura, Fukumashuhide, Masterushige, Okuharuhana và Fukumikuni, với các chỉ số nổi bật về khối lượng thịt xẻ, diện tích cơ thăn (REA), BMS và tỷ lệ đạt A4/A5 từ 91% đến 100%. Tài liệu cũng bao gồm bảng Giá trị giống (Genomic EBV) về năng suất thịt, REA, BMS, Axit Oleic/MUFA và kiểm định bệnh lý di truyền lặn, cùng sơ đồ phả hệ và danh mục đăng ký các dòng bò đực giống lịch sử từ thời Showa, Heisei đến Reiwa.",
+      "websiteHub": "0"
+    },
+    {
+      "id": "20",
+      "title": "aff (agriculture forestry fisheries)_About Wagyu",
+      "urls": [
+        "https://www.maff.go.jp/j/pr/aff/1608/pdf/1608_all.pdf"
+      ],
+      "description": "Tài liệu gồm hai chuyên đề chính về Bò Wagyu và Thịt bò. Chuyên đề về Wagyu trình bày định nghĩa chặt chẽ của thuật ngữ “Wagyu”, chỉ áp dụng cho 4 giống bò bản địa Nhật Bản và các giống lai giữa chúng; quy trình chăn nuôi từ sinh sản đến vỗ béo trong khoảng 3 năm; ứng dụng công nghệ IT trong quản lý đàn; hệ thống truy xuất nguồn gốc bằng mã nhận dạng cá thể 10 chữ số; cùng hoạt động cải thiện giống thông qua Hội thi Năng suất Bò Wagyu Toàn quốc (Zenkyo). Chuyên đề về thịt bò giải thích hệ thống phân hạng chất lượng, trong đó chữ cái A-B-C thể hiện tỷ lệ thu hồi thịt và chữ số 1-5 đánh giá chất lượng dựa trên 4 yếu tố gồm vân mỡ, màu sắc và độ bóng của thịt, độ săn chắc và thớ thịt, cùng màu sắc và chất lượng mỡ; đồng thời giới thiệu đặc điểm, hương vị, độ mềm và phương pháp chế biến phù hợp của từng phần thịt và nội tạng, cũng như các nguyên tắc an toàn thực phẩm, đặc biệt là yêu cầu nấu chín kỹ thịt bò và tránh sử dụng thịt hoặc gan bò sống.",
+      "websiteHub": "0"
+    },
+    {
+      "id": "21",
+      "title": "Wagyu Cutting Guide - JLEC",
+      "urls": [
+        "https://jlec-pr.jp/ebook/cutting/en/",
+        "Full videos Japanese Wagyu Beef Cutting Guide by JLEC: https://www.youtube.com/watch?v=Gj0uLDCM--A&list=PLe_YzMxo4yLYlins1tZd6p2QP-9VpBeGj"
+      ],
+      "description": "Đây là cuốn cẩm nang vàng gồm 32 trang, minh họa chi tiết cách pha lóc từ các khối thịt lớn (Primal Cuts) sang các phần thịt nhỏ (Secondary Cuts) của bò Wagyu nguyên con. \nQuy trình pha lóc từ thân bò (Process of retail cuts from a carcass): Hướng dẫn từng bước thao tác xẻ, tách xương và lọc mỡ nửa con bò thành 15 nhóm bộ phận phụ (Sub-primal cuts như Chuck roll, Ribloin, Sirloin, Fillet, Brisket, Top round, D Rump, Knuckle, Short plate, Shank...).",
+      "websiteHub": "0"
+    },
+    {
+      "id": "22",
+      "title": "Japanese Wagyu Beef Pamphlet_English (JLEC)",
+      "urls": [
+        "EN: https://jlec-pr.jp/ja/beef/beef-miryoku/",
+        "Actibook: https://jlec-pr.jp/ebook/en/HTML5/pc.html#/page/1 (Inspect - Network - Img - Double click img)",
+        "https://drive.google.com/file/d/1eYNcogerFbyuOD_9QxWEajiyhKyV__0X/view?usp=drive_link"
+      ],
+      "description": "Tài liệu do Hội đồng Xúc tiến Xuất khẩu Chăn nuôi Nhật Bản (JLEC) phát hành, giới thiệu toàn diện về Wagyu Nhật Bản, gồm xác thực, truy xuất nguồn gốc, phân hạng, đặc tính thịt, giống bò, quy trình chăn nuôi, các phần cắt và món ăn.",
+      "websiteHub": "0"
+    },
+    {
+      "id": "23",
+      "title": "Cut for cooking 料理に合わせたカット(Issued by The Ministry of Agriculture, Forestry and Fisheries - MAFF)",
+      "urls": [
+        "https://www.maff.go.jp/j/chikusan/shokuniku/lin/l_yusyutu/pdf/a5_3_en_beef.pdf"
+      ],
+      "description": "Hướng dẫn lựa chọn và pha cắt các phần thịt bò phù hợp cho từng món ăn",
+      "websiteHub": "0"
+    },
+    {
+      "id": "24",
+      "title": "[Article] Hệ thống xếp hạng chất lượng thịt (格付け)",
+      "urls": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S030917401630119X"
+      ],
+      "description": "Đối với bò Wagyu, việc cắt lọc không chỉ để chia nhỏ mà còn phải giữ nguyên vẹn phần mỡ vân cẩm thạch (Marbling) để bán được giá cao nhất. Do đó, bạn bắt buộc phải hiểu tài liệu về Hệ thống xếp hạng chất lượng thịt (格付け)",
+      "websiteHub": "0"
+    },
+    {
+      "id": "25",
+      "title": "Quy định bảo hộ 3 lớp (防刃装備): Hướng dẫn bắt buộc về cách đeo Găng tay lưới thép (Mesh Gloves/安全手袋) bên tay không thuận (tay giữ thịt) và Tạp dề chống đâm (Chainmail Apron/安全前掛け)",
+      "urls": [
+        "https://www.mhlw.go.jp/file/06-Seisakujouhou-11800000-Shokugyounouryokukaihatsukyoku/0000182273.pdf"
+      ],
+      "description": "Lọc thịt bò (đặc biệt là Wagyu với lớp mỡ rất dễ nóng chảy ở nhiệt độ thường ~24°C) đòi hỏi thao tác dao cực nhanh và sắc. Vì vậy, tài liệu về an toàn lao động là bắt buộc phải thuộc lòng để đi thi và đi làm.",
+      "websiteHub": "0"
+    },
+    {
+      "id": "26",
+      "title": "Increase Sales by Learning About Wagyu - JETRO",
+      "urls": [
+        "https://japan-food.jetro.go.jp/wagyu/us/assets/pdf/Increase_Sales_Japanese_Wagyu_by_Learning_About.pdf"
+      ],
+      "description": "Cẩm nang tăng doanh số nhờ hiểu các phần thịt Wagyu (Increase Sales by Learning About Wagyu):\nTài liệu 20 trang phân tích sâu về các cụm cơ khó lóc như Chuck Roll (nạc vai) hay Round Cuts (thịt đùi) của riêng bò Wagyu Nhật Bản.\nYêu cầu kỹ thuật phân tách của nước sở tại: Ví dụ, khi cắt khối thịt vai (Chuck Roll) xuất sang Mỹ, tiêu chuẩn yêu cầu cắt dài hơn một xương sườn so với tiêu chuẩn cắt nội địa Nhật Bản. [1]",
+      "websiteHub": "0"
+    },
+    {
+      "id": "27",
+      "title": "[Technical Intern Trainees] Beef and Pork Meat Processing Industry [Target Occupations for Transition]",
+      "urls": [
+        "https://www.nbc.or.jp/tit/about/job/occupation/beefporkslaughter/"
+      ],
+      "description": "枝肉 (Edaniku - Thịt mảnh/Thịt nửa con): Thân thịt sau khi hạ thịt, đã cắt đầu, đuôi, chân và loại bỏ nội tạng. Đây là trạng thái thô trước khi pha lóc.\n [1, 2]",
+      "websiteHub": "0"
+    },
+    {
+      "id": "28",
+      "title": "Ministry of Health, Labour and Welfare (Technical Intern Training Program)",
+      "urls": [
+        "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/jinzaikaihatsu/global_cooperation/index.html"
+      ],
+      "description": "",
+      "websiteHub": "0"
+    },
+    {
+      "id": "29",
+      "title": "Job Category: Beef and Pork Meat Processing Industry (Beef and Pork Retail Meat Product Manufacturing Work) [New]",
+      "urls": [
+        "https://www.mhlw.go.jp/file/06-Seisakujouhou-11800000-Shokugyounouryokukaihatsukyoku/0000182273.pdf"
+      ],
+      "description": "部分肉 (Bubunniku - Thịt phần/Khối thịt lớn): Các khối thịt lớn được cắt ra từ thịt mảnh (枝肉) theo các vị trí xương và cơ bắp tiêu chuẩn (Ví dụ: Thịt vai, thịt ba chỉ, thịt đùi...). [1, 2]",
+      "websiteHub": "0"
+    },
+    {
+      "id": "30",
+      "title": "Meat Traceability in Japan 日本における食肉トレーサビリティ(Issued by Iowa State University Digital Repository)",
+      "urls": [
+        "https://dr.lib.iastate.edu/bitstreams/c76aeb3d-aba2-48a0-a0e1-7b5ebcb1380b/download"
+      ],
+      "description": "Luận văn phân tích cấu trúc pháp lý và vận hành hệ thống quản lý mã số bò tại Nhật",
+      "websiteHub": "0"
+    },
+    {
+      "id": "31",
+      "title": "Building a cattle DNA database in Japan 日本における牛のDNAデータベース構築(Issued by Tecan Journal)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Bài báo kỹ thuật về việc xây dựng cơ sở dữ liệu mẫu gen DNA để quản lý đàn bò Nhật",
+      "websiteHub": "0"
+    },
+    {
+      "id": "32",
+      "title": "Individual Cattle Identification and Beef Traceability System in Japan 日本における牛の個体識別と牛肉トレーサビリティシステム(Issued by T. Hirokawa / WOAH)",
+      "urls": [
+        "https://www.woah.org/fileadmin/Home/eng/Conferences_Events/sites/traceability-2009/speakers_presentation/4.5.Hirokawa.pdf"
+      ],
+      "description": "Báo cáo hội thảo quốc tế về hệ thống quản lý dịch tễ và nguồn gốc bò của Nhật Bản",
+      "websiteHub": "0"
+    },
+    {
+      "id": "33",
+      "title": "About Wagyu Safety and Superior Quality (from Farm to Table) | Japan Livestock Products Export Promotion Council 和牛の安全性と優れた品質について（農場から食卓まで）(Issued by Japan Livestock Products Export Promotion Council - JLEC)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Tài liệu chứng nhận quy trình khép kín đảm bảo chất lượng từ trang trại đến bàn ăn",
+      "websiteHub": "0"
+    },
+    {
+      "id": "34",
+      "title": "Đề thi thực hành & Tiêu chuẩn kỹ thuật (Phần thịt Bò - 牛部分肉製造作業)",
+      "urls": [
+        "https://www.fma.ac.jp/foreigner/foreigner-pastquestions",
+        "https://www.mhlw.go.jp/file/06-Seisakujouhou-11800000-Shokugyounouryokukaihatsukyoku/0000183272.pdf"
+      ],
+      "description": "FMA công khai toàn bộ các file PDF đề thi từ năm 2023 đến 2026. File thực hành sẽ mô tả chi tiết yêu cầu khi bạn lọc xương (脱骨), lạng mỡ (整形) và kiểm tra chất lượng.",
+      "websiteHub": "0"
+    },
+    {
+      "id": "35",
+      "title": "[Article] The Production of High-Quality Beef with Wagyu Cattle",
+      "urls": [
+        "https://www.researchgate.net/publication/283487914_The_Production_of_High-Quality_Beef_with_Wagyu_Cattle"
+      ],
+      "description": "Hoạt động sản xuất thịt bò chất lượng cao từ giống bò Wagyu",
+      "websiteHub": "0"
+    },
+    {
+      "id": "36",
+      "title": "Dressed Carcass Transaction Standards - JMI",
+      "urls": [
+        "https://www.jmi.or.jp/en/info/index2.html"
+      ],
+      "description": "",
+      "websiteHub": "0"
+    },
+    {
+      "id": "37",
+      "title": "Japanese Beef Products Guide Book 日本の牛肉製品ガイドブック(Issued by The Ministry of Agriculture, Forestry and Fisheries - MAFF)",
+      "urls": [
+        "https://www.maff.go.jp/j/chikusan/shokuniku/pdf/full_english_1.pdf"
+      ],
+      "description": "Sách hướng dẫn toàn diện về sản phẩm thịt bò Nhật Bản",
+      "websiteHub": "0"
+    },
+    {
+      "id": "38",
+      "title": "Guidelines for License of the Universal Wagyu Mark 統一和牛マークライセンス指針(Issued by Japan Livestock Products Export Promotion Council - JLEC)",
+      "urls": [
+        "https://jlec-pr.jp/wp-content/uploads/2025/01/Guidelines-for-License-of-the-Universal-Wagyu-Mark-1.pdf",
+        "https://jlec-pr.jp/en/beef/beef-logomark/"
+      ],
+      "description": "Hướng dẫn cấp phép và quy định sử dụng nhãn hiệu Wagyu toàn cầu",
+      "websiteHub": "0"
+    },
+    {
+      "id": "39",
+      "title": "Technical Guide to Japan Beef Grading Standards by JMGA",
+      "urls": [
+        "https://twinwoodcattle.com/sites/default/files/publications/2017-06/TWRA120_Japan_Beef_Carcass_Grading_Standard.pdf"
+      ],
+      "description": "Tài liệu kỹ thuật chi tiết về tiêu chuẩn phân loại thịt bò của Nhật Bản",
+      "websiteHub": "0"
+    },
+    {
+      "id": "40",
+      "title": "Recipe Book for Round Cuts もも肉レシピブック(Issued by Japan Livestock Products Export Promotion Council - JLEC)",
+      "urls": [
+        "https://jlec-pr.jp/wp-content/uploads/2022/03/RecipeBook_2021_EN.pdf"
+      ],
+      "description": "Sách hướng dẫn pha cắt nghệ thuật và công thức nấu ăn cho các phần thịt đùi/thịt thăn",
+      "websiteHub": "0"
+    },
+    {
+      "id": "41",
+      "title": "Wagyu Beef Cutting Guide 和牛カッティングガイド(Issued by Japan Livestock Products Export Promotion Council - JLEC)",
+      "urls": [
+        "https://jlec-pr.jp/en/beef/beef-cutting-guide/"
+      ],
+      "description": "Cẩm nang chi tiết về quy trình cắt, lọc thịt và phân tách các phần bộ phận của bò Wagyu",
+      "websiteHub": "0"
+    },
+    {
+      "id": "42",
+      "title": "Wagyu Safety and Quality Document 和牛の安全性と品質文書(Issued by Japan Livestock Products Export Promotion Council - JLEC)",
+      "urls": [
+        "https://jlec-pr.jp/en/beef/quality-safety/"
+      ],
+      "description": "Tài liệu chứng nhận quy trình kiểm soát chất lượng và an toàn thực phẩm bò Wagyu",
+      "websiteHub": "0"
+    },
+    {
+      "id": "43",
+      "title": "Individual Identification Number Lookup 牛の個体識別情報検索(Issued by National Livestock Breeding Center - NLBC)",
+      "urls": [
+        "https://mjpcvl78ulhg.jp.larksuite.com/drive/folder/V45Af0R6IlGWhfdFXDkjoNLTpHb?from=from_copylink"
+      ],
+      "description": "Hệ thống tra cứu mã số định danh 10 chữ số để kiểm tra phả hệ và nguồn gốc từng con bò",
+      "websiteHub": "0"
+    },
+    {
+      "id": "44",
+      "title": "Key Points of the MAFF Intellectual Property Strategy (Follow-up Summary) Revised Version 農林水産省知的財産戦略のポイント（フォローアップ概要）修正版(Issued by The Ministry of Agriculture, Forestry and Fisheries - MAFF)",
+      "urls": [
+        "https://www.maff.go.jp/j/kanbo/tizai/brand/b_senryaku/attach/pdf/index-39.pdf"
+      ],
+      "description": "Điểm mấu chốt trong Chiến lược Sở hữu Trí tuệ của Bộ Nông nghiệp Nhật Bản (Tóm tắt theo dõi) Bản sửa đổi",
+      "websiteHub": "0"
+    },
+    {
+      "id": "45",
+      "title": "Guidelines for Distinctive Meat Labeling such as Wagyu 和牛等特色ある食肉の表示に関するガイドライン(Issued by All Japan Meat Industry Cooperative Association - AJMIC)",
+      "urls": [
+        "https://www.ajmic.or.jp/kumiai/2008pdf/p25-27.pdf"
+      ],
+      "description": "Hướng dẫn về hiển thị và nhãn mác đối với các loại thịt có đặc tính特異 như bò Wagyu",
+      "websiteHub": "0"
+    },
+    {
+      "id": "46",
+      "title": "Documents by MAFF",
+      "urls": [
+        "https://www.maff.go.jp/j/kanbo/tizai/brand/b_senryaku/index.html"
+      ],
+      "description": "",
+      "websiteHub": "0"
+    },
+    {
+      "id": "47",
+      "title": "Vegetables 野菜(Issued by The Ministry of Agriculture, Forestry and Fisheries - MAFF)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Tài liệu giới thiệu và thống kê về các loại rau quả của Nhật Bản",
+      "websiteHub": "0"
+    },
+    {
+      "id": "48",
+      "title": "Wagyu 和牛(Issued by The Ministry of Agriculture, Forestry and Fisheries - MAFF)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Tờ rơi giới thiệu và quảng bá thịt bò Wagyu xuất khẩu",
+      "websiteHub": "0"
+    },
+    {
+      "id": "49",
+      "title": "WAGYU SPECIAL - The Japan Times WAGYU SPECIAL - ジャパンタイムズ(Issued by The Japan Times)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Ấn phẩm đặc biệt về thịt bò Wagyu trên báo The Japan Times",
+      "websiteHub": "0"
+    },
+    {
+      "id": "50",
+      "title": "Wagyu is a variety of beef that satisfies a set of stringent conditions and incorporated into a traceability system 和牛の定義とトレーサビリティシステム(Issued by The Ministry of Agriculture, Forestry and Fisheries - MAFF)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Tài liệu về các điều kiện nghiêm ngặt của Wagyu và hệ thống truy xuất nguồn gốc",
+      "websiteHub": "0"
+    },
+    {
+      "id": "51",
+      "title": "No.86 Exploring Wagyu Brand Indicators with UV-Vis, GC-MS, a Microwave-Drying Moisture Meter, and a Meat Lipid Measuring Device - Shimadzu UV-Vis、GC-MS等を用いた和牛ブランド指標の探索(Issued by Shimadzu Corporation)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Nghiên cứu khoa học xác định chỉ số thương hiệu Wagyu bằng thiết bị đo lipid và quang phổ",
+      "websiteHub": "0"
+    },
+    {
+      "id": "52",
+      "title": "Meat produced by Japanese Black cattle and Wagyu 黒毛和種と和牛が生産する食肉(Issued by Rocking 711 Ranch)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Báo cáo phân tích về chất lượng thịt của giống bò lông đen Nhật Bản và Wagyu",
+      "websiteHub": "0"
+    },
+    {
+      "id": "53",
+      "title": "Wagyu - Japanese Beef 和牛 - 日本の牛肉(Issued by The Ministry of Agriculture, Forestry and Fisheries - MAFF)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Tài liệu tổng quan của bộ về thế giới thịt bò Wagyu Nhật Bản",
+      "websiteHub": "0"
+    },
+    {
+      "id": "54",
+      "title": "Beef meat quality in japan 日本における牛肉の肉質(Issued by V.H. Powell & K. Ozutsumi / Digicomst)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Nghiên cứu lịch sử (1995) về các yếu tố cấu thành chất lượng thịt bò tại Nhật Bản",
+      "websiteHub": "0"
+    },
+    {
+      "id": "55",
+      "title": "Japanese wagyu - The art of combining aroma, texture and taste 日本の和牛ー香りと食感、味の芸術(Issued by Japan Livestock Products Export Promotion Council - JLEC)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Tài liệu phỏng vấn các đầu bếp về nghệ thuật kết hợp hương vị và kết cấu của Wagyu",
+      "websiteHub": "0"
+    },
+    {
+      "id": "56",
+      "title": "Wagyu Cut 和牛カッティング（レシピ19）(Issued by Japan Livestock Products Export Promotion Council - JLEC)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Hướng dẫn pha cắt thịt bò Wagyu và công thức món ăn số 19",
+      "websiteHub": "0"
+    },
+    {
+      "id": "57",
+      "title": "Japanese Meat Grading A and BMS Standard 日本の格付けAおよびBMS基準(Issued by Japan Meat Grading Association - JMGA)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Tiêu chuẩn phân loại thịt bò Nhật Bản (Hệ thống xếp hạng A, B, C và thang đo mỡ cẩm thạch BMS)",
+      "websiteHub": "0"
+    },
+    {
+      "id": "58",
+      "title": "The Wagyu Beef Value Chain in Japan 日本における和牛ビーフバリューチェーン(Issued by T. Iida / UNE / CDN)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Bài nghiên cứu về chuỗi giá trị và cấu trúc ngành công nghiệp bò Wagyu tại Nhật",
+      "websiteHub": "0"
+    },
+    {
+      "id": "59",
+      "title": "National Livestock Breeding Center 家畜改良センター パンフレット(Issued by National Livestock Breeding Center - NLBC)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Sách giới thiệu về Trung tâm cải tạo giống gia súc quốc gia Nhật Bản",
+      "websiteHub": "0"
+    },
+    {
+      "id": "60",
+      "title": "Japanese Beef Grading 日本の牛肉格付け(Issued by Japanse Wagyu)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Hướng dẫn phân loại thịt bò Nhật theo thang điểm A, B, C và BMS",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "Grading Evaluation of Marbling in Wagyu Beef Using Fractal Analysis フラクタル解析を用いた和牛の脂肪交雑格付評価(Issued by Preprints.org)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Nghiên cứu ứng dụng thuật toán phân tích hình học Fractal để đánh giá mỡ cẩm thạch",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "1 Individual Identification Numbers for All Cattle 全ての牛への個体識別番号の付与(Issued by The Ministry of Agriculture, Forestry and Fisheries - MAFF)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Hướng dẫn quy định cấp mã số định danh 10 chữ số cho toàn bộ bò tại Nhật",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "Potential Reasons of Recent Beef Export from Japan 近年の日本からの牛肉輸出の潜在的要因(Issued by Risk Market)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Phân tích kinh tế về các nguyên nhân thúc đẩy sản lượng xuất khẩu thịt bò Nhật tăng mạnh",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "Top-Quality Japanese Food Finds International Appeal 世界を魅了する最高品質の日本食材(Issued by Japan.go.jp - Chính phủ Nhật Bản)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Bài viết quảng bá nông sản và thực phẩm cao cấp Nhật Bản ra thị trường thế giới",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "Wagyu Master Export Expansion Consortium 和牛マスター輸出拡大コンソーシアム(Issued by The Ministry of Agriculture, Forestry and Fisheries - MAFF)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Tài liệu dự án của Hiệp hội thúc đẩy và mở rộng quy mô xuất khẩu Wagyu Master",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "Report Name: Livestock and Products Annual - USDA Foreign Agricultural Service 畜産物年報 2024(Issued by USDA Foreign Agricultural Service)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Báo cáo thường niên năm 2024 về tình hình ngành chăn nuôi và thị trường thịt Nhật Bản",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "Report Name: Livestock and Products Annual - USDA Foreign Agricultural Service 畜産物年報 2025(Issued by USDA Foreign Agricultural Service)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Báo cáo thường niên năm 2025 về tình hình sản xuất và thương mại ngành chăn nuôi Nhật",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "Report Name: Livestock and Products Semi-annual 畜産物半年報 2026(Issued by USDA Foreign Agricultural Service)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Báo cáo bán niên mới nhất (2026) cập nhật số liệu cung cầu thịt tại thị trường Nhật",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "Ribeye areas and sizes of fattening culled dairy carcasses determination using plastic grid and geometric methods. - ijat.aatsea プラスチック格子および幾何学的手法を用いた経産乳牛 of 芯面積測定(Issued by IJAT / AATSEA)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Nghiên cứu ứng dụng lưới nhựa và phương pháp hình học đo diện tích thăn ngoại (Ribeye)",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "WAGYU STEAK AU POIVRE 和牛ペッパーステーキ(Issued by Japan Livestock Products Export Promotion Council - JLEC)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Sách hướng dẫn nấu ăn công thức món Bít tết tiêu đen số 18 từ thịt Wagyu",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "Tajima Cattle, Tajima Beef, Kobe Beef, and the Story Behind Sanda Beef (Issued by City Sanda)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Khám phá tinh hoa vùng Hyogo: Câu chuyện đằng sau bò Tajima, thịt bò Tajima, thịt bò Kobe và thịt bò Sanda",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "The Masterfully Marbled World of Japanese Wagyu Beef",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "Canadian, American, and Japanese carcass grades of heifers fed to heavy weights to enhance marbling 未経産牛のカナダ、米国、日本における枝肉格付の比較(Issued by Canadian Science Publishing)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Nghiên cứu so sánh xếp hạng thịt bò vỗ béo tăng mỡ cẩm thạch giữa 3 nước",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "Meat Traceability and Consumer Assurance in Japan 日本における食肉의トレーサビリティと消費者の安心(Issued by AgEcon Search)",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "Nghiên cứu về hệ thống truy xuất nguồn gốc thịt bò tác động đến tâm lý người tiêu dùng",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "農場HACCP認証農場リスト\nFarm HACCP Certified Farm List",
+      "urls": [
+        "Xem tại đây"
+      ],
+      "description": "",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "Wagyu Breeds and Brands",
+      "urls": [
+        "https://theshortli.st/assets/wagyu_strains"
+      ],
+      "description": "There are over 200 Wagyu brands in Japan, each one accorded to cattle or beef meeting certain standards based on place of production, bloodline, breed, grade, and rearing method and period. Listed here are 53 leading brands (criteria vary from brand to brand).",
+      "websiteHub": "0"
+    },
+    {
+      "id": "",
+      "title": "Tóm tắt Kế hoạch thúc đẩy tích tụ sử dụng đất nông nghiệp (Dự án Quản lý Trung gian Đất nông nghiệp)",
+      "urls": [
+        "https://www.pref.miyazaki.lg.jp/documents/97126/97126_20250328115826-1.pdf"
+      ],
+      "description": "",
+      "websiteHub": "0"
+    }
+  ],
+  "kobe": [
+    {
+      "group": "1. Cơ quan Quản lý & Hiệp hội Chính thức",
+      "title": "Hiệp hội Tiếp thị & Khuyến khích Phân phối Bò Kobe – Trang chủ tiếng Anh",
+      "url": "https://www.kobe-niku.jp/en/top.html"
+    },
+    {
+      "group": "1. Cơ quan Quản lý & Hiệp hội Chính thức",
+      "title": "Điều lệ & Định nghĩa chính thức của Bò Kobe – Article 20 & 21",
+      "url": "https://www.kobe-niku.jp/contents/about/definition.html"
+    },
+    {
+      "group": "1. Cơ quan Quản lý & Hiệp hội Chính thức",
+      "title": "Tiêu chuẩn xử lý & Phân hạng Carcass Bò Kobe",
+      "url": "https://www.kobe-niku.jp/contents/about/criteria.html"
+    },
+    {
+      "group": "1. Cơ quan Quản lý & Hiệp hội Chính thức",
+      "title": "Hệ thống cơ sở dữ liệu xác thực DNA Bò Kobe",
+      "url": "https://www.kobe-niku.jp/en/contents/dna/index.php"
+    },
+    {
+      "group": "1. Cơ quan Quản lý & Hiệp hội Chính thức",
+      "title": "Dữ liệu xuất khẩu thực tế Bò Kobe theo từng lô hàng",
+      "url": "https://www.kobe-niku.jp/en/contents/exported/index.php"
+    },
+    {
+      "group": "1. Cơ quan Quản lý & Hiệp hội Chính thức",
+      "title": "Danh sách đại lý & nhà hàng ủy quyền chính thức",
+      "url": "https://www.kobe-niku.jp/shop/"
+    },
+    {
+      "group": "2. Bộ Nông nghiệp Nhật Bản (MAFF) & Chứng nhận Quốc gia",
+      "title": "MAFF – Hồ sơ bảo hộ Chỉ dẫn Địa lý GI No. 3 – Kobe Beef",
+      "url": "https://www.maff.go.jp/e/policies/intel/gi_act/register/s3.html"
+    },
+    {
+      "group": "2. Bộ Nông nghiệp Nhật Bản (MAFF) & Chứng nhận Quốc gia",
+      "title": "Cổng Chỉ dẫn Địa lý Quốc gia Nhật Bản – GI Entry No. 3",
+      "url": "https://pd.jgic.jp/en/register/entry/3.html"
+    },
+    {
+      "group": "2. Bộ Nông nghiệp Nhật Bản (MAFF) & Chứng nhận Quốc gia",
+      "title": "MAFF – Hồ sơ bảo hộ GI No. 25 – Tokusan Matsusaka Beef",
+      "url": "https://www.maff.go.jp/e/policies/intel/gi_act/register/s25.html"
+    },
+    {
+      "group": "2. Bộ Nông nghiệp Nhật Bản (MAFF) & Chứng nhận Quốc gia",
+      "title": "MAFF – Ẩm thực vùng miền: Kobe Beef Steak",
+      "url": "https://www.maff.go.jp/e/policies/market/k_ryouri/search_menu/4873/index.html"
+    },
+    {
+      "group": "3. Truy xuất Nguồn gốc & Phân hạng Thịt",
+      "title": "Cơ sở dữ liệu Gia súc Quốc gia NLBC – Tra cứu mã 10 chữ số",
+      "url": "https://www.id.nlbc.go.jp/english/"
+    },
+    {
+      "group": "3. Truy xuất Nguồn gốc & Phân hạng Thịt",
+      "title": "Hệ thống chứng thực bò Tajima – Tajima Beef Certification System",
+      "url": "http://www.tajimagyu-trace.com/trace_back.php"
+    },
+    {
+      "group": "3. Truy xuất Nguồn gốc & Phân hạng Thịt",
+      "title": "Hiệp hội Phân hạng Thịt Nhật Bản (JMGA) – Tiêu chuẩn Carcass",
+      "url": "https://www.jmga.or.jp/standard/beef/"
+    },
+    {
+      "group": "4. Báo cáo & Tài liệu Phân tích Chuyên sâu",
+      "title": "Food in Japan – Lịch sử, tiêu chuẩn & hướng dẫn thưởng thức Bò Kobe",
+      "url": "https://www.foodinjapan.org/kansai/hyougo/kobe-beef/"
+    },
+    {
+      "group": "4. Báo cáo & Tài liệu Phân tích Chuyên sâu",
+      "title": "Nippon.com – Nguồn gốc Wagyu & dòng máu bò tổ phụ Tajiri-gō",
+      "url": "https://www.nippon.com/en/japan-topics/b12201/"
+    },
+    {
+      "group": "4. Báo cáo & Tài liệu Phân tích Chuyên sâu",
+      "title": "Bespoke Discovery – So sánh Matsusaka Beef vs Kobe Beef",
+      "url": "https://blog.bespoke-discovery.com/matsusaka-beef-vs-kobe-beef-the-essence-of-wagyu-at-its-most-luxurious"
+    },
+    {
+      "group": "4. Báo cáo & Tài liệu Phân tích Chuyên sâu",
+      "title": "Bespoke Discovery – Hướng dẫn thẩm định Bò Kobe tại Tokyo",
+      "url": "https://blog.bespoke-discovery.com/best-kobe-beef-in-tokyo-a-complete-guide-to-savoring-the-finest-kobe-beef"
+    },
+    {
+      "group": "4. Báo cáo & Tài liệu Phân tích Chuyên sâu",
+      "title": "The Meatery – Cẩm nang nhận biết Bò Kobe thật & phân tích thị trường",
+      "url": "https://themeatery.com/blogs/main-blog/kobe-beef-the-definitive-guide-to-the-worlds-most-exclusive-steak"
+    },
+    {
+      "group": "4. Báo cáo & Tài liệu Phân tích Chuyên sâu",
+      "title": "The Takeout – Cách nhận biết Bò Kobe thật trong chuỗi cung ứng",
+      "url": "https://www.thetakeout.com/1866986/how-to-identify-real-kobe-beef/"
+    },
+    {
+      "group": "4. Báo cáo & Tài liệu Phân tích Chuyên sâu",
+      "title": "Kobe Beef Tatsuya – Định nghĩa 3 tên gọi liên quan đến Bò Kobe",
+      "url": "https://www.kobebeef.co.jp/en/pages/kobebeef"
+    },
+    {
+      "group": "4. Báo cáo & Tài liệu Phân tích Chuyên sâu",
+      "title": "Wagyu Handbook – Dòng giống Tajima & lịch sử cô lập di truyền",
+      "url": "https://wagyuhandbook.com/glossary/tajima/"
+    },
+    {
+      "group": "4. Báo cáo & Tài liệu Phân tích Chuyên sâu",
+      "title": "Wagyu Master Europe – Sản phẩm thịt bò Tajima",
+      "url": "https://www.wagyu-master.eu/products/tajimabeef.html"
+    },
+    {
+      "group": "4. Báo cáo & Tài liệu Phân tích Chuyên sâu",
+      "title": "Humans of Wagyu – Wagyu Facts & Bách khoa thư Wagyu",
+      "url": "https://humansofwagyu.com/wagyu-facts"
+    }
+  ],
+  "market": [
+    {
+      "id": "1",
+      "name": "Trường Thịt Quốc gia Nhật Bản (tên tiếng Nhật: 全国食肉学校 - Zenkoku Shokuniku Gakkō, tên tiếng Anh: Federal Meat Academy - FMA).",
+      "description": "National Meat Academy\n\n● Training the top elite of the meat industry ●\n● Carcass → Primal cuts → Meat products/Cooking/Processed goods ●\nThis is a rare public meat academy in Japan where you can systematically acquire all kinds of meat-related techniques and knowledge.\nFresh energy for immediate readiness! The path to becoming a meat professional!",
+      "notes": "Ngôi trường đào tạo về thịt quy mô và chính thức duy nhất tại Nhật Bản. Trường chuyên đào tạo ra các chuyên gia, kỹ thuật viên và nhà quản lý cấp cao cho ngành công nghiệp chế biến, kinh doanh thịt.",
+      "urls": [
+        "https://www.fma.ac.jp/about/outline",
+        "https://www.gvada.jp/nintei_school/12_syokuniku.html",
+        "https://www.fma.ac.jp/"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Công ty TNHH Shodaken Meats (株式会社 庄田軒精肉店 - Shodaken Seinakuten), một cửa hàng kiêm nhà buôn sỉ thịt lâu đời có trụ sở tại Nagata, thành phố Kobe, tỉnh Hyogo. [1, 2, 3]\nhttps://www.instagram.com/shodaken_mizuhara/\nhttps://www.instagram.com/kazu_ank/",
+      "description": "Kobe市場にて競り一頭買い (Mua nguyên con qua đấu giá tại Chợ Kobe): Khẳng định doanh nghiệp này có giấy phép chính thức để vào sàn đấu giá sỉ của Chợ Trung ương Kobe nhằm trả giá và mua trọn vẹn toàn bộ thân thịt (đóng gói nguyên con - một đầu mua) chứ không mua lẻ từng phần thịt. [1, 2, 3]\n食肉卸・小売 (Bán buôn và Bán lẻ): Sau khi trúng thầu thân thịt Wagyu tại sàn, công ty này sẽ đưa về xưởng để tự pha lóc, một phần bán lẻ trực tiếp cho người tiêu dùng tại cửa hàng hoặc Trang web chính thức Shodaken, phần còn lại phân phối sỉ (bán buôn) cho các nhà hàng steak hay quán nướng Yakiniku tại khu sầm uất của Kobe. [1, 2, 3]\n黒毛和牛 雌牛のみ取扱い (Chỉ xử lý bò cái Kuroge Wagyu): Tiêu chuẩn tuyển chọn cực kỳ khắt khe tại sàn thầu, họ chỉ tập trung bấm nút đấu giá cho các thân thịt bò Wagyu lông đen giống cái (thường được giới sành ăn đánh giá là có mỡ mềm và thơm hơn bò thiến) đạt phân hạng cao cấp nhất là A5. [1, 2, 3]",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/shodaken_mizuhara/",
+        "https://www.instagram.com/kazu_ank/"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "",
+      "description": "Kazunori Takemoto (kazu_ank), một chuyên gia cắt thịt hoặc nhân sự chủ chốt thuộc đội ngũ thu mua và xử lý thịt của Shodaken.",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "4",
+      "name": "Công ty Cổ phần Wazakura Tsusho (株式会社和桜通商 - Wazakura Tsusho Co., Ltd.).\nhttps://wagyu-premium.com/parts/tomoribs/",
+      "description": "Brand Wagyu Online Shop | Wazakura Tsusho (ブランド和牛の通販専門店｜和桜通商) là một doanh nghiệp chuyên kinh doanh trực tuyến và bán buôn các loại thịt bò Wagyu cao cấp của Nhật Bản.",
+      "notes": "https://wagyu-premium.com/parts/all_parts/\nhttps://wagyu-premium.com/parts/tomoribs/",
+      "urls": [
+        "https://wagyu-premium.com/parts/tomoribs/",
+        "https://wagyu-premium.com/parts/all_parts/"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "marujyu.marujyu\n\n精肉マルジュウ\n工場直送の新鮮なお肉をお届けします\n浜町1-1-16, Ube, Yamaguchi 7550065",
+      "description": "marujyu.marujyu\nButcher Shop Marujyu\nDelivering fresh meat straight from the factory\nhttps://www.instagram.com/marujyu.marujyu/",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/marujyu.marujyu/"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "有限会社かね吉 (Kanekichi Co., Ltd.)\nhttps://www.kanekichi029.com/",
+      "description": "kanekichi029\nThịt bò Omi Tuyển chọn Kanekichi / Kanazawa / Bò Wagyu lông đen / Quà tặng thịt bò\nCửa hàng thịt\nChuyên cung cấp bò Wagyu lông đen và bò Omi được tuyển chọn kỹ lưỡng\nChế biến tỉ mỉ nguồn thịt chất lượng cao, chủ yếu là bò cái tơ đạt hạng A5\nhttps://www.kanekichi029.com/",
+      "notes": "",
+      "urls": [
+        "https://www.kanekichi029.com/"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "七輪焼肉ばかとあほ\n\nhttps://www.instagram.com/bakatoaho_official/",
+      "description": "A charcoal-grilled Yakiniku restaurant, mainly serving Imari Beef, Saga Beef, and Iki Beef",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/bakatoaho_official/"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "hiroyoshihagihara",
+      "description": "Doanh nghiệp địa phương\nGiám đốc điều hành Công ty TNHH Trạm phối giống nhân tạo Hagiwara\nHộp tinh dịch dạng cọng rạ (ống rơm) của bò đực giống chúng tôi có thể được đặt mua trực tiếp từ trang web bán hàng.\nNgoài ra, bạn cũng có thể tải hồ sơ thông tin và thành tích chất lượng thịt xẻ của từng chú bò đực giống trên trang web\n2327 Shimote, Kedoin-cho, Thành phố Satsumasendai, Tỉnh Kagoshima, Nhật Bản 895-1501",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "9",
+      "name": "Shinsei-ya Shokuhinten (新生屋食品店), một doanh nghiệp có văn phòng tại Nagata, thành phố Kobe, tỉnh Hyogo\nhttps://www.instagram.com/shinseiyasyokuhinten/",
+      "description": "Triết lý thu mua \"Thịt bò thân thiện với dạ dày\" (お腹に優しい和牛)\nGiải quyết nỗi sợ mỡ ngấy: Công ty thẳng thắn chỉ ra rằng lý do nhiều người bị đầy bụng hay khó tiêu khi ăn bò Wagyu (được gọi là hiện tượng I-motare) không phải vì lượng mỡ nhiều, mà do chất lượng mỡ (lipid) kém.\nTiêu chuẩn tuyển chọn tại sàn đấu giá: Khi tham gia đấu thầu tại chợ thịt, các chuyên gia của Shinsei-ya không chỉ nhìn vào độ dày của vân mỡ (BMS) để lấy điểm A5 cao nhất bằng mọi giá. Họ tập trung săn lùng các thân thịt Wagyu có chất lượng mỡ tốt, điểm nóng chảy của mỡ thấp (chứa nhiều axit béo không bão hòa đơn Oleic Acid) giúp thịt tan ngay trong miệng nhưng lại dễ tiêu hóa và \"thân thiện với dạ dày\" người ăn.\n\nMô hình hoạt động và phân phối\nKênh phân phối hỗn hợp (卸・小売): Tương tự như Shodaken, Shinsei-ya vừa làm đại lý bán buôn (Sỉ) cho các nhà hàng, vừa bán lẻ qua mạng (Net Order) cho người tiêu dùng cá nhân. Mọi giao dịch bán sỉ đều được họ tiếp nhận trao đổi trực tiếp bảo mật qua tin nhắn (DM).",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/shinseiyasyokuhinten/"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Carcass | Beef Cattle | Fattening Records\nhttps://www.instagram.com/brave_1991.10.20/",
+      "description": "",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/brave_1991.10.20/"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Maruki Livestock - Shimanami Beef\nhttps://www.instagram.com/maruki.smnmgyu/",
+      "description": "【#ThereIsLoveInEhimeProduce】\n🐂 #IyoBeef #TasteOfSilk \"Love\"\n🐂 #OnmakuBeef #Imabari\n🐂 Original Brand 「#ShimanamiBeef」\n🐂 Integrated management focusing mainly on female cows (heifers)\n🐂 Introduction of feeder cattle (calves)\n▽ Ehime\n▽ Miyazaki (Kobayashi / Takachiho)\n▽ Kumamoto (Kuma)\n🐂 Shipment of fattening cattle\n▽ Within the prefecture\n▽ Kobe",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/maruki.smnmgyu/"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Công ty TNHH Nhận ký gửi gia súc trung ương Kakogawa (加古川中央畜産荷受株式会社 - Kakogawa Chūō Chikusan Niju Kabushikigaisha). Đây chính là đơn vị vận hành sàn đấu giá thịt bò tại thành phố Kakogawa, tỉnh Hyogo.\nhttps://www.instagram.com/kakogawa__chuchiku/",
+      "description": "Vai trò cốt lõi của đơn vị tổ chức đấu giá\n解体され検査が終了した枝肉 (Thân thịt đã hạ thịt và hoàn tất kiểm dịch): Nhiệm vụ đầu tiên của họ là tiếp nhận bò từ trang trại, thực hiện giết mổ (hạ thịt), bổ đôi thành thân thịt và phối hợp với cơ quan y tế để kiểm tra an toàn dịch bệnh nghiêm ngặt.\nセリによる公正な取引 (Giao dịch công bằng thông qua hình thức Đấu giá - Seri): Họ đóng vai trò là sàn giao dịch trung gian, tổ chức các phiên đấu giá công khai và minh bạch để các công ty mua bán thịt (như hai công ty trước bạn gửi) vào cạnh tranh công bằng về giá.\n安定供給 (Cung ứng ổn định): Mục tiêu của sàn là kết nối người chăn nuôi và người mua sỉ, đảm bảo nguồn thịt an toàn, chất lượng cao được cung cấp ra thị trường một cách liên tục và ổn định.",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/kakogawa__chuchiku/"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Công ty TNHH Yokoyama Chikusan (株式会社 横山畜産 - Yokoyama Livestock). Khác với các công ty buôn thịt ở trên, đây là một trang trại chuyên nghiệp nằm tại thành phố Shimanto, tỉnh Kochi (đảo Shikoku).\nhttps://www.instagram.com/yokoyamachikusan/",
+      "description": "1. Vai trò của Nhà chăn nuôi (Nhà sản xuất)\n和牛の肥育をしています (Đang vỗ béo bò Wagyu): Công việc cốt lõi của họ là giai đoạn \"肥育\" (Hiiku - Vỗ béo). Đây là giai đoạn kéo dài từ 20-24 tháng cực kỳ khắt khe, quyết định trực tiếp đến việc hình thành các vân mỡ cẩm thạch (Marbling) trên thân thịt bò sau này.\n\n2. Các giống bò và Thương hiệu độc quyền của trang trại\nHọ nuôi dưỡng các dòng bò đặc sản của vùng Tosa (tên cổ của tỉnh Kochi), bao gồm:\n四万十牛 (Bò Shimanto): Thương hiệu bò Wagyu cao cấp được nuôi bằng nguồn nước sạch tinh khiết của dòng sông Shimanto nổi tiếng.\n土佐和牛 / 土佐黒牛 (Tosa Wagyu / Bò đen Tosa): Giống bò lông đen truyền thống đạt chuẩn Wagyu.\n土佐あかうし (Bò đỏ Tosa - Tosa Akaushi): Đây là một chi tiết cực kỳ đắt giá! Khác với bò lông đen chiếm 98% thị trường, bò đỏ Tosa là giống bò cực kỳ hiếm (chỉ chiếm khoảng 0.1% tổng lượng bò tại Nhật). Thịt bò đỏ có đặc trưng là tỷ lệ thịt nạc cao, vị ngọt umami đậm đà nhưng vẫn có lớp mỡ đan xen mềm mại, rất được giới sành ăn săn đón tại sàn đấu giá.\n\n3. Mục đích tham gia mạng xã hội\n日々 Key_ 牛さんや枝肉などを投稿 (Đăng tải hình ảnh bò và thân thịt hằng ngày): Họ chụp ảnh trực tiếp các con bò tại chuồng và mặt cắt thân thịt (như ảnh đại diện) sau khi mổ để chứng minh chất lượng nuôi dưỡng. Điều này giúp các nhà buôn sỉ (như Shodaken hay Shinsei-ya) có thể \"ngắm trước\" chất lượng của trại trước khi bước vào các phiên đấu giá công khai.",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/yokoyamachikusan/"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Công ty TNHH Takahashi Meat (高橋ミート株式会社), một doanh nghiệp có trụ sở và phạm vi hoạt động chính tại Osaka (大阪).\nhttps://www.instagram.com/takahashi_meat_butchershop/",
+      "description": "1. Chuỗi cửa hàng bán lẻ chuyên doanh (直営店 - Chōeiten)\n肉の専門店たか橋 (Cửa hàng chuyên thịt Takahashi): Họ không chỉ bán sỉ mà vận hành trực tiếp hệ thống cửa hàng bán lẻ chính hãng của mình tại các khu vực như Honten (Trụ sở chính), Makiochi, Yamada, và chi nhánh mới nhất vừa khai trương tại Suita (吹田店) vào ngày 18/07/2026.\nViệc tự vận hành cửa hàng bán lẻ giúp họ cắt giảm toàn bộ chi phí trung gian, đưa thịt từ sàn đấu giá Osaka đến thẳng tay người tiêu dùng với giá tốt và chất lượng tươi ngon nhất.\n\n2. Tích hợp chuỗi nhà hàng ẩm thực (Foodservice Integration)\n焼肉たか橋 (Yakiniku Takahashi): Bên cạnh bán thịt tươi, công ty sở hữu luôn chuỗi nhà hàng thịt nướng Yakiniku mang thương hiệu của riêng mình.\nĐây là đích đến tuyệt vời cho các phần thịt Wagyu sau khi được pha lóc. Thân thịt mua từ sàn đấu giá sẽ được phân loại: các phần cắt đẹp đỉnh cao dùng cho bít tết/lẩu tại cửa hàng lẻ, còn các phần thịt ngon khác được chuyển thẳng sang hệ thống nhà hàng Yakiniku để phục vụ thực khách ăn tại chỗ.",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/takahashi_meat_butchershop/"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "田中畜産 / Tanaka Chikusan (Tanaka Livestock)\nhttps://wasabee.co.jp/\nhttps://www.instagram.com/tanatiku/\nhttps://tanatiku.com/tajima-ushi\nhttps://www.instagram.com/tanatikuatumi/\nhttps://wasabee.co.jp/brand/tanakalivestock/",
+      "description": "Operated by the Tanaka family, this ranch focuses on breeding authentic Tajima cattle, the foundational bloodline for Kobe beef. They run a sustainable, small-scale integrated business covering reproduction, hoof-trimming, and direct meat sales under their exclusive brand \"Tanachiku\".",
+      "notes": "",
+      "urls": [
+        "https://wasabee.co.jp/",
+        "https://www.instagram.com/tanatiku/",
+        "https://tanatiku.com/tajima-ushi",
+        "https://www.instagram.com/tanatikuatumi/",
+        "https://wasabee.co.jp/brand/tanakalivestock/"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Takeuchi Farm\n(竹内牧場)\nhttps://www.instagram.com/takeuchi_farm_matsusaka/\nhttps://www.instagram.com/takeuchi_kazuaki_",
+      "description": "Takeuchi Farm specializes in fattening top-tier Matsusaka beef, renowned for its extraordinary marbling and high BMS scores. The cattle are raised in spacious environments with minimized concentrated feed, optimizing bone density and superb meat texture under strict safety certifications.",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/takeuchi_farm_matsusaka/",
+        "https://www.instagram.com/takeuchi_kazuaki_"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Kinjo Reito Shokuhin (金城冷凍食品), \n\nーEstablished in 1958ー\nIshigaki Beef & Agu Pork Dealer\nhttps://www.instagram.com/kinjyoureitoushokuhin/",
+      "description": "Cửa hàng thịt thương mại (精肉店 - Seiniukuten). Họ chuyên cung cấp sỉ và lẻ các loại thịt cao cấp cho cả người dân địa phương lẫn khách du lịch. [1, 2, 3]\nĐịa điểm: Nằm tại thành phố Ishigaki, tỉnh Okinawa. Cửa hàng ban đầu nằm trong khu Chợ công lập (公設市場), sau đó đã di dời ra mặt đường lớn để thuận tiện kinh doanh. [1, 2, 3, 4]\nĐặc trưng: Cửa hàng này nổi tiếng với việc thu mua những con bò thắng giải tại các hội chợ đấu giá bò Ishigaki. Khách du lịch thường đến đây mua thịt đóng gói đông lạnh để làm quà đem về. [1, 2]",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/kinjyoureitoushokuhin/"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Ushino Nakayama Co., Ltd.\n(有限会社うしの中山) \nhttps://www.instagram.com/masuda_yasunobu/\n https://www.instagram.com/nakayama_wagyu/ \nhttps://www.instagram.com/wagyu.farmer.nakayama/\n chuzantei-ushinonakayama.com",
+      "description": "Ushi no Nakayama sales and distribution team. Winner of the Prime Minister's Award and Agriculture, Minister's Award at the Wagyu Olympics 🏆 We post daily photos of our beef carcasses. Please feel free to contact us if you are interested.",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/masuda_yasunobu/",
+        "https://www.instagram.com/nakayama_wagyu/",
+        "https://www.instagram.com/wagyu.farmer.nakayama/"
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Tập đoàn IGAYA (株式会社IGAYA / いがや). [1, 2]\nhttps://www.instagram.com/igaya_matsusakaushi_official/",
+      "description": "Tư cách pháp lý độc quyền: Mặc dù không trực tiếp nuôi bò, họ là Thành viên chính thức thứ 199 của Hiệp hội Thịt bò Matsusaka (松阪肉牛協會員 指定第１９９号). Họ ký kết hợp đồng bao tiêu độc quyền trực tiếp từ chuồng trại của các siêu trang trại vỗ béo bò Matsusaka danh tiếng nhất tại tỉnh Mie, sau đó vận chuyển về xưởng trung tâm tại Kyoto để tháo dỡ thớ thịt, làm xúc xích cao cấp (Sengoku Ham) và phân phối. [1, 2, 3]",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/igaya_matsusakaushi_official/"
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Công ty Cổ phần Thực phẩm Maruei (丸栄食品株式会社 - Maruei Foods Co., Ltd.). [1, 2]\nhttps://www.instagram.com/maruei1974/\nhttps://www.maruei-foods.co.jp/\nhttps://store.shopping.yahoo.co.jp/nikushoichiba/?sc_i=shopping-pc-web-top-store-strh-storenam",
+      "description": "Acc của Phòng Kinh doanh của Công ty Thực phẩm Maruei có trụ sở tại thành phố Tsu, tỉnh Mie, chuyên truyền tải sức hấp dẫn của thịt bò Matsusaka và thịt bò Wagyu tỉnh Mie. Chúng tôi đang nỗ lực mỗi ngày để cung cấp những loại thịt được tuyển chọn kỹ lưỡng với chất lượng cao nhất đến các cửa hàng thịt và nhà hàng. Tại đây, chúng tôi sẽ chia sẻ những kiến thức thú vị về bò cũng như giới thiệu các sản phẩm độc quyền, tiện lợi cho việc kinh doanh của các cửa hàng.",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/maruei1974/",
+        "https://www.maruei-foods.co.jp/",
+        "https://store.shopping.yahoo.co.jp/nikushoichiba/?sc_i=shopping-pc-web-top-store-strh-storenam"
+      ]
+    },
+    {
+      "id": "21",
+      "name": "肉の匠家 (Niku no Takumiya)\nhttps://www.instagram.com/nikunotakumiya/\nhttps://nikunotakumiya.jp/",
+      "description": "Niku no Takumiya là cửa hàng chuyên doanh thịt bò Hida, hoạt động với phương châm \"Đồng hành cùng người chăn nuôi để mang đến cho khách hàng nguồn thịt bò Hida an toàn và an tâm\".\nTại Trung tâm Bán buôn & Chế biến Thịt bò Hida, chúng tôi phục vụ khách hàng sỉ và vận hành cửa hàng bán lẻ.",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/nikunotakumiya/",
+        "https://nikunotakumiya.jp/"
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Shinya Ishihara [Japanese Black Cattle Researcher] (Nhà nghiên cứu bò Wagyu lông đen / Giám đốc điều hành thường trực của Công ty Cổ phần Maruzen)\nShinya Ishihara @ Ishihara Beef (Meat Doctor Grade 1)\nhttps://www.instagram.com/ishihara_gyu_shinya/\nhttps://ishihara-gyu.jp/about/cherish.html",
+      "description": "Người thực hiện toàn bộ quy trình khép kín: Thu mua bê con ➡️ Nuôi dưỡng (tạo ra chất lượng thịt - Niku wo Tsukuri) ➡️ Pha lóc/Xẻ thịt ➡️ Chế biến ➡️ Lên thực đơn món ăn và Bán sản phẩm đến tay khách hàng. Doanh nghiệp có đạt chứng nhận Halal (dành cho người theo đạo Hồi).\nhttps://ishihara-gyu-ec.shop-pro.jp/",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/ishihara_gyu_shinya/",
+        "https://ishihara-gyu.jp/about/cherish.html",
+        "https://ishihara-gyu-ec.shop-pro.jp/"
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Daily Life at the JA Cattle Fattening Center",
+      "description": "https://www.instagram.com/kimotukihiiku/",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/kimotukihiiku/"
+      ]
+    },
+    {
+      "id": "24",
+      "name": "株式会社HANAFUSA (Công ty Cổ phần HANAFUSA)\nHANAFUSA Okayama Co., Ltd.\nhttps://www.instagram.com/hanafusa.tottori/\nhttps://hanafusa-meat.jp/\nhttps://www.instagram.com/p/DdIsADdSWOf/",
+      "description": "Chúng tôi không đặt nặng vấn đề bò được nuôi ở đâu, mà chú trọng đặc biệt vào việc ai là người nuôi dưỡng chúng.\nChúng tôi tự hào mang đến dòng bò Wagyu thương hiệu xuất xứ từ Tottori: “Tottori Inaba Manyo Gyu” (Bò Tottori Inaba Manyo).\nBên cạnh đó, chúng tôi cũng đang lưu thông với tất cả niềm tâm huyết dòng sản phẩm “Hanano Gyu” (Bò Hanano) - thương hiệu được định vị không dựa trên địa danh xuất xứ mà đặt trọn niềm tin vào hương vị của những nhà chăn nuôi uy tín cùng thời gian nuôi vỗ béo tiêu chuẩn.",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/hanafusa.tottori/",
+        "https://hanafusa-meat.jp/",
+        "https://www.instagram.com/p/DdIsADdSWOf/"
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Kyoei Chikusan Co., Ltd. (Wholesale Department) 株式会社 共栄畜産【卸売部】\nhttps://www.instagram.com/kyoeichikusan/",
+      "description": "Kyoei Chikusan Co., Ltd. (Wholesale Department) 株式会社 共栄畜産【卸売部】\nPremium meat wholesaler based in Yokohama City. Established in 1972, we specialize in sourcing and supplying exceptionally \"delicious heifers (female cows)\" to bring maximum satisfaction to our retail partners.",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/kyoeichikusan/"
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Kyoei Chikusan Co., Ltd. [Retail Department]\n株式会社共栄畜産【小売部】",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "27",
+      "name": "Taniguchi Taiga - chủ sở hữu kiêm đầu bếp đứng sau Kobe Yakiniku Kanetora (神戸焼肉 金虎).",
+      "description": "Họ là thành viên chính thức được chứng nhận bởi Hiệp hội Xúc tiến Tiếp thị và Phân phối Thịt bò Kobe (Số đăng ký: 1360). Nhà hàng này thu mua trực tiếp nguyên con bò (thân thịt) tại các phiên đấu giá công khai để phục vụ thực khách",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "28",
+      "name": "Noriaki Numamoto\nhttps://www.instagram.com/numamoto_/",
+      "description": "The Butcher of Japan.🇯🇵\nWe carry the Takamori Wagyu brand.\nIwakuni Tourism Ambassador.",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/numamoto_/"
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Saito Viande サイトウ・ビアンデ\nhttps://www.instagram.com/saito.viande/",
+      "description": "We personally visit the production areas,\nand deliver only the truly delicious meat carefully selected with an experienced eye to your dining table.\nA butcher shop with 75 years of history located in Shizuoka City.\nChuyên Sendai Gyu",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/saito.viande/"
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Moriya\nhttps://www.instagram.com/moriyararai29/",
+      "description": "",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/moriyararai29/"
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Yanai Bokujo (Yanai Farm)\nhttps://www.instagram.com/yanaibokujo/",
+      "description": "Breeding and raising Ibaraki Prefecture’s flagship brand \"#HitachiBeef\" and the local brand \"#HanazonoBeef\".",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/yanaibokujo/"
+      ]
+    },
+    {
+      "id": "32",
+      "name": "osawawagyubeef\n\nOsawa Enterprises",
+      "description": "23 years wholesale selling #PremiumWagyu\n🇯🇵 Authentic Japanese Wagyu\n🚚 Syd & Mel | Delivery | Mon - Fri\n🥩 SHOP ONLINE NOW ⬇️\n\n6B/1-21 Madeline St, Strathfield, New South Wales 2136\nwagyubeefaustralia.com.au",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "33",
+      "name": "hasegawa.beef\n\n長谷川ビーフ",
+      "description": "◇埼玉県深谷市で和牛の一貫経営\n◇長谷川牧場産武州和牛『長谷川ビーフ』『Bushu wagyu a.k.a. Samurai beef』\n繁殖情報→@hasegawa.farm\n長谷川牧場直営焼肉→@hasegawa.shichifuku\n◇深谷市の#ふるさと納税返礼品",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "34",
+      "name": "Taigen Farm & Yamashita Livestock\n(泰元ファーム・山下畜産)",
+      "description": "https://www.instagram.com/taigen_farm/\nhttps://kagoshima-agri.jp/post_mem/mem-1047/",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/taigen_farm/",
+        "https://kagoshima-agri.jp/post_mem/mem-1047/"
+      ]
+    },
+    {
+      "id": "35",
+      "name": "koumien1983\n\n焼肉 香味苑\nSince1983\n美味しい焼肉を提供したい\n一心で精進してまいります。",
+      "description": "https://www.instagram.com/koumien1983/?g=5",
+      "notes": "",
+      "urls": [
+        "https://www.instagram.com/koumien1983/?g=5"
+      ]
+    },
+    {
+      "id": "36",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "37",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "38",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "39",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "40",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "41",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "42",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "43",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "44",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "45",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "46",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "47",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "48",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "49",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "50",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "51",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "52",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "53",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "54",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "55",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "56",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "57",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "58",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "59",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    },
+    {
+      "id": "60",
+      "name": "",
+      "description": "",
+      "notes": "",
+      "urls": []
+    }
+  ]
+}
