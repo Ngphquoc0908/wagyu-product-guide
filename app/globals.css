@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700;900&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -12,7 +13,7 @@
 body {
   background-color: #0c0a09;
   color: #f5f5f5;
-  font-family: var(--font-serif), Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: var(--font-serif), 'Noto Serif JP', "Hiragino Mincho ProN", "Yu Mincho", Georgia, Cambria, "Times New Roman", Times, serif;
   
   /* Authentic Sandstone (Vân đá sa thạch đen) tactile texture */
   background-image: 
@@ -22,7 +23,12 @@ body {
 }
 
 h1, h2, h3, .font-display {
-  font-family: var(--font-display), var(--font-serif), Georgia, serif;
+  font-family: var(--font-display), var(--font-serif), 'Noto Serif JP', Georgia, serif;
+}
+
+/* Specific class for Japanese text rendering */
+.font-jp, [lang="ja"], :lang(ja) {
+  font-family: 'Noto Serif JP', "Hiragino Mincho ProN", "Yu Mincho", serif !important;
 }
 
 /* Custom scrollbar in red & black sandstone */

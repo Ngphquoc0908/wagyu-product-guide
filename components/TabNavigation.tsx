@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Layers, BookOpen, Award, Store, Activity } from 'lucide-react';
+import { Language, translations } from '@/lib/i18n';
 
 export type MainTabType = 'cuts' | 'anatomy' | 'documents' | 'kobe' | 'market';
 
@@ -14,42 +15,50 @@ interface TabNavigationProps {
     kobe: number;
     market: number;
   };
+  currentLang?: Language;
 }
 
-export default function TabNavigation({ activeTab, onChangeTab, counts }: TabNavigationProps) {
+export default function TabNavigation({
+  activeTab,
+  onChangeTab,
+  counts,
+  currentLang = 'vi'
+}: TabNavigationProps) {
+  const t = translations[currentLang].tabs;
+
   const tabs = [
     {
       id: 'cuts' as MainTabType,
-      label: '45 Bộ Phận Wagyu',
-      sub: 'Summary & Recipes',
+      label: t.cuts.label,
+      sub: t.cuts.sub,
       badge: counts.cuts,
       icon: Layers
     },
     {
       id: 'anatomy' as MainTabType,
-      label: 'Giải Phẫu Chuyên Sâu',
-      sub: 'Cơ, Tỷ Lệ & Vân Mỡ',
+      label: t.anatomy.label,
+      sub: t.anatomy.sub,
       badge: counts.cuts,
       icon: Activity
     },
     {
       id: 'kobe' as MainTabType,
-      label: 'Tiêu Chuẩn Bò Kobe',
-      sub: 'GI No.3 & DNA',
+      label: t.kobe.label,
+      sub: t.kobe.sub,
       badge: counts.kobe,
       icon: Award
     },
     {
       id: 'documents' as MainTabType,
-      label: 'Cẩm Nang & Tài Liệu',
-      sub: 'JMGA & JLEC Manuals',
+      label: t.documents.label,
+      sub: t.documents.sub,
       badge: counts.documents,
       icon: BookOpen
     },
     {
       id: 'market' as MainTabType,
-      label: 'Thị Trường & Chợ Sỉ',
-      sub: 'Đấu Giá & Trường Thịt',
+      label: t.market.label,
+      sub: t.market.sub,
       badge: counts.market,
       icon: Store
     }
@@ -76,10 +85,14 @@ export default function TabNavigation({ activeTab, onChangeTab, counts }: TabNav
               >
                 <div className="flex items-center gap-1.5 mb-1">
                   <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-neutral-400'}`} />
-                  <span className="text-xs sm:text-sm tracking-tight">{tab.label}</span>
+                  <span className={`text-xs sm:text-sm tracking-tight ${currentLang === 'ja' ? 'font-jp font-bold' : ''}`}>
+                    {tab.label}
+                  </span>
                 </div>
                 <div className="flex items-center gap-1.5 text-[11px] opacity-90">
-                  <span className="hidden sm:inline text-[10px] uppercase tracking-wider">{tab.sub}</span>
+                  <span className={`hidden sm:inline text-[10px] uppercase tracking-wider ${currentLang === 'ja' ? 'font-jp' : ''}`}>
+                    {tab.sub}
+                  </span>
                   <span className={`px-1.5 py-0.2 rounded-full font-bold text-[10px] ${
                     isActive ? 'bg-black/60 text-white' : 'bg-neutral-800 text-neutral-300 border border-neutral-700'
                   }`}>

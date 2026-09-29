@@ -9,18 +9,18 @@ import CutModal from '@/components/CutModal';
 import KobeSection from '@/components/KobeSection';
 import DocumentsSection from '@/components/DocumentsSection';
 import MarketSection from '@/components/MarketSection';
-import ApiStatusModal from '@/components/ApiStatusModal';
 import Footer from '@/components/Footer';
 import initialData from '@/data/initialData.json';
 import { fetchWagyuData } from '@/lib/api';
 import { WagyuCut, FullDataset } from '@/types/wagyu';
+import { Language, translations } from '@/lib/i18n';
 import { Search } from 'lucide-react';
 
 export default function HomePage() {
   const [data, setData] = useState<FullDataset>(initialData as FullDataset);
-  const [isLive, setIsLive] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [mainTab, setMainTab] = useState<MainTabType>('cuts');
+  const [currentLang, setCurrentLang] = useState<Language>('vi');
 
   // Filter & Search states for Cuts
   const [selectedGroup, setSelectedGroup] = useState<string>('all');
@@ -28,14 +28,12 @@ export default function HomePage() {
   const [selectedCut, setSelectedCut] = useState<WagyuCut | null>(null);
   const [ratingFilter, setRatingFilter] = useState<string>('all');
 
-  // Modal API
-  const [isApiModalOpen, setIsApiModalOpen] = useState<boolean>(false);
+  const t = translations[currentLang];
 
   const loadData = async () => {
     setIsLoading(true);
     const res = await fetchWagyuData();
     setData(res.data);
-    setIsLive(res.isLive);
     setIsLoading(false);
   };
 
@@ -44,11 +42,11 @@ export default function HomePage() {
   }, []);
 
   const primalGroups = [
-    { id: 'all', label: 'Tất Cả Bộ Phận (45)' },
-    { id: 'forequarter', label: 'Thân Trước - Forequarter (15)', keyword: 'THÂN TRƯỚC' },
-    { id: 'loin', label: 'Thăn - Loin (5)', keyword: 'THĂN' },
-    { id: 'short_plate', label: 'Bụng - Short Plate (9)', keyword: 'BỤNG' },
-    { id: 'round', label: 'Mông & Đùi - Round (16)', keyword: 'MÔNG' }
+    { id: 'all', label: t.filters.groups.all },
+    { id: 'forequarter', label: t.filters.groups.forequarter, keyword: 'THÂN TRƯỚC' },
+    { id: 'loin', label: t.filters.groups.loin, keyword: 'THĂN' },
+    { id: 'short_plate', label: t.filters.groups.short_plate, keyword: 'BỤNG' },
+    { id: 'round', label: t.filters.groups.round, keyword: 'MÔNG' }
   ];
 
   const filteredCuts = data.cuts.filter(cut => {
@@ -67,6 +65,8 @@ export default function HomePage() {
         cut.nameEn.toLowerCase().includes(q) ||
         cut.nameVn.toLowerCase().includes(q) ||
         cut.nameKatakanaRomaji.toLowerCase().includes(q) ||
+        (cut.nameJpFarm || '').toLowerCase().includes(q) ||
+        (cut.nameJpReading || '').toLowerCase().includes(q) ||
         cut.description.toLowerCase().includes(q) ||
         (cut.cookingSuggestionsVn || '').toLowerCase().includes(q) ||
         (cut.muscleInfo || '').toLowerCase().includes(q);
@@ -87,20 +87,21 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col bg-[#0c0a09] text-neutral-100">
       
-      {/* 1. Header & Navigation */}
+      {/* 1. Header with Language Switcher (No Google Sheet badges or links) */}
       <Navbar
-        isLive={isLive}
         onRefresh={loadData}
         isLoading={isLoading}
-        onOpenApiModal={() => setIsApiModalOpen(true)}
+        currentLang={currentLang}
+        onLanguageChange={setCurrentLang}
       />
 
-      {/* 2. Hero Section */}
+      {/* 2. Hero Section with Wagyu Master Building Banner */}
       <Hero
         totalCuts={data.counts.cuts}
         totalDocs={data.counts.documents}
         totalKobe={data.counts.kobe}
         totalMarket={data.counts.market}
+        currentLang={currentLang}
       />
 
       {/* 3. Tab Switcher Bar */}
@@ -108,12 +109,13 @@ export default function HomePage() {
         activeTab={mainTab}
         onChangeTab={setMainTab}
         counts={data.counts}
+        currentLang={currentLang}
       />
 
       {/* 4. Main Content Area */}
       <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8">
         
-        {/* VIEW 1: 45 Bộ Phận Wagyu */}
+        {/* VIEW 1 & 2: 45 Bộ Phận Wagyu / Giải Phẫu */}
         {(mainTab === 'cuts' || mainTab === 'anatomy') && (
           <div className="space-y-6">
             
@@ -129,6 +131,8 @@ export default function HomePage() {
                       key={g.id}
                       onClick={() => setSelectedGroup(g.id)}
                       className={`px-3.5 py-2 rounded-full text-xs font-bold transition whitespace-nowrap ${
+                        currentLang === 'ja' ? 'font-jp' : ''
+                      } ${
                         isSelected
                           ? 'bg-[#dc2626] text-white shadow-md shadow-red-950/60'
                           : 'bg-neutral-800 hover:bg-neutral-700 text-neutral-300 hover:text-white border border-neutral-700'
@@ -146,22 +150,26 @@ export default function HomePage() {
                   <Search className="w-4 h-4 absolute left-3.5 top-3 text-neutral-400" />
                   <input
                     type="text"
-                    placeholder="Tìm tên, Romaji, món ăn..."
+                    placeholder={t.filters.searchPlaceholder}
                     value={searchCut}
                     onChange={(e) => setSearchCut(e.target.value)}
-                    className="w-full pl-10 pr-4 py-2 rounded-full border border-neutral-700 text-xs sm:text-sm focus:outline-none focus:border-[#ef4444] bg-neutral-900 text-white placeholder-neutral-400"
+                    className={`w-full pl-10 pr-4 py-2 rounded-full border border-neutral-700 text-xs sm:text-sm focus:outline-none focus:border-[#ef4444] bg-neutral-900 text-white placeholder-neutral-400 ${
+                      currentLang === 'ja' ? 'font-jp' : ''
+                    }`}
                   />
                 </div>
 
                 <select
                   value={ratingFilter}
                   onChange={(e) => setRatingFilter(e.target.value)}
-                  className="px-3 py-2 rounded-full border border-neutral-700 bg-neutral-900 text-xs font-semibold text-neutral-200 focus:outline-none focus:border-[#ef4444]"
+                  className={`px-3 py-2 rounded-full border border-neutral-700 bg-neutral-900 text-xs font-semibold text-neutral-200 focus:outline-none focus:border-[#ef4444] ${
+                    currentLang === 'ja' ? 'font-jp' : ''
+                  }`}
                 >
-                  <option value="all">Mọi độ mềm/mỡ</option>
-                  <option value="tender">Độ mềm cao (4-5★)</option>
-                  <option value="high_fat">Nhiều vân mỡ (3-5★)</option>
-                  <option value="rare">Phần hiếm (Rare cuts)</option>
+                  <option value="all">{t.filters.filterAll}</option>
+                  <option value="tender">{t.filters.filterTender}</option>
+                  <option value="high_fat">{t.filters.filterFat}</option>
+                  <option value="rare">{t.filters.filterRare}</option>
                 </select>
               </div>
 
@@ -169,8 +177,12 @@ export default function HomePage() {
 
             {/* Results count & view indication */}
             <div className="flex items-center justify-between text-xs font-bold text-neutral-400 px-1">
-              <span>Hiển thị {filteredCuts.length} / {data.cuts.length} bộ phận Wagyu</span>
-              <span>{mainTab === 'anatomy' ? 'Chế độ: Giải phẫu học chuyên sâu' : 'Chế độ: Tổng hợp & Chế biến'}</span>
+              <span className={currentLang === 'ja' ? 'font-jp' : ''}>
+                {t.filters.showing(filteredCuts.length, data.cuts.length)}
+              </span>
+              <span className={currentLang === 'ja' ? 'font-jp' : ''}>
+                {mainTab === 'anatomy' ? t.filters.modeAnatomy : t.filters.modeSummary}
+              </span>
             </div>
 
             {/* Cuts Grid */}
@@ -181,38 +193,39 @@ export default function HomePage() {
                   cut={cut}
                   onSelect={setSelectedCut}
                   showAnatomy={mainTab === 'anatomy'}
+                  currentLang={currentLang}
                 />
               ))}
             </div>
 
             {filteredCuts.length === 0 && (
-              <div className="text-center py-16 sandstone-surface rounded-2xl border border-dashed border-neutral-800">
-                <p className="text-neutral-400 font-semibold text-sm">Không tìm thấy bộ phận phù hợp với từ khóa này.</p>
-                <button
-                  onClick={() => { setSelectedGroup('all'); setSearchCut(''); setRatingFilter('all'); }}
-                  className="mt-3 text-xs font-bold text-[#ef4444] hover:underline"
-                >
-                  Xóa bộ lọc
-                </button>
+              <div className="text-center py-16 sandstone-surface rounded-2xl border border-neutral-800">
+                <p className={`text-neutral-400 text-sm ${currentLang === 'ja' ? 'font-jp' : ''}`}>
+                  {currentLang === 'ja'
+                    ? '該当する部位が見つかりませんでした。別のキーワードでお試しください。'
+                    : currentLang === 'en'
+                    ? 'No matching cuts found. Try a different search query or clear filters.'
+                    : 'Không tìm thấy bộ phận phù hợp với từ khóa hoặc bộ lọc.'}
+                </p>
               </div>
             )}
 
           </div>
         )}
 
-        {/* VIEW 2: Kobe Beef */}
+        {/* VIEW 2: Kobe References */}
         {mainTab === 'kobe' && (
-          <KobeSection items={data.kobe} />
+          <KobeSection items={data.kobe} currentLang={currentLang} />
         )}
 
-        {/* VIEW 3: Documents Hub */}
+        {/* VIEW 3: Documents & Manuals */}
         {mainTab === 'documents' && (
-          <DocumentsSection documents={data.documents} />
+          <DocumentsSection documents={data.documents} currentLang={currentLang} />
         )}
 
         {/* VIEW 4: Market & Wholesalers */}
         {mainTab === 'market' && (
-          <MarketSection entries={data.market} />
+          <MarketSection entries={data.market} currentLang={currentLang} />
         )}
 
       </main>
@@ -221,19 +234,11 @@ export default function HomePage() {
       <CutModal
         cut={selectedCut}
         onClose={() => setSelectedCut(null)}
-      />
-
-      {/* API Connection Modal */}
-      <ApiStatusModal
-        isOpen={isApiModalOpen}
-        onClose={() => setIsApiModalOpen(false)}
-        isLive={isLive}
-        onRefresh={loadData}
-        isLoading={isLoading}
+        currentLang={currentLang}
       />
 
       {/* Footer */}
-      <Footer />
+      <Footer currentLang={currentLang} />
 
     </div>
   );

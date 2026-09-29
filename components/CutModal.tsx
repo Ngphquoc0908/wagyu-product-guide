@@ -4,14 +4,18 @@ import React from 'react';
 import { WagyuCut } from '@/types/wagyu';
 import { X, ExternalLink, Utensils, BookOpen, Activity } from 'lucide-react';
 import { YoutubeIcon } from '@/components/Icons';
+import { Language, translations } from '@/lib/i18n';
 
 interface CutModalProps {
   cut: WagyuCut | null;
   onClose: () => void;
+  currentLang?: Language;
 }
 
-export default function CutModal({ cut, onClose }: CutModalProps) {
+export default function CutModal({ cut, onClose, currentLang = 'vi' }: CutModalProps) {
   if (!cut) return null;
+
+  const t = translations[currentLang].modal;
 
   const getYoutubeEmbed = (url?: string) => {
     if (!url) return null;
@@ -21,8 +25,22 @@ export default function CutModal({ cut, onClose }: CutModalProps) {
 
   const ytId = getYoutubeEmbed(cut.youtubeGuide);
 
+  const primaryTitle =
+    currentLang === 'ja'
+      ? (cut.nameJpFarm ? cut.nameJpFarm.split('\n')[0] : cut.nameKatakanaRomaji || cut.nameEn)
+      : currentLang === 'en'
+      ? cut.nameEn
+      : (cut.nameVn || cut.nameEn);
+
+  const secondaryTitle =
+    currentLang === 'ja'
+      ? `${cut.nameKatakanaRomaji || ''} • ${cut.nameEn}`
+      : currentLang === 'en'
+      ? cut.nameVn
+      : cut.nameEn;
+
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-200">
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/85 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-200">
       <div 
         className="relative bg-[#141414] w-full max-w-4xl rounded-3xl shadow-2xl border border-neutral-800 overflow-hidden flex flex-col max-h-[90vh] text-neutral-100"
         onClick={(e) => e.stopPropagation()}
@@ -35,15 +53,15 @@ export default function CutModal({ cut, onClose }: CutModalProps) {
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h2 className="font-display text-xl sm:text-2xl font-black text-white">
-                  {cut.nameEn}
+                <h2 className={`font-display text-xl sm:text-2xl font-black text-white ${currentLang === 'ja' ? 'font-jp' : ''}`}>
+                  {primaryTitle}
                 </h2>
-                <span className="text-xs font-bold px-2.5 py-0.5 rounded-full bg-red-950/80 text-red-300 border border-red-800">
+                <span className={`text-xs font-bold px-2.5 py-0.5 rounded-full bg-red-950/80 text-red-300 border border-red-800 ${currentLang === 'ja' ? 'font-jp' : ''}`}>
                   {cut.group}
                 </span>
               </div>
-              <p className="text-sm font-semibold text-[#ef4444]">
-                {cut.nameVn} • <span className="font-medium text-neutral-400">{cut.nameKatakanaRomaji}</span>
+              <p className={`text-sm font-semibold text-[#ef4444] ${currentLang === 'ja' ? 'font-jp' : ''}`}>
+                {secondaryTitle} • <span className="font-medium text-neutral-400 font-jp">{cut.nameKatakanaRomaji}</span>
               </p>
             </div>
           </div>
@@ -64,25 +82,33 @@ export default function CutModal({ cut, onClose }: CutModalProps) {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               {cut.fatRating && (
                 <div className="bg-neutral-900/90 p-3 rounded-xl border border-neutral-800">
-                  <div className="text-[11px] font-bold text-neutral-400 uppercase tracking-wider">Đánh Giá Vân Mỡ</div>
+                  <div className={`text-[11px] font-bold text-neutral-400 uppercase tracking-wider ${currentLang === 'ja' ? 'font-jp' : ''}`}>
+                    {t.fatEval}
+                  </div>
                   <div className="text-xl font-black text-white tracking-tight mt-0.5 drop-shadow-sm">{cut.fatRating}</div>
                 </div>
               )}
               {cut.tendernessRating && (
                 <div className="bg-neutral-900/90 p-3 rounded-xl border border-neutral-800">
-                  <div className="text-[11px] font-bold text-neutral-400 uppercase tracking-wider">Độ Mềm</div>
+                  <div className={`text-[11px] font-bold text-neutral-400 uppercase tracking-wider ${currentLang === 'ja' ? 'font-jp' : ''}`}>
+                    {t.tenderEval}
+                  </div>
                   <div className="text-xl font-black text-white tracking-tight mt-0.5 drop-shadow-sm">{cut.tendernessRating}</div>
                 </div>
               )}
               {cut.rarityRating && (
                 <div className="bg-neutral-900/90 p-3 rounded-xl border border-neutral-800">
-                  <div className="text-[11px] font-bold text-neutral-400 uppercase tracking-wider">Độ Hiếm</div>
+                  <div className={`text-[11px] font-bold text-neutral-400 uppercase tracking-wider ${currentLang === 'ja' ? 'font-jp' : ''}`}>
+                    {t.rarityEval}
+                  </div>
                   <div className="text-xl font-black text-white tracking-tight mt-0.5 drop-shadow-sm">{cut.rarityRating}</div>
                 </div>
               )}
               {cut.weightReference && (
                 <div className="bg-neutral-900/90 p-3 rounded-xl border border-neutral-800">
-                  <div className="text-[11px] font-bold text-neutral-400 uppercase tracking-wider">Khối Lượng</div>
+                  <div className={`text-[11px] font-bold text-neutral-400 uppercase tracking-wider ${currentLang === 'ja' ? 'font-jp' : ''}`}>
+                    {t.weightEval}
+                  </div>
                   <div className="text-xs font-bold text-neutral-200 line-clamp-2 mt-0.5">{cut.weightReference}</div>
                 </div>
               )}
@@ -95,7 +121,7 @@ export default function CutModal({ cut, onClose }: CutModalProps) {
               <div className="px-4 py-2.5 bg-neutral-900 text-white flex items-center justify-between text-xs font-semibold border-b border-neutral-800">
                 <span className="flex items-center gap-2">
                   <YoutubeIcon className="w-4 h-4 text-red-500" />
-                  Video Hướng Dẫn Cắt Lóc Thịt (Japanese Beef Cutting Guide)
+                  <span className={currentLang === 'ja' ? 'font-jp' : ''}>{t.videoGuide}</span>
                 </span>
                 <a
                   href={cut.youtubeGuide}
@@ -103,7 +129,7 @@ export default function CutModal({ cut, onClose }: CutModalProps) {
                   rel="noopener noreferrer"
                   className="text-neutral-400 hover:text-white flex items-center gap-1"
                 >
-                  Mở YouTube <ExternalLink className="w-3 h-3" />
+                  YouTube <ExternalLink className="w-3 h-3" />
                 </a>
               </div>
               <div className="aspect-video w-full">
@@ -121,24 +147,45 @@ export default function CutModal({ cut, onClose }: CutModalProps) {
           {/* Muscle Anatomy & Structure */}
           {cut.muscleInfo && (
             <div className="sandstone-surface p-5 rounded-2xl border border-neutral-800 shadow-sm">
-              <h4 className="flex items-center gap-2 text-sm font-extrabold text-[#ef4444] uppercase tracking-wider mb-2">
+              <h4 className={`flex items-center gap-2 text-sm font-extrabold text-[#ef4444] uppercase tracking-wider mb-2 ${currentLang === 'ja' ? 'font-jp' : ''}`}>
                 <Activity className="w-4 h-4" />
-                Cấu Trúc Giải Phẫu Học &amp; Các Cơ Chính
+                {t.anatomySection}
               </h4>
-              <p className="text-sm text-neutral-300 leading-relaxed whitespace-pre-line font-normal">
+              <p className={`text-sm text-neutral-300 leading-relaxed whitespace-pre-line font-normal ${currentLang === 'ja' ? 'font-jp' : ''}`}>
                 {cut.muscleInfo}
               </p>
+            </div>
+          )}
+
+          {/* Japanese Nomenclature Details */}
+          {(cut.nameJpFarm || cut.nameJpReading) && (
+            <div className="sandstone-surface p-5 rounded-2xl border border-neutral-800 shadow-sm">
+              <h4 className="flex items-center gap-2 text-sm font-extrabold text-white uppercase tracking-wider mb-2 font-jp">
+                <BookOpen className="w-4 h-4 text-[#ef4444]" />
+                日本名称・表記詳細 (Japanese Nomenclature)
+              </h4>
+              <div className="space-y-1.5 text-sm text-neutral-300 font-jp">
+                {cut.nameJpFarm && (
+                  <div><span className="text-neutral-400 font-bold">漢字・部位名称: </span>{cut.nameJpFarm}</div>
+                )}
+                {cut.nameJpReading && (
+                  <div><span className="text-neutral-400 font-bold">ひらがな読み: </span>{cut.nameJpReading}</div>
+                )}
+                {cut.nameKatakanaRomaji && (
+                  <div><span className="text-neutral-400 font-bold">カタカナ・ローマ字: </span>{cut.nameKatakanaRomaji}</div>
+                )}
+              </div>
             </div>
           )}
 
           {/* Detailed Description */}
           {(cut.farmDetail || cut.description) && (
             <div className="sandstone-surface p-5 rounded-2xl border border-neutral-800 shadow-sm">
-              <h4 className="flex items-center gap-2 text-sm font-extrabold text-white uppercase tracking-wider mb-2">
+              <h4 className={`flex items-center gap-2 text-sm font-extrabold text-white uppercase tracking-wider mb-2 ${currentLang === 'ja' ? 'font-jp' : ''}`}>
                 <BookOpen className="w-4 h-4" />
-                Đặc Điểm &amp; Hương Vị (Tiêu Chuẩn Toyonishi Farm)
+                {t.specsSection}
               </h4>
-              <p className="text-sm text-neutral-300 leading-relaxed whitespace-pre-line font-normal">
+              <p className={`text-sm text-neutral-300 leading-relaxed whitespace-pre-line font-normal ${currentLang === 'ja' ? 'font-jp' : ''}`}>
                 {cut.farmDetail || cut.description}
               </p>
             </div>
@@ -147,22 +194,22 @@ export default function CutModal({ cut, onClose }: CutModalProps) {
           {/* Cooking Suggestions */}
           {(cut.cookingSuggestionsVn || cut.cookingRecommendation) && (
             <div className="sandstone-surface p-5 rounded-2xl border border-neutral-800 shadow-sm">
-              <h4 className="flex items-center gap-2 text-sm font-extrabold text-[#ef4444] uppercase tracking-wider mb-2">
+              <h4 className={`flex items-center gap-2 text-sm font-extrabold text-[#ef4444] uppercase tracking-wider mb-2 ${currentLang === 'ja' ? 'font-jp' : ''}`}>
                 <Utensils className="w-4 h-4" />
-                Gợi Ý Chế Biến &amp; Món Ăn Khuyên Dùng
+                {t.cookingSection}
               </h4>
-              <p className="text-sm text-neutral-300 leading-relaxed whitespace-pre-line mb-3 font-normal">
+              <p className={`text-sm text-neutral-300 leading-relaxed whitespace-pre-line mb-3 font-normal ${currentLang === 'ja' ? 'font-jp' : ''}`}>
                 {cut.cookingSuggestionsVn || cut.cookingRecommendation}
               </p>
 
               {cut.recipes50 && cut.recipes50.length > 0 && (
                 <div className="mt-3 pt-3 border-t border-neutral-800">
-                  <div className="text-xs font-bold text-neutral-400 uppercase tracking-wider mb-2">
-                    Công thức tham khảo (50 Wagyu Recipes):
+                  <div className={`text-xs font-bold text-neutral-400 uppercase tracking-wider mb-2 ${currentLang === 'ja' ? 'font-jp' : ''}`}>
+                    {t.recipesSection}:
                   </div>
                   <div className="flex flex-wrap gap-1.5">
                     {cut.recipes50.map((recipe, idx) => (
-                      <span key={idx} className="text-xs font-semibold bg-neutral-900 text-neutral-200 border border-neutral-700 px-3 py-1 rounded-full">
+                      <span key={idx} className={`text-xs font-semibold bg-neutral-900 text-neutral-200 border border-neutral-700 px-3 py-1 rounded-full ${currentLang === 'ja' ? 'font-jp' : ''}`}>
                         {recipe}
                       </span>
                     ))}
@@ -174,8 +221,10 @@ export default function CutModal({ cut, onClose }: CutModalProps) {
 
           {/* Yield */}
           {cut.yieldRate && (
-            <div className="bg-neutral-900 p-4 rounded-xl border border-neutral-800 text-xs text-neutral-300">
-              <span className="font-bold text-white">Tỷ Lệ Thu Hồi Tham Khảo: </span>
+            <div className={`bg-neutral-900 p-4 rounded-xl border border-neutral-800 text-xs text-neutral-300 ${currentLang === 'ja' ? 'font-jp' : ''}`}>
+              <span className="font-bold text-white">
+                {currentLang === 'ja' ? '歩留まり参考比率: ' : currentLang === 'en' ? 'Reference Yield Rate: ' : 'Tỷ Lệ Thu Hồi Tham Khảo: '}
+              </span>
               {cut.yieldRate}
             </div>
           )}
@@ -189,7 +238,9 @@ export default function CutModal({ cut, onClose }: CutModalProps) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-xs font-bold text-[#ef4444] hover:underline"
               >
-                <span>Xem tư liệu hình ảnh gốc / Instagram</span>
+                <span>
+                  {currentLang === 'ja' ? 'Instagram/公式資料を見る' : currentLang === 'en' ? 'View Source / Instagram' : 'Xem tư liệu hình ảnh gốc / Instagram'}
+                </span>
                 <ExternalLink className="w-3.5 h-3.5" />
               </a>
             </div>
@@ -202,9 +253,9 @@ export default function CutModal({ cut, onClose }: CutModalProps) {
           <span className="text-xs text-neutral-500">Wagyu Master Product Guide</span>
           <button
             onClick={onClose}
-            className="px-5 py-2 rounded-full bg-neutral-800 hover:bg-neutral-700 text-white text-xs font-semibold transition"
+            className={`px-5 py-2 rounded-full bg-neutral-800 hover:bg-neutral-700 text-white text-xs font-semibold transition ${currentLang === 'ja' ? 'font-jp' : ''}`}
           >
-            Đóng
+            {t.close}
           </button>
         </div>
 

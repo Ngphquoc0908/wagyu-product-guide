@@ -4,14 +4,18 @@ import React, { useState } from 'react';
 import { MarketEntry } from '@/types/wagyu';
 import { Store, ExternalLink, Search, ChevronRight, X } from 'lucide-react';
 import { InstagramIcon } from '@/components/Icons';
+import { Language, translations } from '@/lib/i18n';
 
 interface MarketSectionProps {
   entries: MarketEntry[];
+  currentLang?: Language;
 }
 
-export default function MarketSection({ entries }: MarketSectionProps) {
+export default function MarketSection({ entries, currentLang = 'vi' }: MarketSectionProps) {
   const [search, setSearch] = useState<string>('');
   const [selectedEntry, setSelectedEntry] = useState<MarketEntry | null>(null);
+
+  const t = translations[currentLang].marketSection;
 
   const filtered = entries.filter(e => {
     return !search ||
@@ -28,13 +32,13 @@ export default function MarketSection({ entries }: MarketSectionProps) {
         <div>
           <div className="flex items-center gap-2 text-[#ef4444] font-black text-xs uppercase tracking-wider mb-1">
             <Store className="w-4 h-4" />
-            <span>Thị Trường Bán Buôn, Sàn Đấu Giá &amp; Cửa Hàng Thịt Bò Nhật</span>
+            <span className={currentLang === 'ja' ? 'font-jp' : ''}>{t.subtitle}</span>
           </div>
-          <h3 className="font-display text-2xl font-black text-white">
-            Hệ Thống Đơn Vị Phân Phối &amp; Đào Tạo Nghề Thịt Tại Nhật Bản
+          <h3 className={`font-display text-2xl font-black text-white ${currentLang === 'ja' ? 'font-jp' : ''}`}>
+            {t.title}
           </h3>
-          <p className="text-sm text-neutral-400 mt-1 max-w-2xl font-normal">
-            Các trường đào tạo chính quy (Federal Meat Academy), công ty thu mua đấu giá nguyên con (Shodaken, Shinsei-ya), xưởng pha lóc sỉ và shop bán lẻ Kuroge Wagyu.
+          <p className={`text-sm text-neutral-400 mt-1 max-w-2xl font-normal ${currentLang === 'ja' ? 'font-jp' : ''}`}>
+            {t.desc}
           </p>
         </div>
 
@@ -44,7 +48,7 @@ export default function MarketSection({ entries }: MarketSectionProps) {
             <Search className="w-4 h-4 absolute left-3.5 top-3 text-neutral-500" />
             <input
               type="text"
-              placeholder="Tìm đơn vị, công ty, thành phố..."
+              placeholder={currentLang === 'ja' ? '市場・企業名で検索...' : currentLang === 'en' ? 'Search market, wholesaler...' : 'Tìm đơn vị, công ty, thành phố...'}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               className="w-full pl-10 pr-4 py-2 rounded-full border border-neutral-700 text-sm focus:outline-none focus:border-[#ef4444] bg-neutral-900 text-white placeholder-neutral-500"
@@ -61,118 +65,121 @@ export default function MarketSection({ entries }: MarketSectionProps) {
             className="sandstone-surface p-5 rounded-2xl border border-neutral-800 shadow-md hover:border-[#ef4444] transition flex flex-col justify-between"
           >
             <div>
-              <div className="flex items-center gap-2 mb-2">
-                <span className="w-7 h-7 rounded-full bg-red-950/80 border border-red-800 text-red-300 flex items-center justify-center font-bold text-xs">
-                  {item.id || idx + 1}
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-[10px] font-bold px-2.5 py-0.5 rounded-full bg-neutral-800 text-neutral-300 border border-neutral-700">
+                  {item.id}
                 </span>
-                <span className="text-[11px] font-bold text-neutral-400 uppercase tracking-wider">
-                  Đơn Vị Chuyên Môn
-                </span>
+                {item.urls.some(u => u.includes('instagram.com')) && (
+                  <span className="text-red-400 flex items-center gap-1 text-[11px] font-semibold">
+                    <InstagramIcon className="w-3.5 h-3.5" />
+                    <span>Instagram</span>
+                  </span>
+                )}
               </div>
 
-              <h4 className="font-display font-extrabold text-white text-sm leading-snug line-clamp-2">
+              <h4 className="font-display font-extrabold text-white text-base leading-snug line-clamp-2 font-jp">
                 {item.name}
               </h4>
 
-              <p className="mt-2 text-xs text-neutral-400 line-clamp-3 leading-relaxed font-normal">
-                {item.description || item.notes}
-              </p>
+              {item.description && (
+                <p className="text-xs text-neutral-400 mt-2 line-clamp-3 leading-relaxed font-jp">
+                  {item.description}
+                </p>
+              )}
+
+              {item.notes && (
+                <div className="mt-3 p-2.5 rounded-xl bg-neutral-900 border border-neutral-800 text-[11px] text-neutral-400 line-clamp-2 font-jp">
+                  {item.notes}
+                </div>
+              )}
             </div>
 
-            {/* Actions */}
             <div className="mt-4 pt-3 border-t border-neutral-800/80 flex items-center justify-between">
-              <div className="flex items-center gap-1.5">
-                {item.urls.map((u, uIdx) => {
-                  const isInsta = u.includes('instagram.com');
-                  return (
-                    <a
-                      key={uIdx}
-                      href={u}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      title={u}
-                      className={`p-1.5 rounded-full border transition ${
-                        isInsta
-                          ? 'bg-rose-950/80 text-rose-300 border-rose-800 hover:bg-rose-900'
-                          : 'bg-neutral-800 text-neutral-300 border-neutral-700 hover:bg-neutral-700'
-                      }`}
-                    >
-                      {isInsta ? <InstagramIcon className="w-3.5 h-3.5" /> : <ExternalLink className="w-3.5 h-3.5" />}
-                    </a>
-                  );
-                })}
-              </div>
-
               <button
                 onClick={() => setSelectedEntry(item)}
-                className="inline-flex items-center gap-1 text-xs font-bold text-[#ef4444] hover:underline"
+                className="text-xs font-bold text-[#ef4444] hover:text-white inline-flex items-center gap-1 transition"
               >
-                <span>Xem hồ sơ</span>
+                <span className={currentLang === 'ja' ? 'font-jp' : ''}>
+                  {currentLang === 'ja' ? '詳細を見る' : currentLang === 'en' ? 'Details' : 'Xem chi tiết'}
+                </span>
                 <ChevronRight className="w-3.5 h-3.5" />
               </button>
+
+              {item.urls.length > 0 && (
+                <a
+                  href={item.urls[0]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-1.5 rounded-full bg-neutral-800 hover:bg-[#dc2626] text-white transition"
+                  title={currentLang === 'ja' ? '外部リンクを開く' : 'Truy cập liên kết'}
+                >
+                  <ExternalLink className="w-3.5 h-3.5" />
+                </a>
+              )}
             </div>
           </div>
         ))}
       </div>
 
-      {/* Modal Popup */}
+      {/* Modal Detail for Market Entry */}
       {selectedEntry && (
         <div className="fixed inset-0 z-50 overflow-y-auto bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="bg-[#141414] max-w-2xl w-full rounded-3xl p-6 shadow-2xl border border-neutral-800 relative space-y-4 text-neutral-100">
-            <div className="flex items-start justify-between gap-4">
-              <div>
-                <span className="text-xs font-bold px-2.5 py-0.5 rounded-full bg-red-950/80 text-red-300 border border-red-800">
-                  Hồ Sơ Doanh Nghiệp #{selectedEntry.id}
-                </span>
-                <h3 className="font-display text-lg font-black text-white mt-2">
-                  {selectedEntry.name}
-                </h3>
-              </div>
-              <button
-                onClick={() => setSelectedEntry(null)}
-                className="p-2 rounded-full hover:bg-neutral-800 text-neutral-400 hover:text-white"
-              >
-                <X className="w-5 h-5" />
-              </button>
-            </div>
+          <div className="bg-[#141414] w-full max-w-2xl rounded-3xl p-6 border border-neutral-800 text-neutral-100 shadow-2xl relative">
+            <button
+              onClick={() => setSelectedEntry(null)}
+              className="absolute top-5 right-5 p-2 rounded-full hover:bg-neutral-800 text-neutral-400 hover:text-white"
+            >
+              <X className="w-5 h-5" />
+            </button>
 
-            {selectedEntry.description && (
-              <div className="bg-neutral-900 p-4 rounded-xl border border-neutral-800 text-sm text-neutral-300 whitespace-pre-line leading-relaxed max-h-72 overflow-y-auto font-normal">
-                {selectedEntry.description}
-              </div>
-            )}
+            <span className="text-xs font-bold px-3 py-1 rounded-full bg-red-950/80 text-red-300 border border-red-800 inline-block mb-3">
+              {selectedEntry.id}
+            </span>
 
-            {selectedEntry.notes && (
-              <div className="bg-red-950/30 p-4 rounded-xl border border-red-900/50 text-xs text-red-200 whitespace-pre-line">
-                <span className="font-bold text-red-400">Ghi chú bổ sung: </span>
-                {selectedEntry.notes}
-              </div>
-            )}
+            <h3 className="font-display text-2xl font-black text-white leading-snug font-jp">
+              {selectedEntry.name}
+            </h3>
 
-            {selectedEntry.urls.length > 0 && (
-              <div className="pt-2 flex flex-wrap gap-2">
-                {selectedEntry.urls.map((u, i) => (
-                  <a
-                    key={i}
-                    href={u}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#dc2626] text-white text-xs font-semibold hover:bg-red-600 shadow-md"
-                  >
-                    <span>Truy cập Website / Instagram</span>
-                    <ExternalLink className="w-3 h-3" />
-                  </a>
-                ))}
-              </div>
-            )}
+            <div className="mt-4 space-y-4 text-sm text-neutral-300">
+              {selectedEntry.description && (
+                <div className="bg-neutral-900 p-4 rounded-xl border border-neutral-800 font-jp leading-relaxed">
+                  <h5 className="text-xs font-bold text-neutral-400 uppercase tracking-wider mb-1">
+                    {currentLang === 'ja' ? '概要・紹介' : currentLang === 'en' ? 'Overview' : 'Thông tin & Giới thiệu'}
+                  </h5>
+                  <p>{selectedEntry.description}</p>
+                </div>
+              )}
 
-            <div className="pt-2 flex justify-end">
-              <button
-                onClick={() => setSelectedEntry(null)}
-                className="px-4 py-1.5 rounded-full bg-neutral-800 text-white text-xs font-bold hover:bg-neutral-700"
-              >
-                Đóng
-              </button>
+              {selectedEntry.notes && (
+                <div className="bg-neutral-900 p-4 rounded-xl border border-neutral-800 font-jp leading-relaxed">
+                  <h5 className="text-xs font-bold text-neutral-400 uppercase tracking-wider mb-1">
+                    {currentLang === 'ja' ? '特記事項・データ' : currentLang === 'en' ? 'Notes & Details' : 'Ghi chú & Dữ liệu'}
+                  </h5>
+                  <p className="whitespace-pre-line">{selectedEntry.notes}</p>
+                </div>
+              )}
+
+              {selectedEntry.urls.length > 0 && (
+                <div className="pt-2">
+                  <h5 className="text-xs font-bold text-neutral-400 uppercase tracking-wider mb-2">
+                    {currentLang === 'ja' ? '公式ウェブサイト・関連リンク' : currentLang === 'en' ? 'Official Links' : 'Liên kết website & Trang chính thức'}:
+                  </h5>
+                  <div className="space-y-1.5">
+                    {selectedEntry.urls.map((url, uIdx) => (
+                      <a
+                        key={uIdx}
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-between p-2.5 rounded-xl bg-neutral-900 hover:bg-neutral-800 border border-neutral-800 text-xs text-neutral-300 hover:text-white transition"
+                      >
+                        <span className="truncate max-w-[420px] font-mono">{url}</span>
+                        <ExternalLink className="w-3.5 h-3.5 text-[#ef4444]" />
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>
